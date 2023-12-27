@@ -8,6 +8,13 @@ website:
   search: true
   reader-mode: true
   page-navigation: true
+  site-url: https://www.thedoctorsdialectic.com
+  google-analytics: "G-D9Y95ZTCEN"
+  twitter-card: 
+    image: img/tdd_logo-a.png
+    card-style: summary_large_image
+    creator: "@MarkZobeck"
+
   navbar:
     background: white
     logo: img/d_logo.jpg
@@ -32,12 +39,6 @@ website:
         aria-label: email
         href: "mailto:mzobeck@gmail.com"  
 
-google-analytics: "G-D9Y95ZTCEN"
-cookie-consent: true
-twitter-card: 
-    image: img/tdd_logo-a.png
-    card-style: summary_large_image
-    creator: "@MarkZobeck"
 
 format:
   html:
