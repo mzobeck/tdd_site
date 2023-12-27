@@ -1,0 +1,56 @@
+---
+title: "How to measure anything in Global Health: 2. The universal approach to measurement"
+subtitle: "A decision pathway for all occasions."
+author: "Mark Zobeck"
+date: 2022-04-04
+categories: ["Data Science + Global Health"]
+tags: ["HTMA-GH"]
+slug: "htma-2-universal-approach"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+If you want to use data to improve treatment delivery in global health, all of your measurements should support decisions.
+
+For example, suppose you run an oncology clinic and consider introducing a new treatment, drug X, into your current treatment regimen for Burkitt lymphoma (BL). It has been proven in studies in the United States to improve outcomes by 10% in BL. It is also expensive, has side effects that may increase toxicity, and will take additional clinic capacity and new workflows to administer. Should you start to offer drug X for BL?
+
+**To decide, use the *universal approach to measurement* to reduce uncertainty about the possible outcomes.**
+
+This material comes from *How to Measure Anything* (HTMA), the legendary book by Douglas Hubbard that, you guessed it, teaches you to measure anything. Check out the book if you like this material.
+
+## **1. Define a decision problem and the relevant uncertainties**
+
+Precisely specify the decision you are trying to make - "Should we add drug X to the treatment for intermediate and high-risk BL or continue with current therapy?" Also, specify the unknowns that will impact the decision - "We need to know the improvement in survival, cost, possible toxicities and required supportive therapies, and requirements and cost associated with administration of the drug." Relate how the values of the variables combine to produce the decision. Be very specific.
+
+## **2. Determine what you know now**
+
+Use the content experts to describe and quantify the current level of uncertainty. HTMA recommends calibrating the content experts through a series of exercises to have them estimate their 90% uncertainty intervals for a variety of estimation tasks. We'll cover this more in upcoming essays.
+
+## **3. Compute the value of additional information**
+
+"Information has value because it reduces risk in decisions." Identify high-value variables to measure by estimating how much value you will gain by being more certain about the variables listed in step 1. How would it affect your decision if your uncertainty about the total cost of the drug went from \$500-\$5,000 per patient to \$800-\$1500 per patient? HTMA has much to say on this, which we will cover in the future.
+
+## **4. Apply the relevant measurement instruments to high-value measurements**
+
+Apply simple measurement methods to reduce your uncertainty about the high-value variables identified in steps 1-4. There are many excellent, low-cost ways to accomplish this task, which I will address in time.
+
+## **5. Make a decision and act on it**
+
+After measurement, integrate what you know into the decision pathways in step 1 and estimate the balance of risk versus reward for the different decisions.
+
+Then decide and have confidence in your glorious theory-informed, evidence-based, measurement-backed decision to improve your patients' care.

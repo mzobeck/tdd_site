@@ -1,0 +1,400 @@
+region,disease,data,val
+global,cns_neoplasms,incidence,45850
+global,cns_neoplasms,lower,41965
+global,cns_neoplasms,upper,50490
+global,ependymoma,incidence,4462
+global,ependymoma,lower,3619
+global,ependymoma,upper,5308
+global,astrocytoma,incidence,14053
+global,astrocytoma,lower,12198
+global,astrocytoma,upper,16249
+global,cns_embryonal,incidence,11065
+global,cns_embryonal,lower,9459
+global,cns_embryonal,upper,12583
+global,other_gliomas,incidence,6110
+global,other_gliomas,lower,5082
+global,other_gliomas,upper,7413
+global,other_specified_cns,incidence,2155
+global,other_specified_cns,lower,1625
+global,other_specified_cns,upper,3042
+global,unspecified_cns,incidence,8004
+global,unspecified_cns,lower,6529
+global,unspecified_cns,upper,11453
+eastern africa,cns_neoplasms,incidence,2904
+eastern africa,cns_neoplasms,lower,2164
+eastern africa,cns_neoplasms,upper,3892
+eastern africa,ependymoma,incidence,175
+eastern africa,ependymoma,lower,60
+eastern africa,ependymoma,upper,406
+eastern africa,astrocytoma,incidence,536
+eastern africa,astrocytoma,lower,323
+eastern africa,astrocytoma,upper,868
+eastern africa,cns_embryonal,incidence,493
+eastern africa,cns_embryonal,lower,263
+eastern africa,cns_embryonal,upper,1034
+eastern africa,other_gliomas,incidence,426
+eastern africa,other_gliomas,lower,248
+eastern africa,other_gliomas,upper,787
+eastern africa,other_specified_cns,incidence,182
+eastern africa,other_specified_cns,lower,77
+eastern africa,other_specified_cns,upper,390
+eastern africa,unspecified_cns,incidence,1093
+eastern africa,unspecified_cns,lower,704
+eastern africa,unspecified_cns,upper,1695
+southern africa,cns_neoplasms,incidence,796
+southern africa,cns_neoplasms,lower,564
+southern africa,cns_neoplasms,upper,1011
+southern africa,ependymoma,incidence,77
+southern africa,ependymoma,lower,39
+southern africa,ependymoma,upper,175
+southern africa,astrocytoma,incidence,197
+southern africa,astrocytoma,lower,111
+southern africa,astrocytoma,upper,319
+southern africa,cns_embryonal,incidence,179
+southern africa,cns_embryonal,lower,110
+southern africa,cns_embryonal,upper,284
+southern africa,other_gliomas,incidence,123
+southern africa,other_gliomas,lower,75
+southern africa,other_gliomas,upper,209
+southern africa,other_specified_cns,incidence,45
+southern africa,other_specified_cns,lower,24
+southern africa,other_specified_cns,upper,82
+southern africa,unspecified_cns,incidence,175
+southern africa,unspecified_cns,lower,67
+southern africa,unspecified_cns,upper,383
+western africa,cns_neoplasms,incidence,3475
+western africa,cns_neoplasms,lower,2351
+western africa,cns_neoplasms,upper,6696
+western africa,ependymoma,incidence,535
+western africa,ependymoma,lower,222
+western africa,ependymoma,upper,1218
+western africa,astrocytoma,incidence,634
+western africa,astrocytoma,lower,245
+western africa,astrocytoma,upper,1395
+western africa,cns_embryonal,incidence,576
+western africa,cns_embryonal,lower,188
+western africa,cns_embryonal,upper,1156
+western africa,other_gliomas,incidence,238
+western africa,other_gliomas,lower,97
+western africa,other_gliomas,upper,440
+western africa,other_specified_cns,incidence,217
+western africa,other_specified_cns,lower,84
+western africa,other_specified_cns,upper,536
+western africa,unspecified_cns,incidence,1275
+western africa,unspecified_cns,lower,576
+western africa,unspecified_cns,upper,4734
+northern africa,cns_neoplasms,incidence,2168
+northern africa,cns_neoplasms,lower,1772
+northern africa,cns_neoplasms,upper,2665
+northern africa,ependymoma,incidence,233
+northern africa,ependymoma,lower,158
+northern africa,ependymoma,upper,329
+northern africa,astrocytoma,incidence,656
+northern africa,astrocytoma,lower,383
+northern africa,astrocytoma,upper,953
+northern africa,cns_embryonal,incidence,571
+northern africa,cns_embryonal,lower,313
+northern africa,cns_embryonal,upper,793
+northern africa,other_gliomas,incidence,188
+northern africa,other_gliomas,lower,115
+northern africa,other_gliomas,upper,255
+northern africa,other_specified_cns,incidence,91
+northern africa,other_specified_cns,lower,51
+northern africa,other_specified_cns,upper,150
+northern africa,unspecified_cns,incidence,429
+northern africa,unspecified_cns,lower,256
+northern africa,unspecified_cns,upper,669
+eastern asia,cns_neoplasms,incidence,6418
+eastern asia,cns_neoplasms,lower,4366
+eastern asia,cns_neoplasms,upper,8214
+eastern asia,ependymoma,incidence,671
+eastern asia,ependymoma,lower,237
+eastern asia,ependymoma,upper,1098
+eastern asia,astrocytoma,incidence,1620
+eastern asia,astrocytoma,lower,541
+eastern asia,astrocytoma,upper,2861
+eastern asia,cns_embryonal,incidence,1602
+eastern asia,cns_embryonal,lower,697
+eastern asia,cns_embryonal,upper,2518
+eastern asia,other_gliomas,incidence,805
+eastern asia,other_gliomas,lower,310
+eastern asia,other_gliomas,upper,1268
+eastern asia,other_specified_cns,incidence,326
+eastern asia,other_specified_cns,lower,78
+eastern asia,other_specified_cns,upper,765
+eastern asia,unspecified_cns,incidence,1394
+eastern asia,unspecified_cns,lower,605
+eastern asia,unspecified_cns,upper,2286
+south-central asia,cns_neoplasms,incidence,13806
+south-central asia,cns_neoplasms,lower,11751
+south-central asia,cns_neoplasms,upper,15879
+south-central asia,ependymoma,incidence,1201
+south-central asia,ependymoma,lower,792
+south-central asia,ependymoma,upper,1552
+south-central asia,astrocytoma,incidence,4580
+south-central asia,astrocytoma,lower,3623
+south-central asia,astrocytoma,upper,5533
+south-central asia,cns_embryonal,incidence,3566
+south-central asia,cns_embryonal,lower,2115
+south-central asia,cns_embryonal,upper,4342
+south-central asia,other_gliomas,incidence,2665
+south-central asia,other_gliomas,lower,1739
+south-central asia,other_gliomas,upper,3423
+south-central asia,other_specified_cns,incidence,337
+south-central asia,other_specified_cns,lower,142
+south-central asia,other_specified_cns,upper,509
+south-central asia,unspecified_cns,incidence,1458
+south-central asia,unspecified_cns,lower,1050
+south-central asia,unspecified_cns,upper,2189
+south-eastern asia,cns_neoplasms,incidence,3232
+south-eastern asia,cns_neoplasms,lower,2583
+south-eastern asia,cns_neoplasms,upper,4005
+south-eastern asia,ependymoma,incidence,162
+south-eastern asia,ependymoma,lower,91
+south-eastern asia,ependymoma,upper,252
+south-eastern asia,astrocytoma,incidence,954
+south-eastern asia,astrocytoma,lower,573
+south-eastern asia,astrocytoma,upper,1478
+south-eastern asia,cns_embryonal,incidence,896
+south-eastern asia,cns_embryonal,lower,558
+south-eastern asia,cns_embryonal,upper,1426
+south-eastern asia,other_gliomas,incidence,296
+south-eastern asia,other_gliomas,lower,175
+south-eastern asia,other_gliomas,upper,496
+south-eastern asia,other_specified_cns,incidence,47
+south-eastern asia,other_specified_cns,lower,17
+south-eastern asia,other_specified_cns,upper,120
+south-eastern asia,unspecified_cns,incidence,877
+south-eastern asia,unspecified_cns,lower,506
+south-eastern asia,unspecified_cns,upper,1337
+western asia,cns_neoplasms,incidence,1855
+western asia,cns_neoplasms,lower,1502
+western asia,cns_neoplasms,upper,2269
+western asia,ependymoma,incidence,203
+western asia,ependymoma,lower,127
+western asia,ependymoma,upper,311
+western asia,astrocytoma,incidence,583
+western asia,astrocytoma,lower,337
+western asia,astrocytoma,upper,853
+western asia,cns_embryonal,incidence,546
+western asia,cns_embryonal,lower,360
+western asia,cns_embryonal,upper,792
+western asia,other_gliomas,incidence,261
+western asia,other_gliomas,lower,172
+western asia,other_gliomas,upper,400
+western asia,other_specified_cns,incidence,123
+western asia,other_specified_cns,lower,66
+western asia,other_specified_cns,upper,190
+western asia,unspecified_cns,incidence,139
+western asia,unspecified_cns,lower,81
+western asia,unspecified_cns,upper,218
+eastern europe,cns_neoplasms,incidence,1384
+eastern europe,cns_neoplasms,lower,1111
+eastern europe,cns_neoplasms,upper,1630
+eastern europe,ependymoma,incidence,148
+eastern europe,ependymoma,lower,84
+eastern europe,ependymoma,upper,218
+eastern europe,astrocytoma,incidence,531
+eastern europe,astrocytoma,lower,277
+eastern europe,astrocytoma,upper,722
+eastern europe,cns_embryonal,incidence,360
+eastern europe,cns_embryonal,lower,215
+eastern europe,cns_embryonal,upper,492
+eastern europe,other_gliomas,incidence,94
+eastern europe,other_gliomas,lower,45
+eastern europe,other_gliomas,upper,161
+eastern europe,other_specified_cns,incidence,60
+eastern europe,other_specified_cns,lower,35
+eastern europe,other_specified_cns,upper,97
+eastern europe,unspecified_cns,incidence,190
+eastern europe,unspecified_cns,lower,113
+eastern europe,unspecified_cns,upper,325
+northern europe,cns_neoplasms,incidence,622
+northern europe,cns_neoplasms,lower,507
+northern europe,cns_neoplasms,upper,729
+northern europe,ependymoma,incidence,60
+northern europe,ependymoma,lower,32
+northern europe,ependymoma,upper,89
+northern europe,astrocytoma,incidence,266
+northern europe,astrocytoma,lower,165
+northern europe,astrocytoma,upper,350
+northern europe,cns_embryonal,incidence,118
+northern europe,cns_embryonal,lower,68
+northern europe,cns_embryonal,upper,164
+northern europe,other_gliomas,incidence,47
+northern europe,other_gliomas,lower,22
+northern europe,other_gliomas,upper,72
+northern europe,other_specified_cns,incidence,58
+northern europe,other_specified_cns,lower,31
+northern europe,other_specified_cns,upper,87
+northern europe,unspecified_cns,incidence,73
+northern europe,unspecified_cns,lower,38
+northern europe,unspecified_cns,upper,100
+southern europe,cns_neoplasms,incidence,777
+southern europe,cns_neoplasms,lower,669
+southern europe,cns_neoplasms,upper,897
+southern europe,ependymoma,incidence,83
+southern europe,ependymoma,lower,52
+southern europe,ependymoma,upper,114
+southern europe,astrocytoma,incidence,309
+southern europe,astrocytoma,lower,221
+southern europe,astrocytoma,upper,396
+southern europe,cns_embryonal,incidence,164
+southern europe,cns_embryonal,lower,114
+southern europe,cns_embryonal,upper,210
+southern europe,other_gliomas,incidence,68
+southern europe,other_gliomas,lower,44
+southern europe,other_gliomas,upper,92
+southern europe,other_specified_cns,incidence,75
+southern europe,other_specified_cns,lower,45
+southern europe,other_specified_cns,upper,106
+southern europe,unspecified_cns,incidence,78
+southern europe,unspecified_cns,lower,42
+southern europe,unspecified_cns,upper,119
+western europe,cns_neoplasms,incidence,942
+western europe,cns_neoplasms,lower,799
+western europe,cns_neoplasms,upper,1105
+western europe,ependymoma,incidence,97
+western europe,ependymoma,lower,65
+western europe,ependymoma,upper,129
+western europe,astrocytoma,incidence,383
+western europe,astrocytoma,lower,239
+western europe,astrocytoma,upper,496
+western europe,cns_embryonal,incidence,200
+western europe,cns_embryonal,lower,133
+western europe,cns_embryonal,upper,259
+western europe,other_gliomas,incidence,102
+western europe,other_gliomas,lower,58
+western europe,other_gliomas,upper,146
+western europe,other_specified_cns,incidence,114
+western europe,other_specified_cns,lower,74
+western europe,other_specified_cns,upper,159
+western europe,unspecified_cns,incidence,46
+western europe,unspecified_cns,lower,21
+western europe,unspecified_cns,upper,71
+northern america,cns_neoplasms,incidence,2560
+northern america,cns_neoplasms,lower,2243
+northern america,cns_neoplasms,upper,2865
+northern america,ependymoma,incidence,228
+northern america,ependymoma,lower,94
+northern america,ependymoma,upper,304
+northern america,astrocytoma,incidence,1093
+northern america,astrocytoma,lower,810
+northern america,astrocytoma,upper,1287
+northern america,cns_embryonal,incidence,510
+northern america,cns_embryonal,lower,398
+northern america,cns_embryonal,upper,616
+northern america,other_gliomas,incidence,359
+northern america,other_gliomas,lower,164
+northern america,other_gliomas,upper,466
+northern america,other_specified_cns,incidence,285
+northern america,other_specified_cns,lower,79
+northern america,other_specified_cns,upper,388
+northern america,unspecified_cns,incidence,85
+northern america,unspecified_cns,lower,45
+northern america,unspecified_cns,upper,119
+caribbean,cns_neoplasms,incidence,249
+caribbean,cns_neoplasms,lower,185
+caribbean,cns_neoplasms,upper,326
+caribbean,ependymoma,incidence,27
+caribbean,ependymoma,lower,13
+caribbean,ependymoma,upper,43
+caribbean,astrocytoma,incidence,98
+caribbean,astrocytoma,lower,53
+caribbean,astrocytoma,upper,163
+caribbean,cns_embryonal,incidence,57
+caribbean,cns_embryonal,lower,32
+caribbean,cns_embryonal,upper,92
+caribbean,other_gliomas,incidence,24
+caribbean,other_gliomas,lower,9
+caribbean,other_gliomas,upper,44
+caribbean,other_specified_cns,incidence,13
+caribbean,other_specified_cns,lower,3
+caribbean,other_specified_cns,upper,27
+caribbean,unspecified_cns,incidence,30
+caribbean,unspecified_cns,lower,10
+caribbean,unspecified_cns,upper,52
+central america,cns_neoplasms,incidence,1369
+central america,cns_neoplasms,lower,971
+central america,cns_neoplasms,upper,1811
+central america,ependymoma,incidence,183
+central america,ependymoma,lower,90
+central america,ependymoma,upper,311
+central america,astrocytoma,incidence,519
+central america,astrocytoma,lower,248
+central america,astrocytoma,upper,784
+central america,cns_embryonal,incidence,376
+central america,cns_embryonal,lower,190
+central america,cns_embryonal,upper,576
+central america,other_gliomas,incidence,88
+central america,other_gliomas,lower,46
+central america,other_gliomas,upper,148
+central america,other_specified_cns,incidence,49
+central america,other_specified_cns,lower,24
+central america,other_specified_cns,upper,98
+central america,unspecified_cns,incidence,154
+central america,unspecified_cns,lower,79
+central america,unspecified_cns,upper,243
+south america,cns_neoplasms,incidence,3093
+south america,cns_neoplasms,lower,2492
+south america,cns_neoplasms,upper,3666
+south america,ependymoma,incidence,357
+south america,ependymoma,lower,232
+south america,ependymoma,upper,488
+south america,astrocytoma,incidence,1032
+south america,astrocytoma,lower,636
+south america,astrocytoma,upper,1475
+south america,cns_embryonal,incidence,782
+south america,cns_embryonal,lower,516
+south america,cns_embryonal,upper,1069
+south america,other_gliomas,incidence,300
+south america,other_gliomas,lower,154
+south america,other_gliomas,upper,428
+south america,other_specified_cns,incidence,126
+south america,other_specified_cns,lower,72
+south america,other_specified_cns,upper,204
+south america,unspecified_cns,incidence,494
+south america,unspecified_cns,lower,320
+south america,unspecified_cns,upper,692
+oceania,cns_neoplasms,incidence,79
+oceania,cns_neoplasms,lower,47
+oceania,cns_neoplasms,upper,113
+oceania,ependymoma,incidence,7
+oceania,ependymoma,lower,1
+oceania,ependymoma,upper,16
+oceania,astrocytoma,incidence,20
+oceania,astrocytoma,lower,5
+oceania,astrocytoma,upper,39
+oceania,cns_embryonal,incidence,31
+oceania,cns_embryonal,lower,9
+oceania,cns_embryonal,upper,57
+oceania,other_gliomas,incidence,9
+oceania,other_gliomas,lower,2
+oceania,other_gliomas,upper,20
+oceania,other_specified_cns,incidence,5
+oceania,other_specified_cns,lower,0
+oceania,other_specified_cns,upper,12
+oceania,unspecified_cns,incidence,6
+oceania,unspecified_cns,lower,0
+oceania,unspecified_cns,upper,16
+australia/new zealand,cns_neoplasms,incidence,121
+australia/new zealand,cns_neoplasms,lower,82
+australia/new zealand,cns_neoplasms,upper,166
+australia/new zealand,ependymoma,incidence,15
+australia/new zealand,ependymoma,lower,4
+australia/new zealand,ependymoma,upper,29
+australia/new zealand,astrocytoma,incidence,43
+australia/new zealand,astrocytoma,lower,16
+australia/new zealand,astrocytoma,upper,70
+australia/new zealand,cns_embryonal,incidence,36
+australia/new zealand,cns_embryonal,lower,10
+australia/new zealand,cns_embryonal,upper,64
+australia/new zealand,other_gliomas,incidence,17
+australia/new zealand,other_gliomas,lower,5
+australia/new zealand,other_gliomas,upper,31
+australia/new zealand,other_specified_cns,incidence,2
+australia/new zealand,other_specified_cns,lower,0
+australia/new zealand,other_specified_cns,upper,7
+australia/new zealand,unspecified_cns,incidence,7
+australia/new zealand,unspecified_cns,lower,1
+australia/new zealand,unspecified_cns,upper,16

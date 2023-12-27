@@ -1,0 +1,38 @@
+---
+toc: false
+about:
+  template: jolla
+  id: about-block
+  image: "about_img.jpeg"
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/MarkZobeck
+    - icon: github
+      text: Github
+      href: https://github.com/mzobeck
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/markzobeck/
+    - icon: envelope
+      text: Email
+      href: "mailto:mzobeck@gmail.com"  
+---
+
+::: {#about-block}
+:::
+
+## Welcome to The Doctor's Dialectic
+
+Hi, I'm Dr. Mark Zobeck. I'm a physician who cares for children with cancers and blood disorders around the world. When not caring for patients, I also conduct research. My primary focus is on creating clinical prediction models to improve treatment outcomes for pediatric cancers. I also data science to improve the delivery of medical care in low- and middle-income countries. I love writing about and teaching statistics. Personally, I have a bias toward the Bayesian. For better or worse, I'm also given to musing about the metaphysical and epistemological foundations of science. You'll find some weird fusion of all of these things on this blog. Welcome!
+
+## Why the theme of the dialectic? 
+I think there are things that we can only learn through slowly turning opposing viewpoints over and over in our heads. There is truth in the tension between ideas. As the world becomes increasingly fast paced and polarized, this practice is harder to find. As generative algorithms produce exponential amounts of entertaining refuse, the patient exploration of ideas is being swallowed in noise.  
+
+This blog is my attempt to engage in this type of discussion with the reader and with myself.   
+
+## Obligatory disclaimers:
+
+1.  Nothing you read here constitutes medical advice. For medical questions, please consult your doctor.
+
+2.  All views expressed are my own and do not represent the views of my employer or any organizations with which I am affiliated.

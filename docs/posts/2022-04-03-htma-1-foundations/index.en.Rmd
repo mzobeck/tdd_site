@@ -1,0 +1,92 @@
+---
+title: "How to measure anything in Global Health: 1. Foundations of Measurement"
+subtitle: "Measure the intangible, tame the uncertain."
+author: "Mark Zobeck"
+date: 2022-04-03
+categories: ["Data Science + Global Health"]
+tags: ["HTMA-GH"]
+slug: "htma-1-foundations"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+Can you measure the effect of adding a dietitian to your clinical service?
+
+Can you quantify how lonely your patients feel while undergoing treatment?
+
+Can you estimate the years of life saved from a quality improvement project?
+
+**The answer to all of these things is yes, it is possible to measure anything in Global Health**, although the answers may not be what you expect.
+
+This is good news because measurement can help leaders make decisions that efficiently improve the care they provide to patients.
+
+In this series of posts, I'm going to work through the techniques to measure anything in global health. These ideas come from the phenomenal book *How to Measure Anything* (HTMA)by Douglas Hubbard. Buy the book if you are interested in this topic. It's awesome.
+
+**To measure anything in Global Health, we need to understand:**
+
+-   The concept of measurement
+
+-   The objective of measurement
+
+-   The methods of measurement
+
+If you can understand these three foundations, you are well on your way to measuring anything in global health.
+
+### **The Concept of Measurement:**
+
+> ### **"A quantitatively expressed reduction of uncertainty based on one or more observations."**
+
+Measurement is not about being right; it is about being less wrong. With the view of making decisions to improve future outcomes, any reduction in the uncertainty of how the future may look will improve the value of your decision.
+
+How many mechanical ventilators will the critical care unit require in the next COVID wave? If before measurement you think its somewhere between 5 and 50 and after the measurement you narrow it to 20-30, that will give you a much better chance at providing all patients the resources they need without breaking the bank.
+
+### **The Objective of Measurement**
+
+Many things seem impossible to measure because they seem "intangible". For instance, think about how to measure loneliness in patients. That seems like a hard thing to measure. HTMA gives some helpful advice to clarify how to measure the intangible:
+
+> 1.  If it matters at all, it is detectable/observable
+>
+> 2.  If it is detectable, it can be detected as an amount or range of possible amounts
+>
+> 3.  If it can be detected as a range of possible amounts, it can be measured
+
+Loneliness is an emotion that can be expressed through words and actions. We can develop methods to capture these expressions of loneliness to understand the patient's internal state.
+
+Another key point is that you don't have to reinvent the wheel - there is a lot of literature about the psychometrics of loneliness where researchers have grappled with 1-3 above.
+
+### **The Methods of Measurement**
+
+Even if you understand the concept and objective of measurement, the act of measurement may still seem daunting. Many simple methods, such as random sampling, produce useful measurements with few resources. More complex methods can increase the quality of measurement at the cost of more effort. How complex you want to be will be determined by the importance of measurement for your decision.
+
+HTMA will go through methods that allow you to reliably measure...
+
+> -   ..with a very small random sample of a very large population
+>
+> -   ...when many other, even unknown, variables are involved
+>
+> -   ...the size of a mostly unseen population
+>
+> -   ...subjective preferences and values
+>
+> -   ...the risk of rare events
+
+One simple method example: we can show there is a 93.75% chance that the median value of a population will fall between the smallest and largest values of a random sample of five observations.
+
+That is incredibly useful when your uncertainty about the range of possible median values is high.
+
+These three foundational concepts will set you up for success the next time you try to measure anything!

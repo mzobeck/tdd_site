@@ -1,0 +1,45 @@
+---
+title: "Three essential quality control practices to improve the reliability of Data Science in Global Health"
+author: "Mark Zobeck"
+date: 2022-03-20
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "quality-control-data-science"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+Quality control (QC) of data is a grind, particularly for healthcare facilities with paper charts requiring manual collection. QC takes dedicated effort sustained over the life of the project, which may extend indefinitely for data that inform the operations of a health facility.
+
+QC practices assure the accuracy of the data and are absolutely essential to produce useful analyses from your data science efforts. After all, [data science has a garbage problem](https://www.thedoctorsdialectic.com/2022/03/17/garbage-in-data-science/), and besides [designing a data management system to collect beautiful data](https://www.thedoctorsdialectic.com/2022/03/18/unsexy-data-management/), QC is the best way to keep your data useful and trustworthy.
+
+Here are three essential practices that every organizations that uses data to improve care should adopt.
+
+## **Practice 1: Enforced data conventions and automated logic checks**
+
+Put your software to work. Control the variable types and formats as much as possible. Enforce a common date format for all date variables, have discrete answer choices as often as possible, do your best to avoid free text fields. For numeric data, enforce low and high ranges to avoid mistypes (e.g. age should be between 0.0001 - 100 years). Use the internal logic of the variables to have sanity checks, such as checking that people are not listed as dead before they are born. Your data storage software should be able to handle this, and if it can't then you need to get new software!
+
+## **Practice 2: Conduct frequent multidisciplinary QC reviews**
+
+The reviews should include at the very least a person who collected the data, a clinical person (for clinical data; pharmacist for pharmacy data, etc.), and an analyst who will be using the data to answer key questions. Reviewing the data for all new patients (or other observational units) is ideal. If there are too many data points, then reviewing key variables (e.g. diagnoses) and visually checking for inconsistencies (e.g. treatments are appropriate for the recorded diagnoses) should be the goal of the reviews. Errors and systematic inconsistencies should be addressed with the folks collecting the data. The frequency of the review depends on the volume, but every other week to monthly is a good starting place.
+
+## **Practice 3: Periodic source material biopsies**
+
+Data conventions, logic checks, and QC reviews are very good at catching error patterns, but they do not assess the accuracy of the data extracted from the source material. To do that, you will need to conduct periodic reviews of the charts. Sample a percentage of the charts, perhaps 10%, and have someone other than the person who collected the data review them for accuracy. If there are systematic errors, it will be worth expanding the biopsied number to assess the extent of the errors and the conditions under which they occur. This can be labor-intensive, so consider doing this quarterly or every 6 months.
+
+With these three practices, you can overcome the QC grind and build a data pipeline that produces high-quality data that your organization can use to improve the lives of the patients you serve.

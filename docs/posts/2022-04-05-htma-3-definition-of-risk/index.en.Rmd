@@ -1,0 +1,58 @@
+---
+title: "How to measure anything in Global Health: 3. The Definition of Risk"
+subtitle: "Good measurements make you less wrong about important questions."
+author: "Mark Zobeck"
+date: 2022-04-05
+categories: ["Data Science + Global Health"]
+tags: ["HTMA-GH"]
+slug: "htma-3-risk-definition"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+What are the chances that survival from a cancer decrease after introducing a new treatment in your clinic?
+
+### **When trying to measure anything in global health, we need to understand the definition of risk.**
+
+Suppose you want to improve the outcome of Burkitt lymphoma (BL) using drug X. This drug is well researched in the literature and has been proven to increase survival in high-income countries. You also know a side effect of drug X causes patients to be at risk for severe infections. Clinics in resource-limited settings may have difficulty providing the same level of supportive care as in high-income countries, and mortality may increase due to the risk of infection.
+
+Is there a way to *a priori* estimate the likelihood that drug X actually *decreases* survival due to the toxicity it causes?
+
+We will work through this problem in the next few essays. Today, we need to more precisely define the risk of introducing drug X. These definitions come from Douglas Hubbard's amazing book, *How to Measure Anything*. It is worth your time to read if this subject interests you.
+
+First, we will define uncertainty, then risk.
+
+### **Uncertainty: The existence of more than one possibility, and the true outcome/state/result/value is unknown.**
+
+For our example, we are uncertain because the drug either does or does not improve survival.
+
+### **Risk: A state of uncertainty where some of the possibilities involve a loss, catastrophe, or other undesirable outcome.**
+
+The important part of this definition is that it requires a way to attach *values* to outcomes. Outcomes with positive values are commonly called benefits, and with negative values, risks.
+
+To make decisions in the face of uncertainty and risk, we attach probabilities to the possibilities of our uncertain value so that we have a *measure of uncertainty.* The total probability of the outcomes with negative values are the *measure of risk.*
+
+For example, we might think there is anywhere between 1%-50% chance that patients experience severe toxicities from drug X. This is highly uncertain.
+
+Measurements will improve our decision by reducing our uncertainty about the probability of risk or harm from drug X. For example, conducting a small pilot study of 40 patients demonstrates the incidence of severe toxicities is around 5%.
+
+It is nearly certain that 5% will not be the incidence of severe toxicities in all the patients, but this is a very useful measurement that can help you narrow your assessment of the true chance of severe toxicity to be between, say 2%-10%. This much narrower range will aid you in making an evidence-based decision about whether the risks outweigh the benefits.
+
+There is much more to the process, but this is a good demonstration of the fundamental purpose of measuring uncertainty and risk:
+
+### **Good measurements make you less wrong about important questions.**

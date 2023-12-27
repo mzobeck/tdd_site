@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Mark Zobeck">
+<meta name="dcterms.date" content="2022-06-04">
+
+<title>The Doctor’s Dialectic - The Epistemic Arc - a conceptual map about how to learn from data in the presence of uncertainty</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../custom.css">
+<meta name="twitter:title" content="The Doctor’s Dialectic - The Epistemic Arc - a conceptual map about how to learn from data in the presence of uncertainty">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="../../../img/tdd_logo-a.png">
+<meta name="twitter:creator" content="@MarkZobeck">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../img/d_logo.jpg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">The Doctor’s Dialectic</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../docs/about/index.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../docs/research/index.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/MarkZobeck" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:mzobeck@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#the-epistemic-arc" id="toc-the-epistemic-arc" class="nav-link" data-scroll-target="#the-epistemic-arc">The Epistemic Arc</a>
+  <ul class="collapse">
+  <li><a href="#step-1.-nature---population" id="toc-step-1.-nature---population" class="nav-link" data-scroll-target="#step-1.-nature---population">Step 1. Nature -&gt; Population</a></li>
+  <li><a href="#step-2.-population---sample" id="toc-step-2.-population---sample" class="nav-link" data-scroll-target="#step-2.-population---sample">Step 2. Population -&gt; Sample</a></li>
+  <li><a href="#step-4.-data---analysis" id="toc-step-4.-data---analysis" class="nav-link" data-scroll-target="#step-4.-data---analysis">Step 4. Data -&gt; Analysis</a></li>
+  <li><a href="#step-5.-analysis---inference" id="toc-step-5.-analysis---inference" class="nav-link" data-scroll-target="#step-5.-analysis---inference">Step 5. Analysis -&gt; Inference</a></li>
+  <li><a href="#step-6.-inference---decision" id="toc-step-6.-inference---decision" class="nav-link" data-scroll-target="#step-6.-inference---decision">Step 6. Inference -&gt; Decision</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Epistemic Arc - a conceptual map about how to learn from data in the presence of uncertainty</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Statistics &amp; Heuristics</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p> </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 4, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Learning from data is hard.</p>
+<p><strong>The world is full of noise and nonsense masquerading as “insights” from data analyses.</strong></p>
+<p>If its so easy to go wrong, how can we reliably learn from data and avoid the many common analytical shenanigans that can ruin our results?</p>
+<p>I recently <a href="https://hbiostat.regfox.com/rms2022-video-course">purchased and watched</a> the videos for <a href="https://twitter.com/f2harrell?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Frank Harrell</a>’s incredible statistics short course, <a href="https://hbiostat.org/rms/"><strong>Regression Modeling Strategies</strong></a>(for the more advanced stats enthusiasts, this course outlines an <em>incredible</em> method for principled statistical analyses). As part of the course, <a href="https://twitter.com/DrewLevy">Drew Levy</a> gave a wonderful presentation about <a href="https://hbiostat.org/doc/rms/causalModels.pdf">model selection using causal models</a>, and, almost as an aside, he included a graphic about his framework for how he conceptualizes analyses of observational data.</p>
+<p>I was struck by the elegance of his framework. It concisely summarizes the steps in the learning process and identifies the many danger zones that can ruin your learning (<a href="https://sites.google.com/dogoodscience.com/home">click here to read more from Drew Levy’s website</a>). It functions as a great conceptual roadmap for how to reliably learn from data while avoiding analytical shenanigans</p>
+<p>In this post, I will adapt and expand the framework to explain how it provides a unified roadmap for learning from data. This framework is flexible and applies just as well to observational epidemiological studies as to randomized trials, physical experiments, any other branch of science, and even in our daily lives.</p>
+<p>This will be a high level overview. In future posts, I will explore specific danger zones in more detail. Beyond organizing important statistical principals, this framework has important philosophical and psychological consequences. I also aspire to explore theses areas more in future posts.</p>
+</section>
+<section id="the-epistemic-arc" class="level2">
+<h2 class="anchored" data-anchor-id="the-epistemic-arc">The Epistemic Arc</h2>
+<p><img src="cover_expanded-epistemic_arc-wireframe.png" class="img-fluid"></p>
+<p>The above figure depicts the <strong>Epistemic Arc</strong>, which describes the process that anyone must follow when learning from data in the presence of uncertainty.</p>
+<p>The first highlight is that there is a main character to this story: <strong>you</strong>. You are the hero or heroine of this epistemic adventure! You are a player on the statistical stage. You are an inseparable part of the learning process. You are the <strong>Learner</strong>.</p>
+<p>Each box represents a specific <strong>object</strong> that is required for the learning process (a noun). Each arrow depicts a <strong>step</strong> that must be performed to move from one object to the next (a verb). Let’s zoom in on each step to define the objects involved and the actions performed during it.</p>
+<section id="step-1.-nature---population" class="level3">
+<h3 class="anchored" data-anchor-id="step-1.-nature---population">Step 1. Nature -&gt; Population</h3>
+<p><img src="step1-nature-population.png" class="img-fluid"></p>
+<section id="definitions" class="level4">
+<h4 class="anchored" data-anchor-id="definitions">Definitions</h4>
+<p><strong>Step 1:</strong> The process of nature or a physical process producing a population or system the Learner wishes to learn more about.</p>
+<p><strong>Nature or Physical Process:</strong> I define nature as whatever physical stuff exists upon which the drama of physical reality unfolds. Nature is the generator of the physical world the Learner encounters and wishes to know more about. A physical process is a mechanistic derivative of nature, perhaps built by humans, that may itself produce interesting phenomena to learn about. Examples: Nature - quarks, neurons, cats, quasars; Physical process - factory that produces bowling pins, a pendulum swinging in a clock.</p>
+<p><strong>Population or System:</strong> A population is a distinct collection of entities derived from nature that is interesting to the Learner. A system is a set of interacting entities carved out of the larger system of physical reality. Examples: Population - Orange cats in Austin, Texas, children with ADHD, all the weeds that grow between sidewalk cracks; System - trees that talk to each other using fungi, academic medical education, ATP synthesis in your body from the electron transport chain.</p>
+</section>
+<section id="explanation" class="level4">
+<h4 class="anchored" data-anchor-id="explanation"><strong>Explanation</strong></h4>
+<p><strong>Goal:</strong> The Learner identifies what he or she wishes to learn about either in nature or in a population or system that emerges from it. This is where the Learner formulates the questions to answer with data. (e.g.&nbsp;For the weed between sidewalk cracks example, perhaps the question is: which type of pesticide most effectively kills weeds between sidewalk cracks?)</p>
+<p><strong>Caution:</strong> Note this is a <em>highly</em> philosophical step, even if it seems straightforward to the Learner. There are no <em>populations</em> or <em>systems</em> in nature. These are <em>concepts</em> that the Learner overlays onto nature. Why does this matter? Because we, the Learners, are making <em>analytical decisions</em> about the most fundamental elements in the epistemic arc by defining the population or system to study ourselves (What is the definition of a weed? What is a crack? What is a sidewalk? Does a driveway count? Where will study the weeds?).</p>
+<p><strong>Beware:</strong> This step sets the entire trajectory of the epistemic arc the Learner will follow. Precise questions yield precise answers. Vague questions produce vacuous answers that can be stretched, misshapen, and filled with whatever meaning one desires. Squishy questions may help get publications, but we won’t be any closer to learning truth.</p>
+<p><strong>Bonus:</strong> <a href="https://twitter.com/Lester_Domes">Sander Greenland</a> recently <a href="https://arxiv.org/pdf/2011.02677.pdf">argued</a> that the discipline of statistics has explicitly <em>causal</em> foundations. In his paper, he says, “Whether answering the most esoteric scientific questions or the most mundane administrative ones, and whether the question is descriptive, causal, or purely predictive, causal reasoning will be crucially involved (albeit often hidden to ill effect in equations and assumptions used to get the”results”). I think this is correct and this step demonstrates and contextualizes his argument.</p>
+</section>
+</section>
+<section id="step-2.-population---sample" class="level3">
+<h3 class="anchored" data-anchor-id="step-2.-population---sample">Step 2. Population -&gt; Sample</h3>
+<p><img src="step2-pop-sample.png" class="img-fluid"></p>
+<section id="definitions-1" class="level4">
+<h4 class="anchored" data-anchor-id="definitions-1">Definitions</h4>
+<p><strong>Step 2:</strong> The process of <em>identifying</em> (no data collection yet) a sample that can be further scrutinized and <em>designing</em> a process that can deliver appropriate inferences about the population or the natural process that generates it from the data collected from the sample.</p>
+<p><strong>Sample</strong> (noun): A subset of the population or a toy model of the system. These are the members of the population for whom the Leaner has the ability to collect data and directly learn from.</p>
+</section>
+<section id="explanation-1" class="level4">
+<h4 class="anchored" data-anchor-id="explanation-1">Explanation</h4>
+<p><strong>Goal:</strong> The goal is for the Learner to identify what sample will generate data that is most informative for the questions and then to design the process to learn from the data in a way that will account fo the limitations of using an imperfect sample to learn about a (possibly theoretical) population. In science, this is study design - e.g.&nbsp;does the Learner need to conduct an RCT, case-control study, cross-sectional study, etc.</p>
+<p><strong>Caution:</strong> <em>Randomness</em> plays a big role in in our ability to learn about our population of interest from the sample. A <em>random</em> sample from the population as in a survey helps to ensure the sample is reflective of the population. A sample that is <em>randomized</em> to a treatment as in a randomized clinical trial helps to ensure what we learn about the causal process we are studying. Often randomness cannot be ensured at the level of the sample. In this case, study design and methods of causal inference help to make the sample reflects the population well enough to answer our question.</p>
+<p><strong>Caution 2:</strong> Confusing terminology - to sample (verb) is one method of obtaining a sample (noun), but that’s only one way. Sometimes your sample is given to you, such as obtaining all medical records for a given disease from an electronic medical record. In this case you have a sample, a subset of a larger population (all patients with the disease), but you didn’t <em>sample</em> the population for it.</p>
+<p><strong>Beware:</strong> Many crippling problems arise in this step even though you have not collected any data! <em>Selection bias</em> occurs when there’s a systematic reason your sample does not reflect your population. <em>Confounding</em> occurs when you choose a sample for whom data about an important feature of the sample that affects the relationship between the treatment/exposure and the outcome will be unavailable or uncollected. If your analysis does not have data about this feature, then what you learn could be systematically different than the truth.</p>
+<p><strong>Bonus:</strong> <a href="https://www.jclinepi.com/action/showPdf?pii=S0895-4356%2821%2900240-7">Directed acyclic graphs</a> (<a href="https://www.edx.org/course/causal-diagrams-draw-your-assumptions-before-your">DAGs</a>) are a great way to graphically encode relevant information about the casual system, population, and sample from steps 1 and 2. I recommend their development in this step. DAGs can display not just confounding, but also <a href="https://pubmed.ncbi.nlm.nih.gov/15308962/">selection bias</a> (and <a href="https://pubmed.ncbi.nlm.nih.gov/28535177/">here</a>) and many other design considerations.</p>
+</section>
+<section id="step-3.-sample---data" class="level4">
+<h4 class="anchored" data-anchor-id="step-3.-sample---data">Step 3. Sample -&gt; Data</h4>
+<p><img src="step3-sample-data.png" class="img-fluid"></p>
+</section>
+<section id="definitions-2" class="level4">
+<h4 class="anchored" data-anchor-id="definitions-2">Definitions</h4>
+<p><strong>Step 3:</strong> The process of measuring features of the sample (i.e.&nbsp;collect data).</p>
+<p><strong>Data</strong>: A collection of measurements of variables (features) that describe different interesting aspects of the sample.</p>
+</section>
+<section id="explanation-2" class="level4">
+<h4 class="anchored" data-anchor-id="explanation-2">Explanation</h4>
+<p><strong>Goal:</strong> The Learner measures values of the variables accurately!</p>
+<p><strong>Caution:</strong> <em>Which</em> variables are measured matters both because of the potential for confounding as discussed in step 2, as well as the potential to induce <em>collider bias</em> that could emerge in step 5. <em>How</em> variables are measured also matters. For example, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1458573/">continuous variables contain much more information than binary variables</a>, so if the Learner chooses to classify a continuous variable as a binary variable (e.g.&nbsp;blood pressure as high or low instead of the systolic/diastolic measurements), then <a href="https://www.fharrell.com/post/ordinal-info/">the Learner loses information</a> before any analysis has been performed.</p>
+<p><strong>Beware:</strong> More crippling problems arise here. <a href="https://jech.bmj.com/content/58/8/635.long">Measurement error</a> refers to different ways of inaccurately collecting or recording data (e.g.&nbsp;measuring blood pressure in a screaming 3-year-old will not be accurate). <a href="https://jech.bmj.com/content/58/8/635.long">Information biases</a> are a related and overlapping group of problems that occur during the conduct of the study that will make the analysis inaccurate. Incomplete or <a href="https://www.youtube.com/watch?v=oMiSb8GKR0o">missing data</a> can ruin an otherwise well designed study. <a href="https://statmodeling.stat.columbia.edu/2019/09/13/deterministic-thinking-dichotomania/">Dichotomania</a> (as discussed in the caution) can be so damaging that it prevent the Learner from answering his or her question when they would have been able to if the variables were measured as continuous or ordinal.</p>
+</section>
+</section>
+<section id="step-4.-data---analysis" class="level3">
+<h3 class="anchored" data-anchor-id="step-4.-data---analysis">Step 4. Data -&gt; Analysis</h3>
+<p><img src="step4-data-analysis.png" class="img-fluid"></p>
+<section id="definitions-3" class="level4">
+<h4 class="anchored" data-anchor-id="definitions-3">Definitions</h4>
+<p><strong>Step 4:</strong> The process of wrangling and transforming the raw data into a format that can be fed into an analysis.</p>
+<p><strong>Analysis:</strong> The method that will be used to answer the question (in the next step) comprised of the transformed data, the relationships between the data (e.g.&nbsp;which is a predictor and which is the outcome variable), and the mathematical and algorithmic machinery that will perform the computational operations.</p>
+</section>
+<section id="explanation-3" class="level4">
+<h4 class="anchored" data-anchor-id="explanation-3"><strong>Explanation</strong></h4>
+<p><strong>Goal:</strong> The Learner transforms the data accurately and in a way that maximally preserves information so that it can be analyzed.</p>
+<p><strong>Caution:</strong> <em>How</em> data are transformed matters, just like how they are measured matters. If a variable is measured as continuous and than transformed into a binary variable, that will harm the analysis. Also, many errors are induced in this step because of disorganization, clumsy human hands, and non-reproducible data management. <a href="https://open-science-training-handbook.gitbook.io/book/open-science-basics/reproducible-research-and-data-analysis">Reproducible research methods</a> are very practical and very valuable for preventing these errors.</p>
+<p><strong>Beware:</strong> Dichotomania can crop up again here! Also, if you happen upon an interesting data set, it is very tempting to <em>start</em> at this step. This is a fatal mistake. Many of the concerns we’ve discussed (e.g.&nbsp;selection bias, confounding, measurement error) occur before or during data generation. Steps 1-3 always proceed step 4, no matter how big is your data or how fancy is your machine learning technique, and if you are unsure of the quality of steps 1-3, consider step 4 fatally compromised.</p>
+</section>
+</section>
+<section id="step-5.-analysis---inference" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.-analysis---inference">Step 5. Analysis -&gt; Inference</h3>
+<p><img src="step5-analysis-inference.png" class="img-fluid"></p>
+<section id="definitions-4" class="level4">
+<h4 class="anchored" data-anchor-id="definitions-4">Definitions</h4>
+<p><strong>Step 5:</strong> The process of conducting the analysis and answering the question using the data collected from the sample.</p>
+<p><strong>Inference or Prediction:</strong> Inference is the result of using data from the sample to learn about the population or system of interest. Prediction is using the data from the sample to understand what may be true about the population in the future. These are generally perceived as separate but related learning tasks, and the Learner’s goal may only be one or the other.</p>
+</section>
+<section id="explanation-4" class="level4">
+<h4 class="anchored" data-anchor-id="explanation-4">Explanation</h4>
+<p><strong>Goal:</strong> The Learner conducts the analysis to produce inferences or predictions that he or she will use to answer the question.</p>
+<p><strong>Caution:</strong> This is where technical statistical and mathematical considerations dominate. Whole PhD theses are written over very specific technical details in this step. Let the Learner be careful and seek appropriate technical support.</p>
+<p><strong>Beware:</strong> Due to the technical nature of this step, many sneaky risks lurk here. Model assumptions, model specification, and model selection refer to the process of developing statistical models that reflect in math the most important concepts required to answer the question. The <a href="https://www.youtube.com/watch?v=EuBBz3bI-aA&amp;vl=en">bias-variance</a> trade off is an important decision about how flexible a model should be to reflect the observed data. P-hacking and <a href="https://www.americanscientist.org/article/the-statistical-crisis-in-science">researchers degrees of freedom</a>/<a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">garden of forking paths</a> are all non-mathematical methods of massaging the data (intentionally or unintentionally) to get an interesting or publishable result (<a href="https://www.fharrell.com/post/improve-research/">here is a blog post that discusses many of the preceding points</a>). Also this is where you can <em>induce</em> bias by adding variables into your analysis, called <a href="https://jamanetwork.com/journals/jama/fullarticle/2790247#:~:text=Collider%20bias%20occurs%20when%20an,that%20is%20not%20controlled%20for."><em>collider bias</em></a>(<a href="https://getyarn.io/yarn-clip/ba49f8a3-0945-4a7b-b991-ca652b72a921/gif">are you frightened?</a>). Analysis workflows (Bayesian workflows <a href="https://arxiv.org/abs/2011.01808">here</a>, and <a href="https://www.nature.com/articles/s43586-020-00001-2.pdf">here</a>, <a href="https://hbiostat.org/doc/rms.pdf">RMS workflow</a> - chapter 4, particularly 4.12 - and <a href="http://hbiostat.org/rflow/">here</a>) can help guide you safely through this treacherous valley of death and deceit.</p>
+</section>
+</section>
+<section id="step-6.-inference---decision" class="level3">
+<h3 class="anchored" data-anchor-id="step-6.-inference---decision">Step 6. Inference -&gt; Decision</h3>
+<p><img src="step6-inference-decision.png" class="img-fluid"></p>
+<section id="definitions-5" class="level4">
+<h4 class="anchored" data-anchor-id="definitions-5">Definitions</h4>
+<p><strong>Step 6.</strong> The process of using the inference along with other information that the Learner knows to draw conclusions about the question and then decide how to act given what has been learned.</p>
+<p><strong>Decision &amp; Action</strong>: These are the decisions and actions that result from what was learned. These are the answers to the questions “now what do I do with what I learned?”</p>
+</section>
+<section id="explanation-5" class="level4">
+<h4 class="anchored" data-anchor-id="explanation-5"><strong>Explanation</strong></h4>
+<p><strong>Goal:</strong> The Learner considers the inferences or predictions that result from the analysis against other information that the Learner knows (i.e.&nbsp;the results of many other epistemic arcs) and against the costs and benefits of different outcomes of decisions to decide what to is the best course of action based on the new knowledge.</p>
+<p><strong>Caution:</strong> Inferences and predictions are not decisions. These are <em>very</em> different concepts that are often conflated together. Their conflation leaves out two crucial elements. One is that that you, the Leaner, bring many other learned things to this step (I conceptualize it as the intersection of many intersecting epistemic arcs). This additional information is relevant for decision making. The second is that costs and benefits from outcomes of decisions are nowhere reflected in <em>this</em> learning process (they also require their own epistemic arcs!; <a href="https://www.fharrell.com/post/dca/">this blog gives a helpful primer on decision curve analysis</a>).</p>
+<p><strong>Beware:</strong> This is where human psychology with all of its frailty and biases can dominate. We all can fall prey to confirmation bias and <a href="https://thedecisionlab.com/biases">many other cognitive biases</a>, to motivated reasoning, and to dishonest reasoning. The consequence of us being an inseparable part of the learning process is that we bring our psychological and moral baggage along with us :/</p>
+</section>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.thedoctorsdialectic.com/2022/06/04/epistemic-arc-intro/explanations_and_expanded-epistemic_arc-wireframe.png"><img src="explanations_and_expanded-epistemic_arc-wireframe.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Step by step, we’ve walked along the Epistemic Arc to learn from data in the presence of uncertainty. Along the way, we’ve noted some areas where we must use caution and many explosive areas we must navigate with extreme care. We’ve also seen how the Learner is not only the primary agent doing the learning, but also a necessary actor in the learning process. <strong>The Epistemic Arc unifies these disparate philosophical, psychological, and statistical concepts into a single framework that we can use as a roadmap to conduct principled data analysis and avoid producing noise and nonsense that masquerade as “insights”.</strong></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://utteranc.es/client.js" repo="mzobeck/BlogComments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

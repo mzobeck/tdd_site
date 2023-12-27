@@ -1,11 +1,16 @@
 ---
-title: "tdd_site"
+title: ""
+toc: false
 ---
 
-This is a Quarto website.
+## ![](img/tdd_logo-a.png)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### What is a dialectic?
 
-```{r}
-1 + 1
-```
+> **Dī-ə-ˈlek-tik:** A method of examining and discussing opposing ideas in order to find the truth.
+
+A dialectic is <span style="color:#0047AB;">**a conversation**</span> between people with opposing views who wish to find truth through reasoned arguments.
+
+This is <span style="color:#0047AB;">**an ancient form of collective reasoning**</span>. Popularized by Socrates in 400 BC, it remains a crucial method for forming social consensus and driving scientific progress.
+
+Amid the noise and nonsense of modern life, a thoughtful dialectic can help us <span style="color:#0047AB;">**discover truth and meaning**</span> in a time when both are increasingly difficult to find.

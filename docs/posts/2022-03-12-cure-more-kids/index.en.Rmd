@@ -1,0 +1,66 @@
+---
+title: "The single best way to cure more childhood cancers"
+author: "Mark Zobeck"
+date: 2022-03-12
+subtitle: "Focusing on the most pressing problems that can improve outcomes right now."
+categories: ["Global PHO"]
+tags: ["Global Onc"]
+slug: "cure-more-kids-with-cancer"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+The best way to cure more childhood cancers is to develop better treatments, Right?
+
+...Right?
+
+Implicitly or explicitly, this is what most people believe. And it's no wonder given our astounding success in developing effective therapies over the last six decades. In 1960, survival for acute lymphoblastic leukemia, a type of blood cancer, was \<10%. Then a group of heroic parents, doctors, nurses, scientists, philanthropists, and politicians joined forces and conducted the first large collaborative clinical trial to identify better treatments. Over the decades, we saw survival rise to 30% in the early 70s, 75% in the 80s, and over 85% today! It's not just leukemia. In high-income countries like the United States, we can cure 85% of *all* cancer cases in kids. This is an astounding medical and scientific success story!
+
+Unfortunately, this success has created a belief that the most effective way to save lives *now* is to conduct more trials.
+
+This is not true.
+
+## **Most children with cancer are not cured because they do not receive the treatments that can cure them.**
+
+Around 90% of children with cancer live in low- and middle-income countries where over half of cases may not be diagnosed, where treatment may not be available, and where cure rates can be as low as 10%.
+
+This is a stunning disparity.
+
+We, the medical community, have developed treatments that can cure up to 85% of cancer cases, yet the *vast* majority of children do not receive the treatments that we know they need.
+
+To save more lives ***today**,* the most pressing question to answer is:
+
+> How do we deliver effective treatments to the kids who need them?
+
+## **Focusing on care delivery shows us the most important challenges to overcome**
+
+-   Medication availability
+
+-   Treatment quality
+
+-   Supportive care
+
+-   Supply chains
+
+-   Staffing
+
+These are very different types of problems than developmental therapeutics, but the answer to each one can save many lives.
+
+Don't get me wrong, we need better therapies so that we can cure *every* child with cancer. We need clinical trials.
+
+But to bring about a day when every child in the world receives the best treatments possible, the global oncology community must answer the treatment delivery question.

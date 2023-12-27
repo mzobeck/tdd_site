@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+// Base document colors
+$body-bg: #181818;
+$body-color: white;
+$link-color: #75AADB;
+
+// Code blocks
+$code-block-bg-alpha: -.8;
+
+.card-title.listing-title {
+  color: black; // Change to black (or any dark color that contrasts with a white background)
+}
+
+.card-text, .listing-description {
+  color: black; // Or the appropriate color for visibility
+}

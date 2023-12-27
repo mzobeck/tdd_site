@@ -1,0 +1,229 @@
+region,disease,data,val
+global,neuroblastoma,incidence,15030
+global,neuroblastoma,lower,12468
+global,neuroblastoma,upper,17036
+global,ganglio_neuroblastoma,incidence,14288
+global,ganglio_neuroblastoma,lower,11814
+global,ganglio_neuroblastoma,upper,16240
+global,peripheral_nervous,incidence,742
+global,peripheral_nervous,lower,516
+global,peripheral_nervous,upper,2135
+global,retinoblastoma,incidence,19416
+global,retinoblastoma,lower,15025
+global,retinoblastoma,upper,28512
+eastern africa,neuroblastoma,incidence,782
+eastern africa,neuroblastoma,lower,440
+eastern africa,neuroblastoma,upper,1508
+eastern africa,ganglio_neuroblastoma,incidence,632
+eastern africa,ganglio_neuroblastoma,lower,353
+eastern africa,ganglio_neuroblastoma,upper,1233
+eastern africa,peripheral_nervous,incidence,150
+eastern africa,peripheral_nervous,lower,40
+eastern africa,peripheral_nervous,upper,717
+eastern africa,retinoblastoma,incidence,2310
+eastern africa,retinoblastoma,lower,1540
+eastern africa,retinoblastoma,upper,3752
+southern africa,neuroblastoma,incidence,293
+southern africa,neuroblastoma,lower,173
+southern africa,neuroblastoma,upper,585
+southern africa,ganglio_neuroblastoma,incidence,275
+southern africa,ganglio_neuroblastoma,lower,159
+southern africa,ganglio_neuroblastoma,upper,567
+southern africa,peripheral_nervous,incidence,18
+southern africa,peripheral_nervous,lower,4
+southern africa,peripheral_nervous,upper,46
+southern africa,retinoblastoma,incidence,515
+southern africa,retinoblastoma,lower,251
+southern africa,retinoblastoma,upper,907
+western africa,neuroblastoma,incidence,1410
+western africa,neuroblastoma,lower,757
+western africa,neuroblastoma,upper,2196
+western africa,ganglio_neuroblastoma,incidence,1247
+western africa,ganglio_neuroblastoma,lower,617
+western africa,ganglio_neuroblastoma,upper,1963
+western africa,peripheral_nervous,incidence,163
+western africa,peripheral_nervous,lower,59
+western africa,peripheral_nervous,upper,766
+western africa,retinoblastoma,incidence,7824
+western africa,retinoblastoma,lower,3725
+western africa,retinoblastoma,upper,15926
+northern africa,neuroblastoma,incidence,1228
+northern africa,neuroblastoma,lower,835
+northern africa,neuroblastoma,upper,1606
+northern africa,ganglio_neuroblastoma,incidence,1169
+northern africa,ganglio_neuroblastoma,lower,754
+northern africa,ganglio_neuroblastoma,upper,1564
+northern africa,peripheral_nervous,incidence,59
+northern africa,peripheral_nervous,lower,21
+northern africa,peripheral_nervous,upper,164
+northern africa,retinoblastoma,incidence,460
+northern africa,retinoblastoma,lower,298
+northern africa,retinoblastoma,upper,642
+eastern asia,neuroblastoma,incidence,3048
+eastern asia,neuroblastoma,lower,1588
+eastern asia,neuroblastoma,upper,4467
+eastern asia,ganglio_neuroblastoma,incidence,3007
+eastern asia,ganglio_neuroblastoma,lower,1545
+eastern asia,ganglio_neuroblastoma,upper,4419
+eastern asia,peripheral_nervous,incidence,41
+eastern asia,peripheral_nervous,lower,10
+eastern asia,peripheral_nervous,upper,85
+eastern asia,retinoblastoma,incidence,1345
+eastern asia,retinoblastoma,lower,378
+eastern asia,retinoblastoma,upper,2221
+south-central asia,neuroblastoma,incidence,3256
+south-central asia,neuroblastoma,lower,1987
+south-central asia,neuroblastoma,upper,4285
+south-central asia,ganglio_neuroblastoma,incidence,3077
+south-central asia,ganglio_neuroblastoma,lower,1840
+south-central asia,ganglio_neuroblastoma,upper,4119
+south-central asia,peripheral_nervous,incidence,178
+south-central asia,peripheral_nervous,lower,121
+south-central asia,peripheral_nervous,upper,302
+south-central asia,retinoblastoma,incidence,3504
+south-central asia,retinoblastoma,lower,2476
+south-central asia,retinoblastoma,upper,4785
+south-eastern asia,neuroblastoma,incidence,1049
+south-eastern asia,neuroblastoma,lower,604
+south-eastern asia,neuroblastoma,upper,1592
+south-eastern asia,ganglio_neuroblastoma,incidence,1025
+south-eastern asia,ganglio_neuroblastoma,lower,579
+south-eastern asia,ganglio_neuroblastoma,upper,1558
+south-eastern asia,peripheral_nervous,incidence,24
+south-eastern asia,peripheral_nervous,lower,10
+south-eastern asia,peripheral_nervous,upper,44
+south-eastern asia,retinoblastoma,incidence,1393
+south-eastern asia,retinoblastoma,lower,878
+south-eastern asia,retinoblastoma,upper,2003
+western asia,neuroblastoma,incidence,784
+western asia,neuroblastoma,lower,509
+western asia,neuroblastoma,upper,1059
+western asia,ganglio_neuroblastoma,incidence,772
+western asia,ganglio_neuroblastoma,lower,498
+western asia,ganglio_neuroblastoma,upper,1049
+western asia,peripheral_nervous,incidence,12
+western asia,peripheral_nervous,lower,2
+western asia,peripheral_nervous,upper,46
+western asia,retinoblastoma,incidence,339
+western asia,retinoblastoma,lower,216
+western asia,retinoblastoma,upper,463
+eastern europe,neuroblastoma,incidence,557
+eastern europe,neuroblastoma,lower,347
+eastern europe,neuroblastoma,upper,751
+eastern europe,ganglio_neuroblastoma,incidence,545
+eastern europe,ganglio_neuroblastoma,lower,337
+eastern europe,ganglio_neuroblastoma,upper,739
+eastern europe,peripheral_nervous,incidence,12
+eastern europe,peripheral_nervous,lower,3
+eastern europe,peripheral_nervous,upper,26
+eastern europe,retinoblastoma,incidence,176
+eastern europe,retinoblastoma,lower,105
+eastern europe,retinoblastoma,upper,286
+northern europe,neuroblastoma,incidence,152
+northern europe,neuroblastoma,lower,80
+northern europe,neuroblastoma,upper,210
+northern europe,ganglio_neuroblastoma,incidence,150
+northern europe,ganglio_neuroblastoma,lower,78
+northern europe,ganglio_neuroblastoma,upper,208
+northern europe,peripheral_nervous,incidence,2
+northern europe,peripheral_nervous,lower,0
+northern europe,peripheral_nervous,upper,6
+northern europe,retinoblastoma,incidence,60
+northern europe,retinoblastoma,lower,32
+northern europe,retinoblastoma,upper,87
+southern europe,neuroblastoma,incidence,268
+southern europe,neuroblastoma,lower,200
+southern europe,neuroblastoma,upper,329
+southern europe,ganglio_neuroblastoma,incidence,261
+southern europe,ganglio_neuroblastoma,lower,193
+southern europe,ganglio_neuroblastoma,upper,322
+southern europe,peripheral_nervous,incidence,7
+southern europe,peripheral_nervous,lower,2
+southern europe,peripheral_nervous,upper,13
+southern europe,retinoblastoma,incidence,79
+southern europe,retinoblastoma,lower,51
+southern europe,retinoblastoma,upper,107
+western europe,neuroblastoma,incidence,303
+western europe,neuroblastoma,lower,201
+western europe,neuroblastoma,upper,390
+western europe,ganglio_neuroblastoma,incidence,299
+western europe,ganglio_neuroblastoma,lower,198
+western europe,ganglio_neuroblastoma,upper,385
+western europe,peripheral_nervous,incidence,4
+western europe,peripheral_nervous,lower,1
+western europe,peripheral_nervous,upper,9
+western europe,retinoblastoma,incidence,99
+western europe,retinoblastoma,lower,65
+western europe,retinoblastoma,upper,136
+northern america,neuroblastoma,incidence,753
+northern america,neuroblastoma,lower,619
+northern america,neuroblastoma,upper,896
+northern america,ganglio_neuroblastoma,incidence,743
+northern america,ganglio_neuroblastoma,lower,605
+northern america,ganglio_neuroblastoma,upper,884
+northern america,peripheral_nervous,incidence,10
+northern america,peripheral_nervous,lower,4
+northern america,peripheral_nervous,upper,18
+northern america,retinoblastoma,incidence,269
+northern america,retinoblastoma,lower,195
+northern america,retinoblastoma,upper,349
+caribbean,neuroblastoma,incidence,96
+caribbean,neuroblastoma,lower,53
+caribbean,neuroblastoma,upper,155
+caribbean,ganglio_neuroblastoma,incidence,93
+caribbean,ganglio_neuroblastoma,lower,51
+caribbean,ganglio_neuroblastoma,upper,153
+caribbean,peripheral_nervous,incidence,2
+caribbean,peripheral_nervous,lower,0
+caribbean,peripheral_nervous,upper,7
+caribbean,retinoblastoma,incidence,42
+caribbean,retinoblastoma,lower,20
+caribbean,retinoblastoma,upper,80
+central america,neuroblastoma,incidence,255
+central america,neuroblastoma,lower,120
+central america,neuroblastoma,upper,386
+central america,ganglio_neuroblastoma,incidence,239
+central america,ganglio_neuroblastoma,lower,107
+central america,ganglio_neuroblastoma,upper,371
+central america,peripheral_nervous,incidence,16
+central america,peripheral_nervous,lower,2
+central america,peripheral_nervous,upper,46
+central america,retinoblastoma,incidence,302
+central america,retinoblastoma,lower,144
+central america,retinoblastoma,upper,434
+south america,neuroblastoma,incidence,714
+south america,neuroblastoma,lower,409
+south america,neuroblastoma,upper,968
+south america,ganglio_neuroblastoma,incidence,675
+south america,ganglio_neuroblastoma,lower,385
+south america,ganglio_neuroblastoma,upper,935
+south america,peripheral_nervous,incidence,39
+south america,peripheral_nervous,lower,17
+south america,peripheral_nervous,upper,63
+south america,retinoblastoma,incidence,657
+south america,retinoblastoma,lower,461
+south america,retinoblastoma,upper,906
+oceania,neuroblastoma,incidence,26
+oceania,neuroblastoma,lower,10
+oceania,neuroblastoma,upper,50
+oceania,ganglio_neuroblastoma,incidence,24
+oceania,ganglio_neuroblastoma,lower,9
+oceania,ganglio_neuroblastoma,upper,47
+oceania,peripheral_nervous,incidence,2
+oceania,peripheral_nervous,lower,0
+oceania,peripheral_nervous,upper,7
+oceania,retinoblastoma,incidence,16
+oceania,retinoblastoma,lower,2
+oceania,retinoblastoma,upper,32
+australia/new zealand,neuroblastoma,incidence,58
+australia/new zealand,neuroblastoma,lower,34
+australia/new zealand,neuroblastoma,upper,89
+australia/new zealand,ganglio_neuroblastoma,incidence,56
+australia/new zealand,ganglio_neuroblastoma,lower,32
+australia/new zealand,ganglio_neuroblastoma,upper,86
+australia/new zealand,peripheral_nervous,incidence,2
+australia/new zealand,peripheral_nervous,lower,0
+australia/new zealand,peripheral_nervous,upper,6
+australia/new zealand,retinoblastoma,incidence,26
+australia/new zealand,retinoblastoma,lower,11
+australia/new zealand,retinoblastoma,upper,49

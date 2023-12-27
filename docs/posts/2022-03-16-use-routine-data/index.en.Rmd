@@ -1,0 +1,58 @@
+---
+title: "10 ways Global Health organizations can use routine data to improve patient care"
+subtitle: "Ideas about how to make your data work for your patients."
+author: "Mark Zobeck"
+date: 2022-03-16
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "ideas-for-routine-data"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+Global Health needs Data Science because efficient and effective healthcare delivery is the key to success.
+
+Here are 10 examples of how Data Science capabilities can improve your organization's operations and the care you provide to patients.
+
+All of these ideas are possible to do well even if you don't have an electronic medical record. All it takes is careful data collection of a limited number of variables. You don't need big data to do Data Science successfully in Global Health, but you do need good data.
+
+## **Data Science + Global Health Ideas**
+
+1.  Forecast patient volumes, drug requirements, and medical equipment use
+
+2.  Identify risk factors for patients who might not return for needed care
+
+3.  Monitor health outcomes disparities by age, sex, race, religion, etc.
+
+4.  Create a real-time dashboard of statistical process control charts
+
+5.  Analyze the referral pathways for patients to arrive at the facility
+
+6.  Use geospatial information to map and monitor disease clusters
+
+7.  Create high-level dashboards of key indicators for leadership
+
+8.  Measure inpatient census and calculate nurse:patient ratios
+
+9.  Monitor safety event frequency and flag increases early
+
+10. Use algorithms to predict clinical deterioration events
+
+## **Simple measurements create powerful insights** 
+
+There are tremendous opportunities to improve healthcare delivery in resource-constrained settings through the careful collection of a handful of variables. With a little time and diligence, you too can wrangle your data into useful insights about how to improve care for your patients.

@@ -1,0 +1,355 @@
+---
+title: "The Global Childhood Cancer Puzzle - Edge 1.1"
+author: "Mark Zobeck"
+date: 2020-11-27T01:13:14-05:00
+categories: ["Global PHO"]
+tags: ["Epidemiology", "Burden of disease", "Globl health"]
+slug: "gccp1-1"
+image: "ghcc_cover_transparent.png"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+ 
+library(tidyverse)
+library(data.table)
+library(readxl)
+library(janitor)
+library(plotly)
+library(kableExtra)
+library(waffle)
+library(gganimate)
+library(ggpol)
+library(ggforce)
+library(cowplot)
+library(knitr)
+library(magick)
+library(gghighlight)
+library(png)
+library(grid)
+```
+
+
+```{r}
+country.sdi <- read_csv("country_sdi.csv")
+
+incidence.sublvl <- read_csv("sublvl_comp_incidence.csv")
+incidence.toplvl <- read_csv("toplvl_comp_incidence.csv")
+incdiag.perc <- read_csv("perc_diagnosed_incsim.csv")
+```
+
+```{r}
+survival.comp <- read_csv("survival_comp.csv")
+```
+
+
+
+```{r fig.height=5, fig.align="center"}
+
+img <- readPNG("ghcc_cover_transparent.png")
+grid.raster(img)
+
+```
+<center>
+[The following originally appeared on my podcast about global PHO - Global Health and Childhood Cancer](https://www.ghccpod.com/gccp-edge1/)
+</center>  
+<br>  
+  
+This is part one of a three part essay about the global burden of childhood cancer. You can find [part 2 here](/2020/11/27/gccp1-2/) and [part 3 here](/2020/11/27/gccp1-3/).
+  
+---
+  
+### The Global Oncology Puzzle
+
+Have you ever completed a very difficult puzzle? Perhaps it was thousands of small pieces with colors that blend together, so that most of the pieces appeared very similar. Do you remember the overwhelmed feeling you had when you first dumped the pieces onto the table? "Good grief", you may have thought, "this puzzle is impossible." But, after the moment of defeat, you look at the picture on the box and see what the puzzle could be. Perhaps it will be an amazing waterfall, or city illuminated at night, or a basket full of kittens, and you know that at the end of all your hard work the pieces will come together, and the picture will be complete. So, thinking of that future day when you will feel the satisfying snap of the last piece falling into place, you sit down and get to work.
+
+For many people, global pediatric oncology (GPO) is like a giant, overwhelming puzzle.  The complexity of the problem and the way the pieces are scattered may leave one feeling lost how to begin. However, despite its difficulty, a community of dedicated doctors, nurses, cancer survivors, parents, politicians, and many others has been working to solve it.  Over the last three decades, this community has made considerable progress toward understanding the necessary conditions for successful childhood cancer treatment anywhere in the world. [Now, new research has completely changed the perception of childhood cancer as a global health concern](https://www.ghccpod.com/the-transformative-perspective/). 
+
+As a result of this new information, the shape of the puzzle is changing. Whereas before, many pieces had been put together, but there was no structure that unified the whole, now most of the edge pieces are in place, and the outline of the puzzle can be seen in its entirety. The edges have given the puzzle a definite structure, which helps the global oncology community understand both how the different completed parts sit in relation to each other and what important information is still missing. 
+
+In a series of essays, I want to present to you a broad understanding of what I’m calling the edges of the GPO puzzle: those essential concepts without which one cannot fully understand pediatric oncology as a global health concern. Concretely, we will review the emerging research that clarifies the magnitude of the problem of childhood cancer, demonstrates effective solutions exist that can save lives today, quantifies the costs associated with treatment, and charts a clear path forward. To discuss the first edge, we will directly address the question, “what is the global burden of pediatric cancer?” 
+
+Much of the information in these essays will not be new to people who are involved in the field. Even if he or she hasn’t read the research, much of it is in line with the experience and intuition of the GPO community. If you consider yourself in this group, my hope is that you take from these essays a distilled set of concepts that can serve as visual and viral representations of the field, which you can use to communicate its importance to others.
+
+As for the interested but unfamiliar reader, this information may be surprising. When one sits down at the table to work on the puzzle and looks at the chaos of the scattered pieces, it’s easy to be overwhelmed. This feeling may even be accompanied by belief in the futility of completing the puzzle. I have certainly had the thought that the goal of successfully treating children with cancer anywhere in the world is too complex, too big, and too expensive. It also may be hard to see how you can contribute to completing the puzzle. Being overwhelmed at the problem is understandable, which is why I hope to demonstrate that significant progress has already been made and more lives can be saved, through the GPO community’s tireless efforts in caring for kids, an effort in which anyone can take part 
+
+With that said, let’s go tackle the first edge. I’ll address the rest of the edges in future essays.
+
+```{r fig.height=5, fig.align="center"}
+
+img <- readPNG("children-of-ecuador-2-1058762.png")
+grid.raster(img)
+
+```
+
+### Edge #1: The Global Burden of Pediatric Cancer
+No one would deny that childhood cancer is a terrible disease, and people broadly agree that it is horrible that children have to endure it. However, it is also a rare disease, and one may justly wonder how big a problem it is compared to the many other concerning diseases that confront the global health community. This is a reasonable question that serves as the starting place for constructing a more complete picture of GPO. In this visual essay will ask and answer the question **what is the total burden of disease due to pediatric cancer?**  
+
+Recent research has provided a striking answer to this question, which is: *a whole lot more than we previously thought*! I'll explain what this surprising answer means in a minute, but first let me explain why this question is very difficult to answer and why the global cancer community's understanding of disease burden is changing. 
+
+### How do you measure cancer burden? 
+How can we answer this question? Should we count the total number of kids diagnosed with cancer who are alive in the world right now? Or maybe we should only count new cases this year? Maybe we should we look at the total number of deaths due to cancer this year? But what about the kids who develop cancer but are never diagnosed, how do we measure those cases if we don't directly count them? Also, cancer causes much more suffering than just loss of life. Is there a way to factor in the amount of suffering when trying to quantify the burden of disease? You can see from these questions that the first thing researchers must do is to decide what aspect of *cancer burden* is worth measuring.
+
+These questions are very difficult for researchers to answer for a single country, and they are even more complex when considering the entire world. To answer these questions correctly, researchers require a large amount of information. It would be nice if complete data about the number of cancer diagnoses or deaths due to cancer were available, but the unfortunate truth is that there are many holes in the available data. Comprehensive data collection requires a large and expensive system, and there are many countries that are limited in their ability to start and maintain one. Other countries track cases diagnosed at different hospitals, but they do not count every hospital and every patient in the country, so their numbers are also incomplete. To make things even more complicated, researchers know that many cases around the world are not even diagnosed, and if they are to produce reliable numbers about the amount of pediatric cancer in the world, then they must be able to measure the cases they know are happening but never identified. 
+
+From these problems, you can see that there are two big reasons why quantifying cancer burden is hard to do: 
+1. We could measure it in different ways that mean different things.
+2. We are missing much of the information we need to make good measurements.
+
+Because of these difficulties, estimates of the total burden of childhood cancer have changed over the years. The GPO community has worked hard to improve their methods, and we now have more reliable numbers that tell a very surprising story.
+
+### What is the total burden of disease due to pediatric cancer?
+As I said above, the answer from our improved estimates is: **there is a whole lot more cancer than we previously thought**! Let me explain what has changed and why this is so surprising.  
+
+#### The total number of new cases every year 
+Due to the limitations in measuring cancer burden previously described, the *best* estimates for how many children from the age 0-14 developed cancer each year was 200,000. The technical term for this measure is [incident cases](https://sph.unc.edu/files/2015/07/nciph_ERIC1.pdf). However, recently [researchers developed a new method to estimate incident cases and reported that there are in fact 400,000 children who develop cancer every year](https://www.ghccpod.com/12-the-missing-3-million/). In other words, the previous estimates were half as much as the newer estimate (see **figure 1**)! 
+
+
+###### Fig. 1 - Animated
+```{r, fig.align = "center"}
+new.inc <- tibble(time = factor(c("old", "new", "diagnosed", "undiagnosed"), levels = c("old", "new", "diagnosed", "undiagnosed")), incidence= c(200000, 400000, 225000, 175000), group = c("1","1","2","2"))
+
+logo_file <- image_read("headwithand.png") %>% 
+  image_colorize(50, "white")
+
+new.inc.static <- new.inc %>% 
+  filter(time %in% c("old","new")) %>% 
+  group_by(time) %>% 
+  mutate(inc_seq = list(seq(0,incidence, length.out = 1000))) %>% 
+  unnest(inc_seq) 
+
+```
+
+
+```{r}
+
+slow <- new.inc.static %>% 
+  ggplot(aes(x = time, y = inc_seq, color=inc_seq)) +
+  geom_linerange(aes(ymin = 0, ymax = inc_seq), size = 15) +
+  scale_color_gradient(low = "blue", high = "#cc0000") +
+  theme_minimal_hgrid() +
+  labs(y = "New cancer cases per year",
+       caption = "Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Atun R. Estimating the total incidence of global\nchildhood cancer: a simulation-based analysis. The Lancet Oncology. 2019;20(4):483-493.") +
+  ggtitle("Increasing estimate of new\nchildhood cancer cases per year")+ 
+   theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(face="bold", size=12),
+        axis.text.y = element_text(face="bold", size=11),
+        axis.title.y = element_text(face = "bold", size = 12, margin =unit(c(0,5,0,0),"mm")),
+        plot.title = element_text(face = "bold", size = 14),
+        plot.caption = element_text(size = 6)) +
+  scale_y_continuous(labels = function(x)format(x, big.mark = ",", scientific = FALSE), 
+                     expand = expand_scale(mult = c(0, 0.05))) +
+  scale_x_discrete(labels = c("Old Estimate", "New Estimate")) +
+  transition_reveal(inc_seq) +
+  enter_grow() +
+  exit_fade() +
+  ease_aes("linear")
+```
+
+
+
+```{r, cache = TRUE}
+animate(slow, nframes = 200, fps = 15, end_pause = 70)
+```
+
+<details><summary>Click for static image</summary>
+<p>
+   
+```{r new incidence estimates - static,  fig.width = 5, fig.asp = 1, fig.align= "center"}
+
+new.inc.stat.graph <- new.inc.static %>% 
+  ggplot(aes(x = time, y = inc_seq, color=inc_seq)) +
+  geom_line(size = 15) +
+  scale_color_gradient(low = "blue", high = "#cc0000") +
+  theme_minimal_hgrid() +
+  labs(y = "New cancer cases per year",
+       caption = "Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Atun R. Estimating the total incidence of global\nchildhood cancer: a simulation-based analysis. The Lancet Oncology. 2019;20(4):483-493.") +
+  ggtitle("Figure 1. Increasing estimate of new\nchildhood cancer cases per year")+ 
+   theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(face="bold", size=12),
+        axis.text.y = element_text(face="bold", size=11),
+        axis.title.y = element_text(face = "bold", size = 12, margin =unit(c(0,5,0,0),"mm")),
+        plot.title = element_text(face = "bold", size = 14),
+        plot.caption = element_text(size = 6)) +
+  scale_y_continuous(labels = function(x)format(x, big.mark = ",", scientific = FALSE), 
+                     expand = expand_scale(mult = c(0, 0.05))) +
+  scale_x_discrete(labels = c("Old Estimate", "New Estimate"))
+
+g <- ggplotGrob(new.inc.stat.graph)
+g$layout$l[g$layout$name == "title"] <- 2
+
+ggdraw(g) +
+  draw_image(logo_file , x = 0.7, y = .79, width = 0.3, height = 0.3)
+
+```
+   
+</p>
+</details>
+  
+  
+Why are the numbers so different? Part of the reason is the way the researchers calculated the number of cases for countries with missing data by comparing them to the number of cases for countries with really good data differently than previous estimates. Also, with the newer method, researchers were able to better account for the patients who developed cancer but were never diagnosed. Previous methods had trouble estimating this number well, but the new method is much better at it. In fact, the researchers found that about *175,000* kids with cancer are not even diagnosed every year! That means they develop cancer, but either they never seek medical care or the fact that they have cancer is never recognized by healthcare personnel. Another way to look at this number is that more than 4 out of every 10 kids with cancer in the world are never diagnosed.    
+
+These numbers summarize what we know about the number of new cases per year for the entire world. We can say that the average proportion of kids who are not diagnosed is 4 out of 10. However, that actual proportion of kids who are not diagnosed in a *specific* country or regions can be very different. For example, the researchers estimated that in western Africa 57% of cases, almost 6 out of every 10 children with cancer, were never diagnosed and in south Asia it was 5 out of 10 kids. **Figure 2** shows the estimates of total number of new cases per year by different region and how many cases are diagnosed and undiagnosed.
+
+
+###### Fig. 2 - Animated
+```{r undiag animate, fig.align= "center"}
+##Tibble for the future - % of patients diagnosed
+diag.perc <- tibble(region = fct_inorder(c("North America", "Western Europe", "Northern Europe", "Australia and New Zealand", "Southern Europe", "Eastern Europe", "Eastern Asia", "Western Asia", "South America", "Caribbean", "Southeast Asia", "Central America", "Southern Africa", "Northern Africa", "South-central Asia", "Oceania", "Eastern Africa", "Western Africa")),
+                   diag_perc = c(0.97, 0.97, 0.96, 0.95, 0.91, 0.85, 0.83, 0.72, 0.68, 0.65, 0.59, 0.55, 0.5, 0.5, 0.48, 0.46, 0.44, 0.43 ))
+
+
+undiag.perc <- diag.perc %>% 
+  mutate(undiag_perc = 1-diag_perc) %>% 
+  group_by(region) %>% 
+  mutate(un_seq = list(seq(0, undiag_perc, length.out = 1000))) %>% 
+  unnest(un_seq)
+
+undiag.animate <- undiag.perc %>% 
+  ggplot(aes(x = region, y = un_seq, color=un_seq)) +
+  geom_linerange(aes(ymin = 0, ymax = un_seq), size = 5) +
+  scale_color_gradient(low = "blue", high = "#cc0000") +
+  theme_minimal_hgrid() +
+  coord_flip() +
+  labs(x = "Region",
+       caption = "Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Atun R. Estimating the total incidence of global\nchildhood cancer: a simulation-based analysis. The Lancet Oncology. 2019;20(4):483-493.") +
+  ggtitle("Figure 2. Percent of non-diagnosed cases\nof childhood cancer by region")+ 
+   theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(face="bold", size=12),
+        axis.text.y = element_text(face="bold", size=11),
+        axis.title.y = element_text(face = "bold", size = 12, margin =unit(c(0,5,0,0),"mm")),
+        plot.title = element_text(face = "bold", size = 14),
+        plot.caption = element_text(size = 6)) +
+  scale_y_continuous(breaks = c(0,0.1,0.2,0.3,0.4,0.5), labels = c("0%","10%","20%","30%","40%","50%")) +
+  transition_reveal(un_seq) +
+  enter_grow() +
+  exit_fade()+
+  ease_aes("linear")
+
+```
+
+```{r, cache = TRUE}
+animate(undiag.animate, nframes = 200, fps = 15, end_pause = 70)
+```
+
+
+<details><summary>Click for static image</summary>
+<p>
+  
+```{r undiag static, fig.align= "center"}
+undiag.graph <- undiag.perc %>% 
+  ggplot(aes(x = region, y = un_seq, color=un_seq)) +
+  geom_line(size = 5) +
+  scale_color_gradient(low = "blue", high = "#cc0000") +
+  theme_minimal_hgrid() +
+  coord_flip() +
+  labs(x = "Region",
+       caption = "Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Atun R. Estimating the total incidence of global\nchildhood cancer: a simulation-based analysis. The Lancet Oncology. 2019;20(4):483-493.") +
+  ggtitle("Figure 2. Percent of non-diagnosed cases\nof childhood cancer by region")+ 
+   theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(face="bold", size=12),
+        axis.text.y = element_text(face="bold", size=11),
+        axis.title.y = element_text(face = "bold", size = 12, margin =unit(c(0,5,0,0),"mm")),
+        plot.title = element_text(face = "bold", size = 14),
+        plot.caption = element_text(size = 6)) +
+  scale_y_continuous(breaks = c(0,0.1,0.2,0.3,0.4,0.5), labels = c("0%","10%","20%","30%","40%","50%"))
+
+g <- ggplotGrob(undiag.graph)
+g$layout$l[g$layout$name == "title"] <- 2
+
+ggdraw(g) +
+  draw_image(logo_file , x = 0.73, y = .78, width = 0.23, height = 0.3)
+
+```
+  
+</p>
+</details>
+
+As the researchers looked at the trends in proportion of kids who are diagnosed across countries, they noticed that countries that are more economically challenged, labeled as [low-income and middle-income countries](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups) (LMIC for short), tend to have higher proportions of kids with cancer who are not diagnosed. This is an important fact to notice because *9 out of every 10 kids with cancer in the world live in LMICs!* Putting these pieces of evidence together, **we can say that the vast majority of children who develop cancer live in countries where they have a high chance of never being diagnosed.**
+
+The researchers of this paper didn’t stop with these estimates. They calculate that if the rates for non-diagnosis do not change between 2015 and 2030, then about 3 million children will not receive a diagnosis for their life-threatening disease. *3 million children*, most with diseases that can be cured, will never have the opportunity to receive treatment, never have the chance at living a long healthy life, and never even know what was breaking their bodies. This is a daily average around 550 nondiagnosed children with cancer. To put this in perspective, if an average school bus holds 55 kids, then this number is the rough equivalent of **10 school buses filled with children driving away and disappearing every single day for 15 years.** 
+
+###### Fig. 3 - Animated
+```{r cumulative undiagnosed, fig.align = "center"}
+missing <- tibble(year = seq(2015, 2030),
+                  missing = seq(175000, 2950000, length.out =  16),
+                  diagnosed = seq(-225000,-3800000, length.out = 16))
+
+plot.missing <- ggplot(missing, aes(year, diagnosed, group = year, fill = diagnosed)) +
+  geom_col() +
+  geom_col(aes(year, missing, fill = missing)) +
+  geom_hline(yintercept = 0, color = "white")+
+  scale_fill_gradient(low = "blue", high = "#cc0000") +
+  theme_half_open() +
+  labs(x = "Year",
+       y = "Cumulative children with cancer who are:\ndiagnosed                  undiagnosed",
+       caption = "Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Atun R. Estimating the total incidence of global\nchildhood cancer: a simulation-based analysis. The Lancet Oncology. 2019;20(4):483-493.") +
+  ggtitle("Figure 3. Three million children with cancer \nwill not be diagnosed between 2015-2030") +
+  scale_y_continuous(limits = c(-4000000, 4000000), 
+                     labels = function(x) format(abs(c(-4000000, -2000000, 0, 2000000, 4000000)), big.mark = ",", scientific = FALSE), 
+                     expand = expand_scale(mult = c(0, 0.05))) +
+  theme(legend.position = "none",
+        axis.title.x = element_text(face = "bold", size = 14),
+        axis.text.x = element_text(face="bold", size=12),
+        axis.text.y = element_text(face="bold", size=11),
+        axis.title.y = element_text(face = "bold", size = 14, margin =unit(c(0,5,0,0),"mm")),
+        plot.title = element_text(face = "bold", size = 16),
+        plot.caption = element_text(size = 10)) +
+  transition_reveal(year)
+```
+
+```{r, cache = TRUE}
+animate(plot.missing,fps = 10, end_pause = 70)
+```
+
+<details><summary>Click for static image</summary>
+<p>
+  
+```{r cumulative undiagnosed static, fig.align = "center"}
+plot.missing.stat <- ggplot(missing, aes(year, diagnosed, fill = diagnosed)) +
+  geom_col() +
+  geom_col(aes(year, missing, fill = missing)) +
+  geom_hline(yintercept = 0, color = "white")+
+  scale_fill_gradient(low = "blue", high = "#cc0000") +
+  theme_half_open() +
+  labs(x = "Year",
+       y = "Cumulative children with cancer who are:\ndiagnosed                  undiagnosed",
+       caption = "Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Atun R. Estimating the total incidence of global\nchildhood cancer: a simulation-based analysis. The Lancet Oncology. 2019;20(4):483-493.") +
+  ggtitle("Figure 3. Three million children with cancer \nwill not be diagnosed between 2015-2030") +
+  scale_y_continuous(limits = c(-4000000, 4000000), 
+                     labels = function(x) format(abs(c(-4000000, -2000000, 0, 2000000, 4000000)), big.mark = ",", scientific = FALSE), 
+                     expand = expand_scale(mult = c(0, 0.05))) +
+  theme(legend.position = "none",
+        axis.title.x = element_text(face = "bold", size = 12),
+        axis.text.x = element_text(face="bold", size=12),
+        axis.text.y = element_text(face="bold", size=11),
+        axis.title.y = element_text(face = "bold", size = 12, margin =unit(c(0,5,0,0),"mm")),
+        plot.title = element_text(face = "bold", size = 14),
+        plot.caption = element_text(size = 6))
+
+
+g <- ggplotGrob(plot.missing.stat)
+g$layout$l[g$layout$name == "title"] <- 2
+
+ggdraw(g) +
+  draw_image(logo_file , x = 0.7, y = .75, width = 0.3, height = 0.3)
+
+```
+  
+  </p>
+</details>
+
+(Technical Note: it is worth pointing out that the numbers mentioned above and below are estimates and there is a degree of uncertainty about them that is not represented in the displayed data. The fact of the matter is that the lack of reliable data leaves a lot of questions. For instance, only 5% of kid in Africa live in countries with comprehensive registries. How do we decide what to do with the remaining 95%? The researches mentioned above had a specific modeling strategy to fill in the gaps, but that is not the only way. For instance the [International Incidence of Childhood Cancer (IICC3)](http://iicc.iarc.fr/about/iicc3_highlights.php) has a different methodolgy that produces slightly different numbers. For the purposes of this essay it is sufficient to acknowledge these difference, and continue exploring the estimates the Harvard researchers produced.).
+  
+--- 
+  
+Continue reading:    
+[Part 2](/2020/11/27/gccp1-2/)  
+[Part 3](/2020/11/27/gccp1-3/)    
+[Subscribe to my podcast about global PHO at GHCCpod.com](www.ghccpod.com)

@@ -1,0 +1,74 @@
+---
+title: "Distributed intelligence is the key to success for high-performing health systems in Global Health"
+subtitle: "In healthcare, intelligence is all around you. Hopefully."
+author: "Mark Zobeck"
+date: 2022-04-02
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "distributed-intelligence"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+Who would you rather have care for you: the world's smartest doctor in a poorly-function health system or a mediocre doctor in a high-functioning health system?
+
+**Take the high-functioning health system every time.**
+
+Genius doctors are still humans who can move and think only at the speed of a single person.
+
+Even if the doctor has limitless energy, she can only see so many patients in one day, make so many diagnoses, and fill so many prescriptions. Be ready for the long wait to see her.
+
+Of course, even the best doctor makes mistakes, but without a system to back her up, there is no safety net when she fails without a system to back her up.
+
+Every doctor occasionally needs management advice from colleagues, but being the best of the bunch there will be nowhere to whom she can turn.
+
+She needs backup. She needs a system.
+
+## **What is distributed intelligence?**
+
+The [International Society of Learning Sciences](https://www.isls.org/research-topics/distributed-intelligence/) gives a helpful outline of the concept:
+
+-   Distributed intelligence means that the resources that enable and mediate activity are distributed in configuration across people, environments, situations, and time.
+
+-   Intelligence is assembled and accomplished rather than possessed.
+
+-   Therefore, the boundary unit of analysis for learning is different with this orientation since intelligence "comes to life" in human activity.
+
+This view acknowledges that no one person is smart enough to know everything that needs to be known or can move fast enough to do everything that needs to be done. Instead, each person acts together with others to accomplish the system's goal.
+
+Intelligence is found in the motion of the whole system and not its constituent parts. In such systems, information is often distributed in the form of workflows, best practices, reference documents, technologies, teams, and cultures.
+
+## **Distributed intelligence in healthcare.**
+
+The totality of clinical knowledge in existence far exceeds the expertise of any single physician. When a doctor encounters a diagnosis he is unfamiliar with, he must call for help from a specialist.
+
+Even for specialists, there are times when a diagnosis requires a rarely used therapy, and she must consult institutional guidelines on how to order and administer a specific medicine.
+
+If a patient is taking other medications, guidelines may not be sufficient to dose the medicine properly, and a pharmacist must be consulted who references an online interaction database.
+
+The patient must be scheduled in an infusion room to receive the medication. The presence of the patient, the medicine, a nurse who can give it, and equipment for the infusion must be coordinated by the facilities staff.
+
+While the patient receives the medication, the nurse must monitor his vital signs and alerts a physician if any measurement exceeds the boundaries derived from research and past clinical experience encoded into clinical guidelines.
+
+Where is the intelligence here? It is in the entire description. The patient was diagnosed and received the needed therapy because of the interacting actions between the doctor, specialist, guidelines, pharmacist, database, scheduling system, nurse, and clinical guidelines.
+
+The system knew how to diagnose and treat the patient even though no single person did.
+
+## **Data science distributes intelligence in a health system.**
+
+[As I have written previously](https://www.thedoctorsdialectic.com/2022/03/21/let-the-data-flow/), data science is essential in global health because it allows information to flow where it is needed in the system, unlocking its intelligence and allowing patients to receive the care they require.

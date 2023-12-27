@@ -1,0 +1,54 @@
+---
+title: "A simple method to monitor a catchment area and improve disease diagnosis rates"
+subtitle: "Counting a few data points can translate into improved healthcare delivery."
+author: "Mark Zobeck"
+date: 2022-03-15
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "monitor-catchment-area"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+[In a recent article,](https://www.thedoctorsdialectic.com/2022/03/13/gh_needs_ds/) I argued that Global Health needs Data Science. Now I want to give an easily implemented example of how Data Science capabilities can improve treatment delivery in low-resource treatment settings.
+
+Note: I'm using the term "Data Science" because it is flashy enough to catch your eye and broad enough to encompass the many specializations that are the key to success: data collection and management, informatics tools, data engineering, operational analytics, statistics, and machine learning.
+
+I'm a pediatric hematologist-oncologist, and my examples are curated from my experience supporting Data Science capabilities in Global Oncology programs. You may need to adjust how think about this example ff the framing doesn't make sense for your discipline.
+
+With that said, let's dive in.
+
+## **Example: Monitor catchment area referral patterns**
+
+It is estimated that over half of cancers in children in low- and middle-income countries are never diagnosed. If a treatment program can monitor where children are coming from and compare that to the expected rates of cancer cases in the area, then programs can focus outreach efforts on areas where there are fewer diagnoses than what is expected based on a reasonable estimate of cancer incidence.
+
+### **Required data**
+
+Patient address or town/district/province of origin, date of diagnosis, disease diagnosis (high-level).
+
+### **Brief description of methods**
+
+Calculate counts of diagnoses in a medium-long period of time, for example, 1 year by some geographic unit such as town or district of origin. Find data on estimated expected diagnoses in each geographic unit by finding a source that estimates disease incidence (The [Global Burden of Disease 2019 study](https://ghdx.healthdata.org/gbd-results-tool) is a good source). Estimate the total at-risk population in the catchment area (there is normally publicly available population information, or you can generally find the country's most recent census on the ministry of health website). If you need to stratify by age category, you can download population data on the [UN Population Dynamics](https://population.un.org/wpp/Download/Standard/Population/) page and then multiply the ratio of people in the age categories compared to the total country population by the total population in the catchment area.
+
+### **Results**
+
+These methods should give the observed number of patients by disease type in each geographic area of interest and the expected number. Now you just subtract the observed how far the observed is from the expected. The geographic units with the largest difference are under performing and should be the target of outreach by your program.
+
+## **All it takes is three variables**
+
+We can learn a lot with three variables and publicly available information. And all we did was add and subtract. It's not the fanciest analytical method in the world, but if it gets more patients in treatment then it meets our needs.

@@ -1,0 +1,865 @@
+region,disease,incidence,lower,upper
+eastern africa,osteosarcoma,1165,694,2403
+eastern africa,chondrosarcoma,75,9,235
+eastern africa,ewing_related,404,181,969
+eastern africa,other_specified_bone,241,105,613
+eastern africa,unspecified_bone,489,269,865
+southern africa,osteosarcoma,189,95,319
+southern africa,chondrosarcoma,12,2,29
+southern africa,ewing_related,44,25,79
+southern africa,other_specified_bone,9,1,24
+southern africa,unspecified_bone,42,20,86
+western africa,osteosarcoma,816,436,1458
+western africa,chondrosarcoma,475,142,1073
+western africa,ewing_related,553,251,1181
+western africa,other_specified_bone,344,125,567
+western africa,unspecified_bone,2988,953,13682
+northern africa,osteosarcoma,441,267,601
+northern africa,chondrosarcoma,30,14,49
+northern africa,ewing_related,383,250,531
+northern africa,other_specified_bone,55,27,95
+northern africa,unspecified_bone,117,67,209
+eastern asia,osteosarcoma,1162,451,2043
+eastern asia,chondrosarcoma,65,13,111
+eastern asia,ewing_related,305,127,462
+eastern asia,other_specified_bone,68,26,118
+eastern asia,unspecified_bone,137,58,215
+south-central asia,osteosarcoma,2910,2247,3576
+south-central asia,chondrosarcoma,221,133,329
+south-central asia,ewing_related,2527,1447,3208
+south-central asia,other_specified_bone,341,205,560
+south-central asia,unspecified_bone,777,534,1062
+south-eastern asia,osteosarcoma,1074,598,1984
+south-eastern asia,chondrosarcoma,39,18,69
+south-eastern asia,ewing_related,209,112,312
+south-eastern asia,other_specified_bone,32,12,61
+south-eastern asia,unspecified_bone,174,101,287
+western asia,osteosarcoma,277,175,383
+western asia,chondrosarcoma,17,7,34
+western asia,ewing_related,286,188,407
+western asia,other_specified_bone,20,9,34
+western asia,unspecified_bone,26,11,47
+eastern europe,osteosarcoma,134,80,202
+eastern europe,chondrosarcoma,16,6,30
+eastern europe,ewing_related,121,77,168
+eastern europe,other_specified_bone,15,6,27
+eastern europe,unspecified_bone,18,5,35
+northern europe,osteosarcoma,44,21,67
+northern europe,chondrosarcoma,3,0,8
+northern europe,ewing_related,41,22,61
+northern europe,other_specified_bone,11,2,29
+northern europe,unspecified_bone,3,0,8
+southern europe,osteosarcoma,79,46,109
+southern europe,chondrosarcoma,4,0,11
+southern europe,ewing_related,76,50,106
+southern europe,other_specified_bone,3,0,7
+southern europe,unspecified_bone,21,3,60
+western europe,osteosarcoma,104,66,140
+western europe,chondrosarcoma,6,1,13
+western europe,ewing_related,97,68,130
+western europe,other_specified_bone,9,2,19
+western europe,unspecified_bone,4,0,9
+northern america,osteosarcoma,248,142,315
+northern america,chondrosarcoma,11,4,20
+northern america,ewing_related,162,99,216
+northern america,other_specified_bone,17,6,28
+northern america,unspecified_bone,12,4,21
+caribbean,osteosarcoma,44,22,75
+caribbean,chondrosarcoma,5,0,17
+caribbean,ewing_related,16,6,31
+caribbean,other_specified_bone,2,0,8
+caribbean,unspecified_bone,6,1,20
+central america,osteosarcoma,271,89,457
+central america,chondrosarcoma,21,3,50
+central america,ewing_related,108,35,174
+central america,other_specified_bone,20,3,55
+central america,unspecified_bone,41,13,78
+south america,osteosarcoma,582,357,799
+south america,chondrosarcoma,34,16,61
+south america,ewing_related,306,168,437
+south america,other_specified_bone,42,21,81
+south america,unspecified_bone,69,36,106
+oceania,osteosarcoma,14,3,37
+oceania,chondrosarcoma,0,0,1
+oceania,ewing_related,16,4,33
+oceania,other_specified_bone,2,0,8
+oceania,unspecified_bone,1,0,5
+australia/new zealand,osteosarcoma,17,4,38
+australia/new zealand,chondrosarcoma,0,0,2
+australia/new zealand,ewing_related,17,8,29
+australia/new zealand,other_specified_bone,1,0,3
+australia/new zealand,unspecified_bone,0,0,2
+eastern africa,adrenocortical,58,10,232
+eastern africa,thyroid,239,103,477
+eastern africa,nasopharyngeal,479,272,795
+eastern africa,melanoma,163,87,346
+eastern africa,skin_carcinoma,289,155,479
+eastern africa,unspecified_carcinoma,1037,615,1914
+southern africa,adrenocortical,8,1,20
+southern africa,thyroid,15,3,64
+southern africa,nasopharyngeal,44,18,80
+southern africa,melanoma,27,11,52
+southern africa,skin_carcinoma,31,9,74
+southern africa,unspecified_carcinoma,101,35,244
+western africa,adrenocortical,54,11,187
+western africa,thyroid,222,111,435
+western africa,nasopharyngeal,665,210,3150
+western africa,melanoma,223,100,575
+western africa,skin_carcinoma,368,213,573
+western africa,unspecified_carcinoma,1701,826,4844
+northern africa,adrenocortical,23,8,52
+northern africa,thyroid,108,65,154
+northern africa,nasopharyngeal,244,155,347
+northern africa,melanoma,49,25,110
+northern africa,skin_carcinoma,196,108,302
+northern africa,unspecified_carcinoma,218,149,312
+eastern asia,adrenocortical,52,15,97
+eastern asia,thyroid,623,170,1209
+eastern asia,nasopharyngeal,105,33,200
+eastern asia,melanoma,85,23,151
+eastern asia,skin_carcinoma,64,21,128
+eastern asia,unspecified_carcinoma,380,107,588
+south-central asia,adrenocortical,149,94,217
+south-central asia,thyroid,738,535,1798
+south-central asia,nasopharyngeal,417,295,571
+south-central asia,melanoma,146,68,468
+south-central asia,skin_carcinoma,431,267,687
+south-central asia,unspecified_carcinoma,2097,1337,2695
+south-eastern asia,adrenocortical,25,7,56
+south-eastern asia,thyroid,388,234,674
+south-eastern asia,nasopharyngeal,189,105,286
+south-eastern asia,melanoma,62,27,115
+south-eastern asia,skin_carcinoma,73,42,113
+south-eastern asia,unspecified_carcinoma,598,389,909
+western asia,adrenocortical,24,12,40
+western asia,thyroid,147,89,219
+western asia,nasopharyngeal,83,49,136
+western asia,melanoma,44,22,76
+western asia,skin_carcinoma,39,19,64
+western asia,unspecified_carcinoma,132,81,196
+eastern europe,adrenocortical,9,2,20
+eastern europe,thyroid,119,63,198
+eastern europe,nasopharyngeal,15,4,32
+eastern europe,melanoma,35,16,58
+eastern europe,skin_carcinoma,16,6,30
+eastern europe,unspecified_carcinoma,60,29,95
+northern europe,adrenocortical,4,0,9
+northern europe,thyroid,16,6,28
+northern europe,nasopharyngeal,6,1,14
+northern europe,melanoma,14,4,25
+northern europe,skin_carcinoma,9,1,19
+northern europe,unspecified_carcinoma,20,7,33
+southern europe,adrenocortical,3,0,7
+southern europe,thyroid,61,38,86
+southern europe,nasopharyngeal,8,2,17
+southern europe,melanoma,34,20,51
+southern europe,skin_carcinoma,14,4,30
+southern europe,unspecified_carcinoma,26,14,41
+western europe,adrenocortical,3,0,8
+western europe,thyroid,51,24,79
+western europe,nasopharyngeal,8,1,18
+western europe,melanoma,57,32,82
+western europe,skin_carcinoma,11,4,21
+western europe,unspecified_carcinoma,57,27,90
+northern america,adrenocortical,14,5,23
+northern america,thyroid,162,71,218
+northern america,nasopharyngeal,27,10,51
+northern america,melanoma,126,52,176
+northern america,skin_carcinoma,7,1,17
+northern america,unspecified_carcinoma,109,65,149
+caribbean,adrenocortical,2,0,8
+caribbean,thyroid,21,8,36
+caribbean,nasopharyngeal,6,1,15
+caribbean,melanoma,7,1,16
+caribbean,skin_carcinoma,20,6,42
+caribbean,unspecified_carcinoma,29,13,58
+central america,adrenocortical,33,15,67
+central america,thyroid,114,55,170
+central america,nasopharyngeal,110,53,192
+central america,melanoma,46,15,107
+central america,skin_carcinoma,144,54,340
+central america,unspecified_carcinoma,94,33,191
+south america,adrenocortical,63,24,113
+south america,thyroid,207,122,302
+south america,nasopharyngeal,43,15,94
+south america,melanoma,108,68,151
+south america,skin_carcinoma,137,66,236
+south america,unspecified_carcinoma,197,123,278
+oceania,adrenocortical,2,0,5
+oceania,thyroid,4,0,10
+oceania,nasopharyngeal,1,0,5
+oceania,melanoma,5,0,14
+oceania,skin_carcinoma,0,0,2
+oceania,unspecified_carcinoma,5,0,13
+australia/new zealand,adrenocortical,0,0,2
+australia/new zealand,thyroid,4,0,12
+australia/new zealand,nasopharyngeal,1,0,5
+australia/new zealand,melanoma,13,2,27
+australia/new zealand,skin_carcinoma,1,0,3
+australia/new zealand,unspecified_carcinoma,11,2,21
+eastern africa,ependymoma,175,60,406
+eastern africa,astrocytoma,536,323,868
+eastern africa,cns_embryonal,493,263,1034
+eastern africa,other_gliomas,426,248,787
+eastern africa,other_specified_cns,182,77,390
+eastern africa,unspecified_cns,1093,704,1695
+southern africa,ependymoma,77,39,175
+southern africa,astrocytoma,197,111,319
+southern africa,cns_embryonal,179,110,284
+southern africa,other_gliomas,123,75,209
+southern africa,other_specified_cns,45,24,82
+southern africa,unspecified_cns,175,67,383
+western africa,ependymoma,535,222,1218
+western africa,astrocytoma,634,245,1395
+western africa,cns_embryonal,576,188,1156
+western africa,other_gliomas,238,97,440
+western africa,other_specified_cns,217,84,536
+western africa,unspecified_cns,1275,576,4734
+northern africa,ependymoma,233,158,329
+northern africa,astrocytoma,656,383,953
+northern africa,cns_embryonal,571,313,793
+northern africa,other_gliomas,188,115,255
+northern africa,other_specified_cns,91,51,150
+northern africa,unspecified_cns,429,256,669
+eastern asia,ependymoma,671,237,1098
+eastern asia,astrocytoma,1620,541,2861
+eastern asia,cns_embryonal,1602,697,2518
+eastern asia,other_gliomas,805,310,1268
+eastern asia,other_specified_cns,326,78,765
+eastern asia,unspecified_cns,1394,605,2286
+south-central asia,ependymoma,1201,792,1552
+south-central asia,astrocytoma,4580,3623,5533
+south-central asia,cns_embryonal,3566,2115,4342
+south-central asia,other_gliomas,2665,1739,3423
+south-central asia,other_specified_cns,337,142,509
+south-central asia,unspecified_cns,1458,1050,2189
+south-eastern asia,ependymoma,162,91,252
+south-eastern asia,astrocytoma,954,573,1478
+south-eastern asia,cns_embryonal,896,558,1426
+south-eastern asia,other_gliomas,296,175,496
+south-eastern asia,other_specified_cns,47,17,120
+south-eastern asia,unspecified_cns,877,506,1337
+western asia,ependymoma,203,127,311
+western asia,astrocytoma,583,337,853
+western asia,cns_embryonal,546,360,792
+western asia,other_gliomas,261,172,400
+western asia,other_specified_cns,123,66,190
+western asia,unspecified_cns,139,81,218
+eastern europe,ependymoma,148,84,218
+eastern europe,astrocytoma,531,277,722
+eastern europe,cns_embryonal,360,215,492
+eastern europe,other_gliomas,94,45,161
+eastern europe,other_specified_cns,60,35,97
+eastern europe,unspecified_cns,190,113,325
+northern europe,ependymoma,60,32,89
+northern europe,astrocytoma,266,165,350
+northern europe,cns_embryonal,118,68,164
+northern europe,other_gliomas,47,22,72
+northern europe,other_specified_cns,58,31,87
+northern europe,unspecified_cns,73,38,100
+southern europe,ependymoma,83,52,114
+southern europe,astrocytoma,309,221,396
+southern europe,cns_embryonal,164,114,210
+southern europe,other_gliomas,68,44,92
+southern europe,other_specified_cns,75,45,106
+southern europe,unspecified_cns,78,42,119
+western europe,ependymoma,97,65,129
+western europe,astrocytoma,383,239,496
+western europe,cns_embryonal,200,133,259
+western europe,other_gliomas,102,58,146
+western europe,other_specified_cns,114,74,159
+western europe,unspecified_cns,46,21,71
+northern america,ependymoma,228,94,304
+northern america,astrocytoma,1093,810,1287
+northern america,cns_embryonal,510,398,616
+northern america,other_gliomas,359,164,466
+northern america,other_specified_cns,285,79,388
+northern america,unspecified_cns,85,45,119
+caribbean,ependymoma,27,13,43
+caribbean,astrocytoma,98,53,163
+caribbean,cns_embryonal,57,32,92
+caribbean,other_gliomas,24,9,44
+caribbean,other_specified_cns,13,3,27
+caribbean,unspecified_cns,30,10,52
+central america,ependymoma,183,90,311
+central america,astrocytoma,519,248,784
+central america,cns_embryonal,376,190,576
+central america,other_gliomas,88,46,148
+central america,other_specified_cns,49,24,98
+central america,unspecified_cns,154,79,243
+south america,ependymoma,357,232,488
+south america,astrocytoma,1032,636,1475
+south america,cns_embryonal,782,516,1069
+south america,other_gliomas,300,154,428
+south america,other_specified_cns,126,72,204
+south america,unspecified_cns,494,320,692
+oceania,ependymoma,7,1,16
+oceania,astrocytoma,20,5,39
+oceania,cns_embryonal,31,9,57
+oceania,other_gliomas,9,2,20
+oceania,other_specified_cns,5,0,12
+oceania,unspecified_cns,6,0,16
+australia/new zealand,ependymoma,15,4,29
+australia/new zealand,astrocytoma,43,16,70
+australia/new zealand,cns_embryonal,36,10,64
+australia/new zealand,other_gliomas,17,5,31
+australia/new zealand,other_specified_cns,2,0,7
+australia/new zealand,unspecified_cns,7,1,16
+eastern africa,cns_germ_cell,285,118,701
+eastern africa,other_extragonadal,233,112,490
+eastern africa,gonadal_germ_cell,243,130,386
+eastern africa,gonadal_carcinoma,107,44,280
+eastern africa,unspecified_gonadal,249,146,410
+southern africa,cns_germ_cell,14,4,33
+southern africa,other_extragonadal,125,71,215
+southern africa,gonadal_germ_cell,69,28,133
+southern africa,gonadal_carcinoma,33,9,139
+southern africa,unspecified_gonadal,12,1,41
+western africa,cns_germ_cell,124,37,274
+western africa,other_extragonadal,826,321,3734
+western africa,gonadal_germ_cell,588,265,1314
+western africa,gonadal_carcinoma,363,156,867
+western africa,unspecified_gonadal,398,212,969
+northern africa,cns_germ_cell,54,21,302
+northern africa,other_extragonadal,78,38,130
+northern africa,gonadal_germ_cell,128,70,192
+northern africa,gonadal_carcinoma,48,22,109
+northern africa,unspecified_gonadal,47,21,86
+eastern asia,cns_germ_cell,913,229,1613
+eastern asia,other_extragonadal,462,194,750
+eastern asia,gonadal_germ_cell,1197,383,1915
+eastern asia,gonadal_carcinoma,69,20,145
+eastern asia,unspecified_gonadal,69,14,122
+south-central asia,cns_germ_cell,204,107,340
+south-central asia,other_extragonadal,534,362,796
+south-central asia,gonadal_germ_cell,2140,1607,2676
+south-central asia,gonadal_carcinoma,384,249,673
+south-central asia,unspecified_gonadal,354,253,611
+south-eastern asia,cns_germ_cell,159,74,310
+south-eastern asia,other_extragonadal,231,139,464
+south-eastern asia,gonadal_germ_cell,814,503,1162
+south-eastern asia,gonadal_carcinoma,89,48,163
+south-eastern asia,unspecified_gonadal,133,73,222
+western asia,cns_germ_cell,62,38,94
+western asia,other_extragonadal,100,59,145
+western asia,gonadal_germ_cell,175,89,252
+western asia,gonadal_carcinoma,17,3,37
+western asia,unspecified_gonadal,17,4,39
+eastern europe,cns_germ_cell,30,14,48
+eastern europe,other_extragonadal,51,25,81
+eastern europe,gonadal_germ_cell,94,49,147
+eastern europe,gonadal_carcinoma,10,3,20
+eastern europe,unspecified_gonadal,11,3,22
+northern europe,cns_germ_cell,16,6,28
+northern europe,other_extragonadal,18,6,32
+northern europe,gonadal_germ_cell,30,16,46
+northern europe,gonadal_carcinoma,2,0,5
+northern europe,unspecified_gonadal,5,0,13
+southern europe,cns_germ_cell,23,11,36
+southern europe,other_extragonadal,25,13,37
+southern europe,gonadal_germ_cell,51,33,70
+southern europe,gonadal_carcinoma,2,0,6
+southern europe,unspecified_gonadal,6,0,19
+western europe,cns_germ_cell,31,17,48
+western europe,other_extragonadal,35,16,53
+western europe,gonadal_germ_cell,58,34,85
+western europe,gonadal_carcinoma,3,0,11
+western europe,unspecified_gonadal,4,1,10
+northern america,cns_germ_cell,105,46,144
+northern america,other_extragonadal,86,49,115
+northern america,gonadal_germ_cell,145,97,192
+northern america,gonadal_carcinoma,6,1,12
+northern america,unspecified_gonadal,11,4,19
+caribbean,cns_germ_cell,4,0,11
+caribbean,other_extragonadal,11,3,24
+caribbean,gonadal_germ_cell,26,10,47
+caribbean,gonadal_carcinoma,4,0,21
+caribbean,unspecified_gonadal,3,0,12
+central america,cns_germ_cell,78,28,146
+central america,other_extragonadal,48,20,76
+central america,gonadal_germ_cell,324,109,567
+central america,gonadal_carcinoma,56,11,239
+central america,unspecified_gonadal,36,13,90
+south america,cns_germ_cell,87,47,128
+south america,other_extragonadal,131,71,196
+south america,gonadal_germ_cell,426,283,554
+south america,gonadal_carcinoma,58,30,93
+south america,unspecified_gonadal,55,34,84
+oceania,cns_germ_cell,7,1,19
+oceania,other_extragonadal,7,1,16
+oceania,gonadal_germ_cell,9,1,22
+oceania,gonadal_carcinoma,1,0,3
+oceania,unspecified_gonadal,0,0,2
+australia/new zealand,cns_germ_cell,7,1,15
+australia/new zealand,other_extragonadal,8,2,16
+australia/new zealand,gonadal_germ_cell,12,3,22
+australia/new zealand,gonadal_carcinoma,1,0,3
+australia/new zealand,unspecified_gonadal,0,0,2
+eastern africa,hepatoblastoma,275,115,630
+eastern africa,hepatic_carcinoma,295,161,581
+eastern africa,unspecified_hepatic,262,64,653
+southern africa,hepatoblastoma,76,44,115
+southern africa,hepatic_carcinoma,44,14,79
+southern africa,unspecified_hepatic,9,0,30
+western africa,hepatoblastoma,764,265,3851
+western africa,hepatic_carcinoma,415,158,905
+western africa,unspecified_hepatic,520,193,981
+northern africa,hepatoblastoma,125,63,183
+northern africa,hepatic_carcinoma,145,75,267
+northern africa,unspecified_hepatic,52,24,88
+eastern asia,hepatoblastoma,706,282,1049
+eastern asia,hepatic_carcinoma,136,42,294
+eastern asia,unspecified_hepatic,139,21,372
+south-central asia,hepatoblastoma,832,591,1091
+south-central asia,hepatic_carcinoma,568,422,792
+south-central asia,unspecified_hepatic,211,109,401
+south-eastern asia,hepatoblastoma,390,218,634
+south-eastern asia,hepatic_carcinoma,142,77,221
+south-eastern asia,unspecified_hepatic,261,118,470
+western asia,hepatoblastoma,101,55,152
+western asia,hepatic_carcinoma,30,14,47
+western asia,unspecified_hepatic,18,5,42
+eastern europe,hepatoblastoma,86,47,123
+eastern europe,hepatic_carcinoma,17,5,34
+eastern europe,unspecified_hepatic,9,1,22
+northern europe,hepatoblastoma,25,11,40
+northern europe,hepatic_carcinoma,8,2,17
+northern europe,unspecified_hepatic,4,0,12
+southern europe,hepatoblastoma,33,19,49
+southern europe,hepatic_carcinoma,8,3,17
+southern europe,unspecified_hepatic,28,6,105
+western europe,hepatoblastoma,40,22,59
+western europe,hepatic_carcinoma,5,1,11
+western europe,unspecified_hepatic,3,0,11
+northern america,hepatoblastoma,148,84,201
+northern america,hepatic_carcinoma,25,11,38
+northern america,unspecified_hepatic,3,0,7
+caribbean,hepatoblastoma,11,3,22
+caribbean,hepatic_carcinoma,5,1,12
+caribbean,unspecified_hepatic,1,0,7
+central america,hepatoblastoma,158,61,283
+central america,hepatic_carcinoma,59,25,113
+central america,unspecified_hepatic,33,7,83
+south america,hepatoblastoma,190,104,266
+south america,hepatic_carcinoma,55,35,81
+south america,unspecified_hepatic,63,39,94
+oceania,hepatoblastoma,5,0,15
+oceania,hepatic_carcinoma,3,0,10
+oceania,unspecified_hepatic,2,0,7
+australia/new zealand,hepatoblastoma,9,2,19
+australia/new zealand,hepatic_carcinoma,1,0,3
+australia/new zealand,unspecified_hepatic,1,0,5
+eastern africa,lymphoid,3526,2091,5469
+eastern africa,acute_myeloid,673,280,1296
+eastern africa,cmd,220,128,354
+eastern africa,mds_other,226,67,482
+eastern africa,unspecified_leukaemia,1756,939,3453
+southern africa,lymphoid,823,556,1171
+southern africa,acute_myeloid,388,259,610
+southern africa,cmd,43,14,87
+southern africa,mds_other,21,6,90
+southern africa,unspecified_leukaemia,57,16,184
+western africa,lymphoid,1699,884,3307
+western africa,acute_myeloid,770,395,1543
+western africa,cmd,204,49,547
+western africa,mds_other,304,101,871
+western africa,unspecified_leukaemia,1251,602,2811
+northern africa,lymphoid,2173,1268,3016
+northern africa,acute_myeloid,699,472,929
+northern africa,cmd,111,45,230
+northern africa,mds_other,168,100,297
+northern africa,unspecified_leukaemia,381,186,699
+eastern asia,lymphoid,10173,6421,14711
+eastern asia,acute_myeloid,2525,1282,3559
+eastern asia,cmd,409,171,672
+eastern asia,mds_other,490,251,726
+eastern asia,unspecified_leukaemia,1155,306,2416
+south-central asia,lymphoid,28538,23000,34534
+south-central asia,acute_myeloid,5437,4054,6624
+south-central asia,cmd,1006,792,1235
+south-central asia,mds_other,198,56,553
+south-central asia,unspecified_leukaemia,5500,4124,6994
+south-eastern asia,lymphoid,7320,4326,12152
+south-eastern asia,acute_myeloid,2567,1388,3899
+south-eastern asia,cmd,361,167,578
+south-eastern asia,mds_other,77,30,143
+south-eastern asia,unspecified_leukaemia,2702,1698,4002
+western asia,lymphoid,3145,2319,4036
+western asia,acute_myeloid,682,466,907
+western asia,cmd,74,46,109
+western asia,mds_other,79,47,123
+western asia,unspecified_leukaemia,201,138,291
+eastern europe,lymphoid,1903,1318,2520
+eastern europe,acute_myeloid,318,182,464
+eastern europe,cmd,45,24,69
+eastern europe,mds_other,26,12,44
+eastern europe,unspecified_leukaemia,69,33,110
+northern europe,lymphoid,690,555,827
+northern europe,acute_myeloid,120,65,162
+northern europe,cmd,11,3,21
+northern europe,mds_other,14,4,26
+northern europe,unspecified_leukaemia,16,6,26
+southern europe,lymphoid,918,758,1062
+southern europe,acute_myeloid,158,110,203
+southern europe,cmd,23,13,37
+southern europe,mds_other,15,7,25
+southern europe,unspecified_leukaemia,20,9,34
+western europe,lymphoid,1082,913,1280
+western europe,acute_myeloid,198,128,253
+western europe,cmd,25,12,40
+western europe,mds_other,39,18,61
+western europe,unspecified_leukaemia,13,3,26
+northern america,lymphoid,2677,2470,2951
+northern america,acute_myeloid,499,332,610
+northern america,cmd,94,47,128
+northern america,mds_other,74,14,111
+northern america,unspecified_leukaemia,86,49,126
+caribbean,lymphoid,316,157,525
+caribbean,acute_myeloid,68,35,119
+caribbean,cmd,16,6,29
+caribbean,mds_other,3,0,14
+caribbean,unspecified_leukaemia,43,23,70
+central america,lymphoid,3696,2197,4934
+central america,acute_myeloid,585,286,833
+central america,cmd,70,30,106
+central america,mds_other,36,17,62
+central america,unspecified_leukaemia,66,24,111
+south america,lymphoid,5468,4158,6718
+south america,acute_myeloid,1128,696,1503
+south america,cmd,121,72,183
+south america,mds_other,72,42,108
+south america,unspecified_leukaemia,502,280,760
+oceania,lymphoid,119,36,201
+oceania,acute_myeloid,39,7,70
+oceania,cmd,6,0,14
+oceania,mds_other,5,0,13
+oceania,unspecified_leukaemia,9,0,22
+australia/new zealand,lymphoid,245,190,318
+australia/new zealand,acute_myeloid,49,27,78
+australia/new zealand,cmd,5,1,13
+australia/new zealand,mds_other,3,0,9
+australia/new zealand,unspecified_leukaemia,3,0,8
+eastern africa,hodgkin,1901,1236,2817
+eastern africa,non_hodgkin_except_bl,3183,1867,5814
+eastern africa,burkitt_bl,4091,1680,7214
+eastern africa,lymphoreticular,733,191,3147
+eastern africa,unspecified_lymphoma,2184,1259,4179
+southern africa,hodgkin,312,186,496
+southern africa,non_hodgkin_except_bl,446,220,751
+southern africa,burkitt_bl,200,120,308
+southern africa,lymphoreticular,44,17,106
+southern africa,unspecified_lymphoma,34,10,80
+western africa,hodgkin,2457,1042,4307
+western africa,non_hodgkin_except_bl,5888,2465,13459
+western africa,burkitt_bl,11803,4747,33914
+western africa,lymphoreticular,549,123,3633
+western africa,unspecified_lymphoma,2581,1064,4582
+northern africa,hodgkin,1117,707,1488
+northern africa,non_hodgkin_except_bl,851,415,1303
+northern africa,burkitt_bl,403,198,656
+northern africa,lymphoreticular,187,82,337
+northern africa,unspecified_lymphoma,187,100,309
+eastern asia,hodgkin,352,39,605
+eastern asia,non_hodgkin_except_bl,1429,542,2275
+eastern asia,burkitt_bl,440,179,661
+eastern asia,lymphoreticular,368,194,548
+eastern asia,unspecified_lymphoma,539,176,1318
+south-central asia,hodgkin,6407,4074,8361
+south-central asia,non_hodgkin_except_bl,5403,2836,7227
+south-central asia,burkitt_bl,987,626,1340
+south-central asia,lymphoreticular,776,433,1839
+south-central asia,unspecified_lymphoma,1724,1086,2341
+south-eastern asia,hodgkin,404,224,712
+south-eastern asia,non_hodgkin_except_bl,1188,598,1859
+south-eastern asia,burkitt_bl,165,96,273
+south-eastern asia,lymphoreticular,165,92,283
+south-eastern asia,unspecified_lymphoma,658,379,945
+western asia,hodgkin,880,577,1224
+western asia,non_hodgkin_except_bl,627,422,852
+western asia,burkitt_bl,326,210,459
+western asia,lymphoreticular,89,49,134
+western asia,unspecified_lymphoma,50,27,82
+eastern europe,hodgkin,364,202,505
+eastern europe,non_hodgkin_except_bl,279,141,416
+eastern europe,burkitt_bl,118,72,186
+eastern europe,lymphoreticular,52,17,94
+eastern europe,unspecified_lymphoma,22,7,41
+northern europe,hodgkin,93,47,129
+northern europe,non_hodgkin_except_bl,92,54,126
+northern europe,burkitt_bl,32,13,51
+northern europe,lymphoreticular,13,5,21
+northern europe,unspecified_lymphoma,11,5,20
+southern europe,hodgkin,191,133,249
+southern europe,non_hodgkin_except_bl,144,101,184
+southern europe,burkitt_bl,99,59,135
+southern europe,lymphoreticular,36,20,56
+southern europe,unspecified_lymphoma,13,4,27
+western europe,hodgkin,202,124,269
+western europe,non_hodgkin_except_bl,163,96,231
+western europe,burkitt_bl,105,61,144
+western europe,lymphoreticular,48,22,84
+western europe,unspecified_lymphoma,5,1,12
+northern america,hodgkin,394,223,505
+northern america,non_hodgkin_except_bl,441,281,555
+northern america,burkitt_bl,170,94,232
+northern america,lymphoreticular,125,64,175
+northern america,unspecified_lymphoma,22,11,34
+caribbean,hodgkin,73,41,118
+caribbean,non_hodgkin_except_bl,102,42,196
+caribbean,burkitt_bl,16,6,29
+caribbean,lymphoreticular,7,1,16
+caribbean,unspecified_lymphoma,9,2,18
+central america,hodgkin,508,263,730
+central america,non_hodgkin_except_bl,509,213,761
+central america,burkitt_bl,158,86,233
+central america,lymphoreticular,95,34,158
+central america,unspecified_lymphoma,45,22,70
+south america,hodgkin,911,561,1271
+south america,non_hodgkin_except_bl,872,572,1245
+south america,burkitt_bl,415,249,595
+south america,lymphoreticular,191,106,296
+south america,unspecified_lymphoma,181,101,270
+oceania,hodgkin,13,4,25
+oceania,non_hodgkin_except_bl,14,2,31
+oceania,burkitt_bl,9,1,19
+oceania,lymphoreticular,2,0,7
+oceania,unspecified_lymphoma,2,0,6
+australia/new zealand,hodgkin,26,8,43
+australia/new zealand,non_hodgkin_except_bl,30,11,52
+australia/new zealand,burkitt_bl,13,4,24
+australia/new zealand,lymphoreticular,4,0,10
+australia/new zealand,unspecified_lymphoma,1,0,3
+eastern africa,ganglio_neuroblastoma,632,353,1233
+eastern africa,peripheral_nervous,150,40,717
+eastern africa,retinoblastoma,2310,1540,3752
+southern africa,ganglio_neuroblastoma,275,159,567
+southern africa,peripheral_nervous,18,4,46
+southern africa,retinoblastoma,515,251,907
+western africa,ganglio_neuroblastoma,1247,617,1963
+western africa,peripheral_nervous,163,59,766
+western africa,retinoblastoma,7824,3725,15926
+northern africa,ganglio_neuroblastoma,1169,754,1564
+northern africa,peripheral_nervous,59,21,164
+northern africa,retinoblastoma,460,298,642
+eastern asia,ganglio_neuroblastoma,3007,1545,4419
+eastern asia,peripheral_nervous,41,10,85
+eastern asia,retinoblastoma,1345,378,2221
+south-central asia,ganglio_neuroblastoma,3077,1840,4119
+south-central asia,peripheral_nervous,178,121,302
+south-central asia,retinoblastoma,3504,2476,4785
+south-eastern asia,ganglio_neuroblastoma,1025,579,1558
+south-eastern asia,peripheral_nervous,24,10,44
+south-eastern asia,retinoblastoma,1393,878,2003
+western asia,ganglio_neuroblastoma,772,498,1049
+western asia,peripheral_nervous,12,2,46
+western asia,retinoblastoma,339,216,463
+eastern europe,ganglio_neuroblastoma,545,337,739
+eastern europe,peripheral_nervous,12,3,26
+eastern europe,retinoblastoma,176,105,286
+northern europe,ganglio_neuroblastoma,150,78,208
+northern europe,peripheral_nervous,2,0,6
+northern europe,retinoblastoma,60,32,87
+southern europe,ganglio_neuroblastoma,261,193,322
+southern europe,peripheral_nervous,7,2,13
+southern europe,retinoblastoma,79,51,107
+western europe,ganglio_neuroblastoma,299,198,385
+western europe,peripheral_nervous,4,1,9
+western europe,retinoblastoma,99,65,136
+northern america,ganglio_neuroblastoma,743,605,884
+northern america,peripheral_nervous,10,4,18
+northern america,retinoblastoma,269,195,349
+caribbean,ganglio_neuroblastoma,93,51,153
+caribbean,peripheral_nervous,2,0,7
+caribbean,retinoblastoma,42,20,80
+central america,ganglio_neuroblastoma,239,107,371
+central america,peripheral_nervous,16,2,46
+central america,retinoblastoma,302,144,434
+south america,ganglio_neuroblastoma,675,385,935
+south america,peripheral_nervous,39,17,63
+south america,retinoblastoma,657,461,906
+oceania,ganglio_neuroblastoma,24,9,47
+oceania,peripheral_nervous,2,0,7
+oceania,retinoblastoma,16,2,32
+australia/new zealand,ganglio_neuroblastoma,56,32,86
+australia/new zealand,peripheral_nervous,2,0,6
+australia/new zealand,retinoblastoma,26,11,49
+eastern africa,other_specified,188,89,461
+eastern africa,other_unspecified,3123,1967,4521
+southern africa,other_specified,9,2,23
+southern africa,other_unspecified,58,16,141
+western africa,other_specified,102,33,229
+western africa,other_unspecified,8451,4400,16326
+northern africa,other_specified,62,38,112
+northern africa,other_unspecified,403,202,544
+eastern asia,other_specified,109,23,205
+eastern asia,other_unspecified,580,160,1178
+south-central asia,other_specified,128,70,234
+south-central asia,other_unspecified,3290,2107,5618
+south-eastern asia,other_specified,34,12,90
+south-eastern asia,other_unspecified,1029,643,1662
+western asia,other_specified,21,7,57
+western asia,other_unspecified,103,57,161
+eastern europe,other_specified,10,3,19
+eastern europe,other_unspecified,83,44,130
+northern europe,other_specified,4,0,11
+northern europe,other_unspecified,11,3,22
+southern europe,other_specified,5,1,11
+southern europe,other_unspecified,11,3,24
+western europe,other_specified,5,0,11
+western europe,other_unspecified,11,2,23
+northern america,other_specified,20,9,33
+northern america,other_unspecified,33,17,52
+caribbean,other_specified,5,0,19
+caribbean,other_unspecified,35,15,60
+central america,other_specified,31,12,81
+central america,other_unspecified,375,135,851
+south america,other_specified,54,26,114
+south america,other_unspecified,250,128,383
+oceania,other_specified,3,0,8
+oceania,other_unspecified,4,0,12
+australia/new zealand,other_specified,1,0,3
+australia/new zealand,other_unspecified,1,0,4
+eastern africa,nephroblastoma,3194,2214,5220
+eastern africa,renal_carcinoma,517,90,1776
+eastern africa,unspecified_renal,246,144,419
+southern africa,nephroblastoma,783,504,1262
+southern africa,renal_carcinoma,46,8,148
+southern africa,unspecified_renal,91,32,194
+western africa,nephroblastoma,6198,2858,11362
+western africa,renal_carcinoma,559,164,1508
+western africa,unspecified_renal,2251,1038,4879
+northern africa,nephroblastoma,974,598,1307
+northern africa,renal_carcinoma,220,70,663
+northern africa,unspecified_renal,70,42,103
+eastern asia,nephroblastoma,1187,408,1942
+eastern asia,renal_carcinoma,103,27,236
+eastern asia,unspecified_renal,59,14,107
+south-central asia,nephroblastoma,4164,2704,5165
+south-central asia,renal_carcinoma,460,288,760
+south-central asia,unspecified_renal,358,216,578
+south-eastern asia,nephroblastoma,1081,656,1627
+south-eastern asia,renal_carcinoma,50,19,90
+south-eastern asia,unspecified_renal,95,52,165
+western asia,nephroblastoma,542,326,822
+western asia,renal_carcinoma,48,21,97
+western asia,unspecified_renal,17,3,44
+eastern europe,nephroblastoma,463,276,650
+eastern europe,renal_carcinoma,15,5,29
+eastern europe,unspecified_renal,19,6,35
+northern europe,nephroblastoma,126,67,176
+northern europe,renal_carcinoma,4,0,10
+northern europe,unspecified_renal,7,1,21
+southern europe,nephroblastoma,176,126,223
+southern europe,renal_carcinoma,8,3,16
+southern europe,unspecified_renal,7,1,20
+western europe,nephroblastoma,238,175,300
+western europe,renal_carcinoma,5,1,15
+western europe,unspecified_renal,6,1,14
+northern america,nephroblastoma,550,373,665
+northern america,renal_carcinoma,22,8,34
+northern america,unspecified_renal,4,0,10
+caribbean,nephroblastoma,82,43,136
+caribbean,renal_carcinoma,3,0,11
+caribbean,unspecified_renal,4,0,22
+central america,nephroblastoma,340,133,542
+central america,renal_carcinoma,36,6,85
+central america,unspecified_renal,40,12,93
+south america,nephroblastoma,822,532,1165
+south america,renal_carcinoma,51,26,83
+south america,unspecified_renal,48,27,71
+oceania,nephroblastoma,17,3,34
+oceania,renal_carcinoma,1,0,5
+oceania,unspecified_renal,0,0,2
+australia/new zealand,nephroblastoma,41,14,68
+australia/new zealand,renal_carcinoma,1,0,3
+australia/new zealand,unspecified_renal,0,0,2
+eastern africa,rhabdomyosarcoma,1858,1023,3346
+eastern africa,fibrosarcoma,354,158,730
+eastern africa,kaposi_sarcoma,6081,2794,13236
+eastern africa,other_specified_sarcoma,614,304,1030
+eastern africa,unspecified_sarcoma,501,287,834
+southern africa,rhabdomyosarcoma,342,193,600
+southern africa,fibrosarcoma,51,22,117
+southern africa,kaposi_sarcoma,479,173,1136
+southern africa,other_specified_sarcoma,96,42,198
+southern africa,unspecified_sarcoma,28,12,56
+western africa,rhabdomyosarcoma,1951,975,3929
+western africa,fibrosarcoma,620,235,1401
+western africa,kaposi_sarcoma,1220,507,3186
+western africa,other_specified_sarcoma,1413,691,2588
+western africa,unspecified_sarcoma,745,363,2095
+northern africa,rhabdomyosarcoma,468,300,652
+northern africa,fibrosarcoma,137,91,198
+northern africa,kaposi_sarcoma,231,36,632
+northern africa,other_specified_sarcoma,190,96,287
+northern africa,unspecified_sarcoma,115,68,185
+eastern asia,rhabdomyosarcoma,950,315,1556
+eastern asia,fibrosarcoma,202,58,325
+eastern asia,kaposi_sarcoma,103,10,365
+eastern asia,other_specified_sarcoma,712,298,1089
+eastern asia,unspecified_sarcoma,174,67,286
+south-central asia,rhabdomyosarcoma,2507,1493,3082
+south-central asia,fibrosarcoma,360,247,725
+south-central asia,kaposi_sarcoma,183,19,627
+south-central asia,other_specified_sarcoma,1285,1018,1639
+south-central asia,unspecified_sarcoma,1191,710,1638
+south-eastern asia,rhabdomyosarcoma,725,467,1098
+south-eastern asia,fibrosarcoma,126,74,201
+south-eastern asia,kaposi_sarcoma,66,13,212
+south-eastern asia,other_specified_sarcoma,292,161,467
+south-eastern asia,unspecified_sarcoma,218,108,400
+western asia,rhabdomyosarcoma,377,273,504
+western asia,fibrosarcoma,71,43,107
+western asia,kaposi_sarcoma,26,7,77
+western asia,other_specified_sarcoma,217,139,323
+western asia,unspecified_sarcoma,51,27,81
+eastern europe,rhabdomyosarcoma,210,114,305
+eastern europe,fibrosarcoma,51,29,78
+eastern europe,kaposi_sarcoma,5,0,17
+eastern europe,other_specified_sarcoma,100,49,148
+eastern europe,unspecified_sarcoma,27,12,47
+northern europe,rhabdomyosarcoma,74,41,121
+northern europe,fibrosarcoma,16,6,29
+northern europe,kaposi_sarcoma,5,0,22
+northern europe,other_specified_sarcoma,40,21,60
+northern europe,unspecified_sarcoma,14,4,27
+southern europe,rhabdomyosarcoma,116,76,151
+southern europe,fibrosarcoma,12,3,22
+southern europe,kaposi_sarcoma,3,0,8
+southern europe,other_specified_sarcoma,51,32,74
+southern europe,unspecified_sarcoma,21,10,36
+western europe,rhabdomyosarcoma,145,89,192
+western europe,fibrosarcoma,17,7,28
+western europe,kaposi_sarcoma,3,0,12
+western europe,other_specified_sarcoma,70,40,99
+western europe,unspecified_sarcoma,17,8,27
+northern america,rhabdomyosarcoma,323,221,448
+northern america,fibrosarcoma,64,28,88
+northern america,kaposi_sarcoma,2,0,5
+northern america,other_specified_sarcoma,211,75,290
+northern america,unspecified_sarcoma,67,37,94
+caribbean,rhabdomyosarcoma,37,17,60
+caribbean,fibrosarcoma,8,2,17
+caribbean,kaposi_sarcoma,26,2,95
+caribbean,other_specified_sarcoma,22,9,44
+caribbean,unspecified_sarcoma,9,1,20
+central america,rhabdomyosarcoma,238,108,351
+central america,fibrosarcoma,65,30,98
+central america,kaposi_sarcoma,151,10,492
+central america,other_specified_sarcoma,118,37,235
+central america,unspecified_sarcoma,55,15,123
+south america,rhabdomyosarcoma,560,305,758
+south america,fibrosarcoma,138,89,194
+south america,kaposi_sarcoma,256,24,945
+south america,other_specified_sarcoma,272,159,386
+south america,unspecified_sarcoma,114,68,167
+oceania,rhabdomyosarcoma,11,2,23
+oceania,fibrosarcoma,5,0,13
+oceania,kaposi_sarcoma,20,1,62
+oceania,other_specified_sarcoma,12,2,24
+oceania,unspecified_sarcoma,3,0,8
+australia/new zealand,rhabdomyosarcoma,28,12,47
+australia/new zealand,fibrosarcoma,3,0,8
+australia/new zealand,kaposi_sarcoma,21,1,65
+australia/new zealand,other_specified_sarcoma,14,4,25
+australia/new zealand,unspecified_sarcoma,3,0,8

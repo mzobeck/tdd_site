@@ -1,0 +1,62 @@
+---
+title: "How to walk the unsexy path toward sophisticated Data Science in Global Health: Data Management"
+subtitle: "Data management is not sexy, but it's unbelievably important and worth the effort."
+author: "Mark Zobeck"
+date: 2022-03-18
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "unsexy-data-management"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+**Data science has a data problem.**
+
+In my last essay, I argued that because data management is boring, hard to do well, and just not sexy compared to the rest of data science, garbage data is a big problem in global health.
+
+The good news is that with a little effort your organization can collect beautiful, high-quality data! Here are 5 steps to design an optimal system for low-resource settings, where data are manually collected from paper charts by limited numbers of people.
+
+### Step 1: Identify the key questions your data need to answer
+
+Questions are the shining light at the end of the data management path. They should guide you every step of the way. Let the questions come from the people who will use your insights. Talk to your leadership, healthcare providers, program staff, and even patients. Even if you only answer one question, if it is valuable enough to the organization then the cost required to answer it will be worth its weight in gold. Find the right question to answer.
+
+### Step 2: Develop a framework to understand how to answer the question
+
+Your team needs to understand the various factors that influence the question you are trying to answer. There are several types of frameworks that can be helpful. Google "conceptual framework for monitoring and evaluation", "results framework", or "logic models" to learn more. Content experts should be intimately involved in the construction of the framework.
+
+### Step 3 - KEY STEP!: Select the right variables to answer the question
+
+This step is crucial for your success. From the framework, you should understand which variables will be important to answer the question. If you have limited resources to collect data, then you need to be extremely choosy about which variables to collect. Here are four points of advice for variable choice:
+
+-   Keep the variables per patient limited. An extremely rough guestimate is 20-30 data points per patient x 15 patients per week is probably the max for one person, although this can vary widely depending on the complexity of the data, how well the data are stored in the chart, and how easy the data are to enter into your database.
+
+-   Choose high signal, low noise variables. Dates are great. Easy to define, low measurement error, and chock full of information so that they can be combined in a lot of ways to give precise time spans. Things that are easy to identify and count are also nice (new cancer patients, easy to count; number of new pneumonia diagnoses each week, hard to count).
+
+-   Find the right level of specificity. If your data are too high level, they won't give a useful answer to your question. If they are too granular, the complexity will grind down the quality over time unless you have a lot of help. It is better to have a few accurate data points than a lot of garbage.
+
+-   Beware dynamic variables. Variables that change over time are a different animal to collect than variables you can collect once and store forever. Patient outcomes are a necessary dynamic variable that is worth collecting. Collect more at your own risk.
+
+### Step 4: Make a data dictionary and share it widely
+
+As precisely as you are able, define each variable. This is important especially when nonclinical personnel are collecting data. Precise definitions cut down on measurement error, which will make your analyses more accurate and precise. Provide standard answer choices as much as possible. Enforce a data convention. I recommend YYYY-MM-DD for all dates.
+
+### Step 5: Create a database. Avoid spreadsheets.
+
+Spreadsheets always seem like a good idea at first, but they have too many degrees of freedom and are highly likely to mutate over a year or two of use. Investigate Microsoft Access, REDCap, or DHIS2 to see if they meet your needs. The latter two are free and amazing. There are other software solutions out there as well. Make sure you have API access (your future sophisticated data science self will thank you). It is worth your time and effort to learn to use one and integrate it into your organization's operations.
+
+Each of these steps are powerful and incredibly effective in isolation, but together they will produce beautiful, high-quality data that will answer many questions to improve the care you provide to your patients.

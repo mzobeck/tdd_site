@@ -1,0 +1,91 @@
+---
+title: "The Winner's Curse"
+subtitle: "Losing while winning"
+author: "Mark Zobeck"
+date: 2020-12-04
+categories: ["Statistics & Heuristics"]
+tags: ["Statistics", "Reading the literature", "Thinking tools"]
+slug: "winners-curse"
+image: "cover_image.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = F, warning = F, cache = T, echo = FALSE)
+library(tidyverse)
+library(cowplot)
+library(scales)
+set.seed(99)
+
+```
+
+## That fuzzy feeling  
+When reading a study, have you ever found yourself skeptical of the "statistically significant" findings for reasons you can't quite identify? You've read the methods section, and it seems technically sound. The study question was interesting, the alternative hypothesis was plausible, the variables were sensibly chosen, the data was collected appropriately for the type of study with no apparent selection bias, and the statistical analysis was thoughtfully performed and interpreted with great care to not overgeneralize the findings. Despite all of the study's virtues, the low buzz of skepticism continued to rumble in the back of your mind. Where does this skepticism come from?   
+
+It may be that you have an intuitive grasp of an *inherent* problem with significance testing that makes inconsequential findings seem impressive.  Filtering results based on significance testing can induce a bias that inflates effect sizes, even if the study itself is conducted according to the highest standards of rigor. This overconfidence can produce large, publishable findings that will never replicate in follow-up investigations. This phenomenon is called "The Winner's Curse", which takes its name from the finding that winners of auctions tend to overpay for their winnings. Even if you are a thoughtful researcher who cares about replicability, you can sill lose when you think you've won due to the possible overconfidence induced by significance testing. 
+
+Let's look at an example to build intuition about when a finding may be at risk from suffering The Winner's Curse. 
+
+This example is taken from Andrew Gelman's and colleagues' wonderful book [**Regression and Other Stories**](https://www.amazon.com/Regression-Stories-Analytical-Methods-Research/dp/110702398X). For a different take on a similar phenomenom, see [Gelman's blog](https://statmodeling.stat.columbia.edu/2011/09/10/the-statistical-significance-filter/). For a more technical treatment of the subject, [see this paper](https://arxiv.org/pdf/1702.00556.pdf). 
+
+## Losing while winning  
+Suppose I conduct a study looking at a blood pressure lowering medicine in kids less than 3 years old. I'll run a randomized, double-blind, placebo controlled trial and look at the difference of means of the two groups. I'm only interested in the medicine's ability to lower blood pressure, so I plan to do a 1-sided t-test for the hypothesis that the placebo group's blood pressure minus the treatment group's is greater than 0 (i.e. treatment lowers blood pressure) and test for significance at the $\alpha = 0.05$ level.  
+
+Since we have omniscient control of this fake study, suppose the *true* effect of the medicine will on average lower the blood pressure by 2 mm Hg. So, in reality the treatment "works" even if the effect is small. In the real world the null hypothesis of no association should be rejected since we know the true effect of the treatment is different than the placebo. Crucially, suppose I won't care that the children scream bloody murder half the time I try to measure the blood pressure (the joys of pediatrics) and will accept whatever readings I get. No one's got time to try to convince a 2-year-old that blood pressure machines aren't scary. I anticipate that the standard deviation will be rather large in both groups.  
+
+Still in statistician god-mode, let's suppose under these conditions with the sample size and the variability of the data, the standard error of the mean for this study will be 8 mm Hg.  
+
+Now the central questions: given the true effect of 2 mm Hg and the study standard error of 8 mm Hg, how large of an effect will we need to estimate to reject the null hypothesis? Let's look at the following figure to find out. 
+
+```{r}
+mean.1 <-2
+sd.1 <- 8
+
+x <- seq(from = mean.1 - 4*sd.1, to = mean.1 + 4*sd.1, by = .01)
+  
+sim <- tibble(x = x, y = dnorm(x, mean = mean.1, sd = sd.1))
+
+test <- tibble(t = rnorm(1e5, mean.1, sd.1), 
+               p = rnorm(1e5, 0, sd.1))
+```
+
+```{r}
+ggplot(sim, aes(x = x, y = y)) + 
+  geom_line() +
+  geom_area(data = sim %>%  filter( x > qnorm(0.95, 0, sd.1)),
+            aes(y=y), fill = "red", alpha = 0.5) +
+  geom_vline(xintercept = 2, color = "blue", alpha = 0.8) +
+    geom_vline(xintercept = 0, color = "black", alpha = 0.4, linetype = 2) +
+  theme_minimal() +
+  scale_x_continuous(breaks = c(-30,-20,-10,0,10,20,30)) + 
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  labs(y = NULL, 
+       x = "\nEstimated difference in mean BP between placebo and treatment groups (mm Hg)",
+       subtitle = "When you think you've won...but you've lost.",
+       title = "The Winner's Curse",
+       caption = "The black curve is the sampling distribution for an estimated effect of some intervention with a the true difference is \n2 mm Hg (blue line) and the standard error from the study is 8 mm Hg. The black dotted line is the null hypothesis of no effect.\nThe shaded red region indicates the area >= the 95th percentile from the null hypothesis and represents \"statistically significant\"\nresults. If your estimated difference falls in this region, you've lost even though your estimate from the study says you've won\nbecause your estimate is 6 to 9 times too high!") +
+  theme(axis.text.y=element_blank(),
+          axis.ticks.y=element_blank(),
+      panel.grid.minor=element_blank(),
+      panel.grid.major = element_blank(),
+        plot.caption = element_text(hjust = 0),
+      axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
+      plot.title = element_text(face = "bold")) +
+  annotate(
+    geom = "curve", x = +19, y = 0.012, xend = +17, yend = 0.002, 
+    curvature = .3, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = +16, y = 0.016, label = "Your estimate is 6 to 9\ntimes too high!", hjust = "left") 
+
+ggsave("cover_image.png", width = 8, height = 6, dpi = 300)
+```
+
+The black curve in the figure is the sampling distribution for the estimated difference in means between the placebo and treatment groups. This is the curve we would get if we ran the exact same study 10,000 times with different samples from the same population and calculated the average difference between the groups each time. Since we can't do this is in real life, I simulated it on my computer. The true difference that we set is 2 mm Hg (blue line) and the standard error from the study is 8 mm Hg, which is why the curve is so spread out. Since the kids scream half the time the blood pressure is measured, the difference in means can vary from one simulation to the next. This is why some studies could give us a negative effect estimate (i.e. the treatment raises blood pressure) or why the size of the effect estimate could be much larger than 2 mm Hg. In fact, the shaded red region starting at 12 mm Hg represents the estimates at or greater than the 95th percentile of all possible estimates if the null hypothesis was true. This area represents "statistically significant" results and comprises `r paste0(round(mean(test$t >= qnorm(0.95, 0, sd.1))*100,1),"%")` of possible studies. In other words, there is an `r paste0(round(mean(test$t >= qnorm(0.95, 0, sd.1))*100,1),"%")`, or roughly 1 in 12, chance my study estimates an effect size in this region. 
+
+Suppose I complete this study and get very excited because I got an average difference of 16 mm Hg (p = 0.04)! I'll publish the finding straight away in the fanciest journal I can find. Why is this a problem? If we take an average difference of 16 mm Hg as the *effect size*, then it is 8 times larger than the real effect of 2 mm Hg and in reality this impressive looking finding is clinically meaningless! Lowering the blood pressure by 16 mm Hg for a 3 year old can be the difference between severe hypertension and a safe level, but lowering it by 2 mm Hg doesn't mean much at all.  
+
+This finding also won't replicate on follow-up investigations. Or even worse it will replicate in a way that reifies the inflated estimates. Suppose 12 similar follow-up studies were done, then it's likely 1 of the other 12 will also give "significant" findings of effect. It's possible that, due to publication bias, only the two significant studies are published, or at least published in a journal of note. One can read the literature and then conclude that these two technically sound studies that each giving similar effect estimates must represent good evidence of meaningful effect!  
+
+## Avoiding the Curse  
+The Winner's Curse can cause the size of "statistically significant" effect estimates to be inflated and can turn meaningless true differences into meaningful-but-false-but-publishable findings. A study is more at risk of suffering from a Winner's Curse when the true effect size is small or the variability of the outcome variable is large. If you work in or read the literature from a field where effect sizes are small and/or measurement error is large, such as psychology, sociology, political science, or epidemiology, then you should take note of this danger!   
+
+To look for markings of the Curse, first think about how precisely can the outcome of interest be measured. Can it be measured precisely like a physics experiment? Or is there expected noise in the measurement, like measuring blood pressure in a screaming 2-year-old? If the outcome tends toward the imprecise range of the spectrum, the Curse is more likely. Also estimate for yourself a range of plausible effect sizes from the intervention being studied. If you think most plausible effect estimates are small, again the Curse is more likely. Finally think about how large is the possible measurement error compared to the true effect. If the supposed measurement error is many times larger than the plausible true effect size (like 8:2 in our example), the Winner's Curse is going to haunt any of your "significant" findings.  

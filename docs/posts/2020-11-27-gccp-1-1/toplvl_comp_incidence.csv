@@ -1,0 +1,217 @@
+region,disease,incidence,lower,upper
+eastern africa,bone_tumours,2375,1357,3835
+southern africa,bone_tumours,297,186,453
+western africa,bone_tumours,5175,2790,17603
+northern africa,bone_tumours,1026,745,1271
+eastern asia,bone_tumours,1737,929,2753
+south-central asia,bone_tumours,6776,5731,8131
+south-eastern asia,bone_tumours,1528,1029,2383
+western asia,bone_tumours,627,492,788
+eastern europe,bone_tumours,303,221,377
+northern europe,bone_tumours,101,70,137
+southern europe,bone_tumours,182,131,231
+western europe,bone_tumours,219,171,270
+northern america,bone_tumours,451,339,545
+caribbean,bone_tumours,73,45,111
+central america,bone_tumours,461,262,691
+south america,bone_tumours,1034,772,1330
+oceania,bone_tumours,34,14,57
+australia/new zealand,bone_tumours,35,19,57
+eastern africa,carcinoma_melanoma,2264,1750,3325
+southern africa,carcinoma_melanoma,227,143,379
+western africa,carcinoma_melanoma,3233,2109,6198
+northern africa,carcinoma_melanoma,838,658,1081
+eastern asia,carcinoma_melanoma,1309,850,1878
+south-central asia,carcinoma_melanoma,3978,3117,4996
+south-eastern asia,carcinoma_melanoma,1334,1011,1725
+western asia,carcinoma_melanoma,469,375,578
+eastern europe,carcinoma_melanoma,256,184,344
+northern europe,carcinoma_melanoma,68,46,94
+southern europe,carcinoma_melanoma,146,112,188
+western europe,carcinoma_melanoma,187,142,243
+northern america,carcinoma_melanoma,444,346,532
+caribbean,carcinoma_melanoma,85,54,123
+central america,carcinoma_melanoma,542,379,782
+south america,carcinoma_melanoma,754,583,937
+oceania,carcinoma_melanoma,17,7,32
+australia/new zealand,carcinoma_melanoma,30,14,51
+eastern africa,cns_neoplasms,2904,2164,3892
+southern africa,cns_neoplasms,796,564,1011
+western africa,cns_neoplasms,3475,2351,6696
+northern africa,cns_neoplasms,2168,1772,2665
+eastern asia,cns_neoplasms,6418,4366,8214
+south-central asia,cns_neoplasms,13806,11751,15879
+south-eastern asia,cns_neoplasms,3232,2583,4005
+western asia,cns_neoplasms,1855,1502,2269
+eastern europe,cns_neoplasms,1384,1111,1630
+northern europe,cns_neoplasms,622,507,729
+southern europe,cns_neoplasms,777,669,897
+western europe,cns_neoplasms,942,799,1105
+northern america,cns_neoplasms,2560,2243,2865
+caribbean,cns_neoplasms,249,185,326
+central america,cns_neoplasms,1369,971,1811
+south america,cns_neoplasms,3093,2492,3666
+oceania,cns_neoplasms,79,47,113
+australia/new zealand,cns_neoplasms,121,82,166
+eastern africa,germ_cell_tumours,1117,794,1600
+southern africa,germ_cell_tumours,253,164,461
+western africa,germ_cell_tumours,2299,1384,5599
+northern africa,germ_cell_tumours,355,257,586
+eastern asia,germ_cell_tumours,2709,1720,3662
+south-central asia,germ_cell_tumours,3615,2974,4507
+south-eastern asia,germ_cell_tumours,1427,1100,1848
+western asia,germ_cell_tumours,370,285,479
+eastern europe,germ_cell_tumours,197,141,259
+northern europe,germ_cell_tumours,70,48,96
+southern europe,germ_cell_tumours,106,79,135
+western europe,germ_cell_tumours,132,99,166
+northern america,germ_cell_tumours,352,274,426
+caribbean,germ_cell_tumours,48,25,86
+central america,germ_cell_tumours,542,291,818
+south america,germ_cell_tumours,757,591,935
+oceania,germ_cell_tumours,25,9,47
+australia/new zealand,germ_cell_tumours,28,13,44
+eastern africa,hepatic_tumours,832,509,1463
+southern africa,hepatic_tumours,128,84,191
+western africa,hepatic_tumours,1700,904,4686
+northern africa,hepatic_tumours,322,220,453
+eastern asia,hepatic_tumours,981,533,1425
+south-central asia,hepatic_tumours,1610,1295,1931
+south-eastern asia,hepatic_tumours,792,535,1131
+western asia,hepatic_tumours,149,98,199
+eastern europe,hepatic_tumours,112,66,158
+northern europe,hepatic_tumours,36,19,54
+southern europe,hepatic_tumours,69,41,148
+western europe,hepatic_tumours,49,28,70
+northern america,hepatic_tumours,176,110,231
+caribbean,hepatic_tumours,17,7,30
+central america,hepatic_tumours,250,133,408
+south america,hepatic_tumours,308,218,394
+oceania,hepatic_tumours,10,2,22
+australia/new zealand,hepatic_tumours,11,4,21
+eastern africa,leukaemia,6402,4437,9422
+southern africa,leukaemia,1333,949,1729
+western africa,leukaemia,4229,2819,6683
+northern africa,leukaemia,3533,2378,4640
+eastern asia,leukaemia,14752,11034,19851
+south-central asia,leukaemia,40678,34395,48175
+south-eastern asia,leukaemia,13028,9683,18099
+western asia,leukaemia,4182,3299,5098
+eastern europe,leukaemia,2361,1751,3051
+northern europe,leukaemia,851,714,994
+southern europe,leukaemia,1135,967,1277
+western europe,leukaemia,1357,1179,1566
+northern america,leukaemia,3431,3165,3790
+caribbean,leukaemia,446,294,664
+central america,leukaemia,4454,2797,5828
+south america,leukaemia,7290,5631,8521
+oceania,leukaemia,176,93,282
+australia/new zealand,leukaemia,306,249,397
+eastern africa,lymphoma_related,12092,8363,17534
+southern africa,lymphoma_related,1035,785,1342
+western africa,lymphoma_related,23277,14885,43037
+northern africa,lymphoma_related,2745,2078,3357
+eastern asia,lymphoma_related,3128,2190,4179
+south-central asia,lymphoma_related,15298,12502,18291
+south-eastern asia,lymphoma_related,2579,1923,3360
+western asia,lymphoma_related,1973,1611,2359
+eastern europe,lymphoma_related,835,614,1057
+northern europe,lymphoma_related,241,181,305
+southern europe,lymphoma_related,484,395,577
+western europe,lymphoma_related,523,416,609
+northern america,lymphoma_related,1152,959,1340
+caribbean,lymphoma_related,208,133,304
+central america,lymphoma_related,1314,977,1735
+south america,lymphoma_related,2569,1991,3137
+oceania,lymphoma_related,40,19,65
+australia/new zealand,lymphoma_related,74,44,103
+eastern africa,neuroblastoma,782,440,1508
+eastern africa,retinoblastoma,2310,1540,3752
+southern africa,neuroblastoma,293,173,585
+southern africa,retinoblastoma,515,251,907
+western africa,neuroblastoma,1410,757,2196
+western africa,retinoblastoma,7824,3725,15926
+northern africa,neuroblastoma,1228,835,1606
+northern africa,retinoblastoma,460,298,642
+eastern asia,neuroblastoma,3048,1588,4467
+eastern asia,retinoblastoma,1345,378,2221
+south-central asia,neuroblastoma,3256,1987,4285
+south-central asia,retinoblastoma,3504,2476,4785
+south-eastern asia,neuroblastoma,1049,604,1592
+south-eastern asia,retinoblastoma,1393,878,2003
+western asia,neuroblastoma,784,509,1059
+western asia,retinoblastoma,339,216,463
+eastern europe,neuroblastoma,557,347,751
+eastern europe,retinoblastoma,176,105,286
+northern europe,neuroblastoma,152,80,210
+northern europe,retinoblastoma,60,32,87
+southern europe,neuroblastoma,268,200,329
+southern europe,retinoblastoma,79,51,107
+western europe,neuroblastoma,303,201,390
+western europe,retinoblastoma,99,65,136
+northern america,neuroblastoma,753,619,896
+northern america,retinoblastoma,269,195,349
+caribbean,neuroblastoma,96,53,155
+caribbean,retinoblastoma,42,20,80
+central america,neuroblastoma,255,120,386
+central america,retinoblastoma,302,144,434
+south america,neuroblastoma,714,409,968
+south america,retinoblastoma,657,461,906
+oceania,neuroblastoma,26,10,50
+oceania,retinoblastoma,16,2,32
+australia/new zealand,neuroblastoma,58,34,89
+australia/new zealand,retinoblastoma,26,11,49
+eastern africa,other_tot,3311,2099,4722
+southern africa,other_tot,67,23,149
+western africa,other_tot,8554,4503,16436
+northern africa,other_tot,466,265,607
+eastern asia,other_tot,689,250,1303
+south-central asia,other_tot,3418,2247,5750
+south-eastern asia,other_tot,1063,662,1689
+western asia,other_tot,124,73,195
+eastern europe,other_tot,93,54,140
+northern europe,other_tot,15,6,27
+southern europe,other_tot,16,6,28
+western europe,other_tot,16,5,30
+northern america,other_tot,54,34,76
+caribbean,other_tot,41,18,65
+central america,other_tot,406,157,877
+south america,other_tot,304,173,448
+oceania,other_tot,7,2,17
+australia/new zealand,other_tot,2,0,6
+eastern africa,renal_tumours,3956,2805,6066
+southern africa,renal_tumours,920,603,1458
+western africa,renal_tumours,9008,5718,14074
+northern africa,renal_tumours,1263,853,1750
+eastern asia,renal_tumours,1349,559,2106
+south-central asia,renal_tumours,4982,3428,6221
+south-eastern asia,renal_tumours,1226,834,1776
+western asia,renal_tumours,607,396,881
+eastern europe,renal_tumours,498,311,685
+northern europe,renal_tumours,138,77,191
+southern europe,renal_tumours,192,140,241
+western europe,renal_tumours,249,185,313
+northern america,renal_tumours,576,396,692
+caribbean,renal_tumours,88,47,143
+central america,renal_tumours,417,199,610
+south america,renal_tumours,921,618,1263
+oceania,renal_tumours,19,4,36
+australia/new zealand,renal_tumours,42,14,69
+eastern africa,soft_tissue_sarcoma,9408,5562,16697
+southern africa,soft_tissue_sarcoma,997,610,1789
+western africa,soft_tissue_sarcoma,5949,4060,9009
+northern africa,soft_tissue_sarcoma,1141,833,1643
+eastern asia,soft_tissue_sarcoma,2141,1277,2943
+south-central asia,soft_tissue_sarcoma,5525,4465,6680
+south-eastern asia,soft_tissue_sarcoma,1427,1032,1928
+western asia,soft_tissue_sarcoma,742,577,929
+eastern europe,soft_tissue_sarcoma,393,269,508
+northern europe,soft_tissue_sarcoma,150,103,202
+southern europe,soft_tissue_sarcoma,202,151,247
+western europe,soft_tissue_sarcoma,251,196,317
+northern america,soft_tissue_sarcoma,667,530,818
+caribbean,soft_tissue_sarcoma,103,57,174
+central america,soft_tissue_sarcoma,627,393,972
+south america,soft_tissue_sarcoma,1341,915,2047
+oceania,soft_tissue_sarcoma,50,24,95
+australia/new zealand,soft_tissue_sarcoma,68,39,116

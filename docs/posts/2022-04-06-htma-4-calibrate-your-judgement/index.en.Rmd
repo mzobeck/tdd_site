@@ -1,0 +1,72 @@
+---
+title: "How to measure anything in Global Health: 4. Calibrate your judgment"
+subtitle: "Calibrate and celebrate!"
+author: "Mark Zobeck"
+date: 2022-04-06
+categories: ["Data Science + Global Health"]
+tags: ["HTMA-GH"]
+slug: "htma-4-calibrate-your-judgement"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+**Your personal calibration is one of the most important measurement skills you've never heard of.**
+
+Difficult measurement problems in Global Health require experts to provide an initial estimate of uncertainty about the variables in the process that produce an outcome. For instance, suppose to want to use a new treatment, drug X, for a cancer, but we are concerned the drug will cause harm through serious side effects. As a first step to measure this concern, an expert should estimate her 90% uncertainty interval of the probability that the drug causes harm.
+
+What in the world is an uncertainty interval, and how will we know if the expert's estimates are any good?
+
+Like the last few posts, this content is from the delightful book *How to Measure Anything* by Douglas Hubbard.
+
+### **Uncertainty intervals are ranges of estimated variable values**
+
+These ranges should capture all of the plausible values that a particular variable may have. If we say it is a *90%* uncertainty interval, then the range of values should be wide enough so that if 100 such intervals were constructed, 90 of them would contain the correct value. These intervals should capture the expert's uncertainty about the value while still signifying the range of plausible values the variable may take.
+
+For the example with drug X, our expert may use her clinical experience with the drug in other contexts to estimate the rate of rare but serious side effects is between 1 per 100 doses to 10 per 100 doses.
+
+Great, we have an interval, but how do we know if it is truly a *90%* uncertainty interval?
+
+### **Experts' judgment should be *calibrated***
+
+Calibration means that the uncertainty interval performs as expected.
+
+Calibrated 70% uncertainty intervals mean that truly 7 in 10 such intervals contain the true value. If 4/10 intervals contained the true value, then the expert is overconfident. If 9/10 intervals contain the true values, then the expert might be underconfident.
+
+Similarly, for true/false questions, calibration can be estimated by assigning your subjective probability that your answer choice is correct. If you answer questions that you are 60% confident in, that means you believe you would answer 6 in 10 such questions correctly. If you answer 4/10 such questions correctly, you're overconfident, if you answer 9/10 correctly, you're underconfidence.
+
+### **Calibrate yourself**
+
+How do you calibrate yourself?
+
+Test your calibration. No literally, I mean answer questions and produce 90% uncertainty intervals or estimate your confidence in your true/false answers and see how you do.
+
+Here are two questions from HTMA to get you started:
+
+> **Assing a 90% uncertainty interval:** How many inches long is the average business card?
+>
+> **Indicate true or false and the probability you're correct:** A gallon of oil weighs less than a gallon of water.
+
+Random questions, but if you think through what you already know, you can come up with a range of plausible values or a probabilistic estimate of your confidence.
+
+These are just example questions. [At HTMA's website](https://www.howtomeasureanything.com/3rd-edition/), you can find several tests of both types of questions and their answers so that you can assess your own calibration!
+
+There is *a lot* more to this story and calibration can certainly go wrong. We will discuss more in future posts, but for now, I encourage you to go take a test and assess your own calibration.
+
+I'll admit, I was woefully overconfident on my first go around.
+
+But that is why we calibrate!

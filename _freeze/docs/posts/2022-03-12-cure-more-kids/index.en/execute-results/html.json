@@ -1,0 +1,16 @@
+{
+  "hash": "bd6559f92dae5ddb4acb0f347ca6d6a5",
+  "result": {
+    "markdown": "---\ntitle: \"The single best way to cure more childhood cancers\"\nauthor: \"Mark Zobeck\"\ndate: 2022-03-12\nsubtitle: \"Focusing on the most pressing problems that can improve outcomes right now.\"\ncategories: [\"Global PHO\"]\ntags: [\"Global Onc\"]\nslug: \"cure-more-kids-with-cancer\"\n---\n\n::: {.cell}\n\n:::\n\n\nThe best way to cure more childhood cancers is to develop better treatments, Right?\n\n...Right?\n\nImplicitly or explicitly, this is what most people believe. And it's no wonder given our astounding success in developing effective therapies over the last six decades. In 1960, survival for acute lymphoblastic leukemia, a type of blood cancer, was \\<10%. Then a group of heroic parents, doctors, nurses, scientists, philanthropists, and politicians joined forces and conducted the first large collaborative clinical trial to identify better treatments. Over the decades, we saw survival rise to 30% in the early 70s, 75% in the 80s, and over 85% today! It's not just leukemia. In high-income countries like the United States, we can cure 85% of *all* cancer cases in kids. This is an astounding medical and scientific success story!\n\nUnfortunately, this success has created a belief that the most effective way to save lives *now* is to conduct more trials.\n\nThis is not true.\n\n## **Most children with cancer are not cured because they do not receive the treatments that can cure them.**\n\nAround 90% of children with cancer live in low- and middle-income countries where over half of cases may not be diagnosed, where treatment may not be available, and where cure rates can be as low as 10%.\n\nThis is a stunning disparity.\n\nWe, the medical community, have developed treatments that can cure up to 85% of cancer cases, yet the *vast* majority of children do not receive the treatments that we know they need.\n\nTo save more lives ***today**,* the most pressing question to answer is:\n\n> How do we deliver effective treatments to the kids who need them?\n\n## **Focusing on care delivery shows us the most important challenges to overcome**\n\n-   Medication availability\n\n-   Treatment quality\n\n-   Supportive care\n\n-   Supply chains\n\n-   Staffing\n\nThese are very different types of problems than developmental therapeutics, but the answer to each one can save many lives.\n\nDon't get me wrong, we need better therapies so that we can cure *every* child with cancer. We need clinical trials.\n\nBut to bring about a day when every child in the world receives the best treatments possible, the global oncology community must answer the treatment delivery question.\n",
+    "supporting": [
+      "index.en_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

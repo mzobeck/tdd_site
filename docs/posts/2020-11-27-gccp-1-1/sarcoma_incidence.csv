@@ -1,0 +1,343 @@
+region,disease,data,val
+global,soft_tissue_sarcoma,incidence,31182
+global,soft_tissue_sarcoma,lower,25548
+global,soft_tissue_sarcoma,upper,39995
+global,rhabdomyosarcoma,incidence,10919
+global,rhabdomyosarcoma,lower,9114
+global,rhabdomyosarcoma,upper,14008
+global,fibrosarcoma,incidence,2298
+global,fibrosarcoma,lower,1767
+global,fibrosarcoma,upper,3212
+global,kaposi_sarcoma,incidence,8882
+global,kaposi_sarcoma,lower,4865
+global,kaposi_sarcoma,upper,16551
+global,other_specified_sarcoma,incidence,5728
+global,other_specified_sarcoma,lower,4537
+global,other_specified_sarcoma,upper,7065
+global,unspecified_sarcoma,incidence,3354
+global,unspecified_sarcoma,lower,2573
+global,unspecified_sarcoma,upper,4671
+eastern africa,soft_tissue_sarcoma,incidence,9408
+eastern africa,soft_tissue_sarcoma,lower,5562
+eastern africa,soft_tissue_sarcoma,upper,16697
+eastern africa,rhabdomyosarcoma,incidence,1858
+eastern africa,rhabdomyosarcoma,lower,1023
+eastern africa,rhabdomyosarcoma,upper,3346
+eastern africa,fibrosarcoma,incidence,354
+eastern africa,fibrosarcoma,lower,158
+eastern africa,fibrosarcoma,upper,730
+eastern africa,kaposi_sarcoma,incidence,6081
+eastern africa,kaposi_sarcoma,lower,2794
+eastern africa,kaposi_sarcoma,upper,13236
+eastern africa,other_specified_sarcoma,incidence,614
+eastern africa,other_specified_sarcoma,lower,304
+eastern africa,other_specified_sarcoma,upper,1030
+eastern africa,unspecified_sarcoma,incidence,501
+eastern africa,unspecified_sarcoma,lower,287
+eastern africa,unspecified_sarcoma,upper,834
+southern africa,soft_tissue_sarcoma,incidence,997
+southern africa,soft_tissue_sarcoma,lower,610
+southern africa,soft_tissue_sarcoma,upper,1789
+southern africa,rhabdomyosarcoma,incidence,342
+southern africa,rhabdomyosarcoma,lower,193
+southern africa,rhabdomyosarcoma,upper,600
+southern africa,fibrosarcoma,incidence,51
+southern africa,fibrosarcoma,lower,22
+southern africa,fibrosarcoma,upper,117
+southern africa,kaposi_sarcoma,incidence,479
+southern africa,kaposi_sarcoma,lower,173
+southern africa,kaposi_sarcoma,upper,1136
+southern africa,other_specified_sarcoma,incidence,96
+southern africa,other_specified_sarcoma,lower,42
+southern africa,other_specified_sarcoma,upper,198
+southern africa,unspecified_sarcoma,incidence,28
+southern africa,unspecified_sarcoma,lower,12
+southern africa,unspecified_sarcoma,upper,56
+western africa,soft_tissue_sarcoma,incidence,5949
+western africa,soft_tissue_sarcoma,lower,4060
+western africa,soft_tissue_sarcoma,upper,9009
+western africa,rhabdomyosarcoma,incidence,1951
+western africa,rhabdomyosarcoma,lower,975
+western africa,rhabdomyosarcoma,upper,3929
+western africa,fibrosarcoma,incidence,620
+western africa,fibrosarcoma,lower,235
+western africa,fibrosarcoma,upper,1401
+western africa,kaposi_sarcoma,incidence,1220
+western africa,kaposi_sarcoma,lower,507
+western africa,kaposi_sarcoma,upper,3186
+western africa,other_specified_sarcoma,incidence,1413
+western africa,other_specified_sarcoma,lower,691
+western africa,other_specified_sarcoma,upper,2588
+western africa,unspecified_sarcoma,incidence,745
+western africa,unspecified_sarcoma,lower,363
+western africa,unspecified_sarcoma,upper,2095
+northern africa,soft_tissue_sarcoma,incidence,1141
+northern africa,soft_tissue_sarcoma,lower,833
+northern africa,soft_tissue_sarcoma,upper,1643
+northern africa,rhabdomyosarcoma,incidence,468
+northern africa,rhabdomyosarcoma,lower,300
+northern africa,rhabdomyosarcoma,upper,652
+northern africa,fibrosarcoma,incidence,137
+northern africa,fibrosarcoma,lower,91
+northern africa,fibrosarcoma,upper,198
+northern africa,kaposi_sarcoma,incidence,231
+northern africa,kaposi_sarcoma,lower,36
+northern africa,kaposi_sarcoma,upper,632
+northern africa,other_specified_sarcoma,incidence,190
+northern africa,other_specified_sarcoma,lower,96
+northern africa,other_specified_sarcoma,upper,287
+northern africa,unspecified_sarcoma,incidence,115
+northern africa,unspecified_sarcoma,lower,68
+northern africa,unspecified_sarcoma,upper,185
+eastern asia,soft_tissue_sarcoma,incidence,2141
+eastern asia,soft_tissue_sarcoma,lower,1277
+eastern asia,soft_tissue_sarcoma,upper,2943
+eastern asia,rhabdomyosarcoma,incidence,950
+eastern asia,rhabdomyosarcoma,lower,315
+eastern asia,rhabdomyosarcoma,upper,1556
+eastern asia,fibrosarcoma,incidence,202
+eastern asia,fibrosarcoma,lower,58
+eastern asia,fibrosarcoma,upper,325
+eastern asia,kaposi_sarcoma,incidence,103
+eastern asia,kaposi_sarcoma,lower,10
+eastern asia,kaposi_sarcoma,upper,365
+eastern asia,other_specified_sarcoma,incidence,712
+eastern asia,other_specified_sarcoma,lower,298
+eastern asia,other_specified_sarcoma,upper,1089
+eastern asia,unspecified_sarcoma,incidence,174
+eastern asia,unspecified_sarcoma,lower,67
+eastern asia,unspecified_sarcoma,upper,286
+south-central asia,soft_tissue_sarcoma,incidence,5525
+south-central asia,soft_tissue_sarcoma,lower,4465
+south-central asia,soft_tissue_sarcoma,upper,6680
+south-central asia,rhabdomyosarcoma,incidence,2507
+south-central asia,rhabdomyosarcoma,lower,1493
+south-central asia,rhabdomyosarcoma,upper,3082
+south-central asia,fibrosarcoma,incidence,360
+south-central asia,fibrosarcoma,lower,247
+south-central asia,fibrosarcoma,upper,725
+south-central asia,kaposi_sarcoma,incidence,183
+south-central asia,kaposi_sarcoma,lower,19
+south-central asia,kaposi_sarcoma,upper,627
+south-central asia,other_specified_sarcoma,incidence,1285
+south-central asia,other_specified_sarcoma,lower,1018
+south-central asia,other_specified_sarcoma,upper,1639
+south-central asia,unspecified_sarcoma,incidence,1191
+south-central asia,unspecified_sarcoma,lower,710
+south-central asia,unspecified_sarcoma,upper,1638
+south-eastern asia,soft_tissue_sarcoma,incidence,1427
+south-eastern asia,soft_tissue_sarcoma,lower,1032
+south-eastern asia,soft_tissue_sarcoma,upper,1928
+south-eastern asia,rhabdomyosarcoma,incidence,725
+south-eastern asia,rhabdomyosarcoma,lower,467
+south-eastern asia,rhabdomyosarcoma,upper,1098
+south-eastern asia,fibrosarcoma,incidence,126
+south-eastern asia,fibrosarcoma,lower,74
+south-eastern asia,fibrosarcoma,upper,201
+south-eastern asia,kaposi_sarcoma,incidence,66
+south-eastern asia,kaposi_sarcoma,lower,13
+south-eastern asia,kaposi_sarcoma,upper,212
+south-eastern asia,other_specified_sarcoma,incidence,292
+south-eastern asia,other_specified_sarcoma,lower,161
+south-eastern asia,other_specified_sarcoma,upper,467
+south-eastern asia,unspecified_sarcoma,incidence,218
+south-eastern asia,unspecified_sarcoma,lower,108
+south-eastern asia,unspecified_sarcoma,upper,400
+western asia,soft_tissue_sarcoma,incidence,742
+western asia,soft_tissue_sarcoma,lower,577
+western asia,soft_tissue_sarcoma,upper,929
+western asia,rhabdomyosarcoma,incidence,377
+western asia,rhabdomyosarcoma,lower,273
+western asia,rhabdomyosarcoma,upper,504
+western asia,fibrosarcoma,incidence,71
+western asia,fibrosarcoma,lower,43
+western asia,fibrosarcoma,upper,107
+western asia,kaposi_sarcoma,incidence,26
+western asia,kaposi_sarcoma,lower,7
+western asia,kaposi_sarcoma,upper,77
+western asia,other_specified_sarcoma,incidence,217
+western asia,other_specified_sarcoma,lower,139
+western asia,other_specified_sarcoma,upper,323
+western asia,unspecified_sarcoma,incidence,51
+western asia,unspecified_sarcoma,lower,27
+western asia,unspecified_sarcoma,upper,81
+eastern europe,soft_tissue_sarcoma,incidence,393
+eastern europe,soft_tissue_sarcoma,lower,269
+eastern europe,soft_tissue_sarcoma,upper,508
+eastern europe,rhabdomyosarcoma,incidence,210
+eastern europe,rhabdomyosarcoma,lower,114
+eastern europe,rhabdomyosarcoma,upper,305
+eastern europe,fibrosarcoma,incidence,51
+eastern europe,fibrosarcoma,lower,29
+eastern europe,fibrosarcoma,upper,78
+eastern europe,kaposi_sarcoma,incidence,5
+eastern europe,kaposi_sarcoma,lower,0
+eastern europe,kaposi_sarcoma,upper,17
+eastern europe,other_specified_sarcoma,incidence,100
+eastern europe,other_specified_sarcoma,lower,49
+eastern europe,other_specified_sarcoma,upper,148
+eastern europe,unspecified_sarcoma,incidence,27
+eastern europe,unspecified_sarcoma,lower,12
+eastern europe,unspecified_sarcoma,upper,47
+northern europe,soft_tissue_sarcoma,incidence,150
+northern europe,soft_tissue_sarcoma,lower,103
+northern europe,soft_tissue_sarcoma,upper,202
+northern europe,rhabdomyosarcoma,incidence,74
+northern europe,rhabdomyosarcoma,lower,41
+northern europe,rhabdomyosarcoma,upper,121
+northern europe,fibrosarcoma,incidence,16
+northern europe,fibrosarcoma,lower,6
+northern europe,fibrosarcoma,upper,29
+northern europe,kaposi_sarcoma,incidence,5
+northern europe,kaposi_sarcoma,lower,0
+northern europe,kaposi_sarcoma,upper,22
+northern europe,other_specified_sarcoma,incidence,40
+northern europe,other_specified_sarcoma,lower,21
+northern europe,other_specified_sarcoma,upper,60
+northern europe,unspecified_sarcoma,incidence,14
+northern europe,unspecified_sarcoma,lower,4
+northern europe,unspecified_sarcoma,upper,27
+southern europe,soft_tissue_sarcoma,incidence,202
+southern europe,soft_tissue_sarcoma,lower,151
+southern europe,soft_tissue_sarcoma,upper,247
+southern europe,rhabdomyosarcoma,incidence,116
+southern europe,rhabdomyosarcoma,lower,76
+southern europe,rhabdomyosarcoma,upper,151
+southern europe,fibrosarcoma,incidence,12
+southern europe,fibrosarcoma,lower,3
+southern europe,fibrosarcoma,upper,22
+southern europe,kaposi_sarcoma,incidence,3
+southern europe,kaposi_sarcoma,lower,0
+southern europe,kaposi_sarcoma,upper,8
+southern europe,other_specified_sarcoma,incidence,51
+southern europe,other_specified_sarcoma,lower,32
+southern europe,other_specified_sarcoma,upper,74
+southern europe,unspecified_sarcoma,incidence,21
+southern europe,unspecified_sarcoma,lower,10
+southern europe,unspecified_sarcoma,upper,36
+western europe,soft_tissue_sarcoma,incidence,251
+western europe,soft_tissue_sarcoma,lower,196
+western europe,soft_tissue_sarcoma,upper,317
+western europe,rhabdomyosarcoma,incidence,145
+western europe,rhabdomyosarcoma,lower,89
+western europe,rhabdomyosarcoma,upper,192
+western europe,fibrosarcoma,incidence,17
+western europe,fibrosarcoma,lower,7
+western europe,fibrosarcoma,upper,28
+western europe,kaposi_sarcoma,incidence,3
+western europe,kaposi_sarcoma,lower,0
+western europe,kaposi_sarcoma,upper,12
+western europe,other_specified_sarcoma,incidence,70
+western europe,other_specified_sarcoma,lower,40
+western europe,other_specified_sarcoma,upper,99
+western europe,unspecified_sarcoma,incidence,17
+western europe,unspecified_sarcoma,lower,8
+western europe,unspecified_sarcoma,upper,27
+northern america,soft_tissue_sarcoma,incidence,667
+northern america,soft_tissue_sarcoma,lower,530
+northern america,soft_tissue_sarcoma,upper,818
+northern america,rhabdomyosarcoma,incidence,323
+northern america,rhabdomyosarcoma,lower,221
+northern america,rhabdomyosarcoma,upper,448
+northern america,fibrosarcoma,incidence,64
+northern america,fibrosarcoma,lower,28
+northern america,fibrosarcoma,upper,88
+northern america,kaposi_sarcoma,incidence,2
+northern america,kaposi_sarcoma,lower,0
+northern america,kaposi_sarcoma,upper,5
+northern america,other_specified_sarcoma,incidence,211
+northern america,other_specified_sarcoma,lower,75
+northern america,other_specified_sarcoma,upper,290
+northern america,unspecified_sarcoma,incidence,67
+northern america,unspecified_sarcoma,lower,37
+northern america,unspecified_sarcoma,upper,94
+caribbean,soft_tissue_sarcoma,incidence,103
+caribbean,soft_tissue_sarcoma,lower,57
+caribbean,soft_tissue_sarcoma,upper,174
+caribbean,rhabdomyosarcoma,incidence,37
+caribbean,rhabdomyosarcoma,lower,17
+caribbean,rhabdomyosarcoma,upper,60
+caribbean,fibrosarcoma,incidence,8
+caribbean,fibrosarcoma,lower,2
+caribbean,fibrosarcoma,upper,17
+caribbean,kaposi_sarcoma,incidence,26
+caribbean,kaposi_sarcoma,lower,2
+caribbean,kaposi_sarcoma,upper,95
+caribbean,other_specified_sarcoma,incidence,22
+caribbean,other_specified_sarcoma,lower,9
+caribbean,other_specified_sarcoma,upper,44
+caribbean,unspecified_sarcoma,incidence,9
+caribbean,unspecified_sarcoma,lower,1
+caribbean,unspecified_sarcoma,upper,20
+central america,soft_tissue_sarcoma,incidence,627
+central america,soft_tissue_sarcoma,lower,393
+central america,soft_tissue_sarcoma,upper,972
+central america,rhabdomyosarcoma,incidence,238
+central america,rhabdomyosarcoma,lower,108
+central america,rhabdomyosarcoma,upper,351
+central america,fibrosarcoma,incidence,65
+central america,fibrosarcoma,lower,30
+central america,fibrosarcoma,upper,98
+central america,kaposi_sarcoma,incidence,151
+central america,kaposi_sarcoma,lower,10
+central america,kaposi_sarcoma,upper,492
+central america,other_specified_sarcoma,incidence,118
+central america,other_specified_sarcoma,lower,37
+central america,other_specified_sarcoma,upper,235
+central america,unspecified_sarcoma,incidence,55
+central america,unspecified_sarcoma,lower,15
+central america,unspecified_sarcoma,upper,123
+south america,soft_tissue_sarcoma,incidence,1341
+south america,soft_tissue_sarcoma,lower,915
+south america,soft_tissue_sarcoma,upper,2047
+south america,rhabdomyosarcoma,incidence,560
+south america,rhabdomyosarcoma,lower,305
+south america,rhabdomyosarcoma,upper,758
+south america,fibrosarcoma,incidence,138
+south america,fibrosarcoma,lower,89
+south america,fibrosarcoma,upper,194
+south america,kaposi_sarcoma,incidence,256
+south america,kaposi_sarcoma,lower,24
+south america,kaposi_sarcoma,upper,945
+south america,other_specified_sarcoma,incidence,272
+south america,other_specified_sarcoma,lower,159
+south america,other_specified_sarcoma,upper,386
+south america,unspecified_sarcoma,incidence,114
+south america,unspecified_sarcoma,lower,68
+south america,unspecified_sarcoma,upper,167
+oceania,soft_tissue_sarcoma,incidence,50
+oceania,soft_tissue_sarcoma,lower,24
+oceania,soft_tissue_sarcoma,upper,95
+oceania,rhabdomyosarcoma,incidence,11
+oceania,rhabdomyosarcoma,lower,2
+oceania,rhabdomyosarcoma,upper,23
+oceania,fibrosarcoma,incidence,5
+oceania,fibrosarcoma,lower,0
+oceania,fibrosarcoma,upper,13
+oceania,kaposi_sarcoma,incidence,20
+oceania,kaposi_sarcoma,lower,1
+oceania,kaposi_sarcoma,upper,62
+oceania,other_specified_sarcoma,incidence,12
+oceania,other_specified_sarcoma,lower,2
+oceania,other_specified_sarcoma,upper,24
+oceania,unspecified_sarcoma,incidence,3
+oceania,unspecified_sarcoma,lower,0
+oceania,unspecified_sarcoma,upper,8
+australia/new zealand,soft_tissue_sarcoma,incidence,68
+australia/new zealand,soft_tissue_sarcoma,lower,39
+australia/new zealand,soft_tissue_sarcoma,upper,116
+australia/new zealand,rhabdomyosarcoma,incidence,28
+australia/new zealand,rhabdomyosarcoma,lower,12
+australia/new zealand,rhabdomyosarcoma,upper,47
+australia/new zealand,fibrosarcoma,incidence,3
+australia/new zealand,fibrosarcoma,lower,0
+australia/new zealand,fibrosarcoma,upper,8
+australia/new zealand,kaposi_sarcoma,incidence,21
+australia/new zealand,kaposi_sarcoma,lower,1
+australia/new zealand,kaposi_sarcoma,upper,65
+australia/new zealand,other_specified_sarcoma,incidence,14
+australia/new zealand,other_specified_sarcoma,lower,4
+australia/new zealand,other_specified_sarcoma,upper,25
+australia/new zealand,unspecified_sarcoma,incidence,3
+australia/new zealand,unspecified_sarcoma,lower,0
+australia/new zealand,unspecified_sarcoma,upper,8

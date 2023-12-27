@@ -2,18 +2,51 @@ project:
   type: website
 
 website:
-  title: "tdd_site"
+  title: "The Doctor's Dialectic"
+  description: "The personal blog of Dr. Mark Zobeck"
+  image: img/tdd_logo-a.png
+  search: true
+  reader-mode: true
+  page-navigation: true
   navbar:
+    background: white
+    logo: img/d_logo.jpg
+    #logo-alt: "The Doctor's Dialectic logo."
+    title: "The Doctor's Dialectic"
+    collapse-below: lg
+    pinned: false
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: docs/about/index.qmd
+        text: About
+      - href: docs/research/index.qmd
+        text: Research
+      - href: blog.qmd
+        text: Blog
+        
+    right:
+      - icon: twitter
+        href: https://twitter.com/MarkZobeck
+      - icon: envelope
+        aria-label: email
+        href: "mailto:mzobeck@gmail.com"  
+
+#google-analytics: <Insert your ID here>
+cookie-consent: true
+twitter-card: 
+    image: img/tdd_logo-a.png
+    card-style: summary_large_image
+    creator: "@MarkZobeck"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
+    css: custom.css
     toc: true
+    
 
 
 

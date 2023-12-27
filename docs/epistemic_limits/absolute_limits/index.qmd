@@ -1,0 +1,31 @@
+---
+title: "Absolute Limits"
+---
+
+## First-Order Absolute Limits
+
+**Explanation:** These are limits for any Learner within this universe, no matter their intellectual capacity. These are fundamental limits that govern all relationships that obtain in this universe.
+
+
+| Type               | Description                                                   | Examples                                          |
+|--------------------|---------------------------------------------------------------|---------------------------------------------------|
+| Logical Limits     | Limits to what can be proven or known through formal reasoning| The liar paradox, barber paradox                  |
+| Physical Limits    | Limits to what can be observed or measured due to the laws of physics | The uncertainty principle, the speed of light, the no-cloning theorem |
+| Mathematical Limits | Limits to what can be proven or calculated using mathematical methods | Gödel's incompleteness theorems, detecting randomness? |
+| Computational Limits | Limits to what can be computed or predicted by an algorithm | The Halting Problem, factoring large numbers, solving the traveling salesman problem |
+| Phenomenological Limits | Limits on what can be known in experience. | Brain in a vat, solipsism |
+
+
+
+
+## Second-Order Absolute Limits
+
+**Explanation:** These are limits for any Learner within this universe, no matter their intellectual capacity. These are derivative of the Absolute Epistemic Limits in that they would not obtain in this universe if the absolute epistemic limits did not obtain. However, the absolute epistemic limits could still obtain without these. Learners may wish to engage in the activities represented by these limits, but their knowledge will always be limited due to interaction between these activities at the first-order absolute limits.
+
+| Type               | Description                                                   | Examples                                          |
+|--------------------|---------------------------------------------------------------|---------------------------------------------------|
+| Retrodictive Limits | Limits to what can be known or understood about past events or cultures | The limits of historical knowledge, the bias of historical sources |
+| Predictive Limits  | Limits to how accurately we can predict future events or behaviors | The limits of prediction, chaos theory           |
+| Scientific Limits  | Limits to what can be known or understood through scientific inquiry | The limits of scientific knowledge, the difficulty of studying complex phenomena |
+| Technological Limits | Limits imposed by the technology used to measure or observe phenomena | The limits of resolution, signal-to-noise ratio |
+| Communication Limits | Limits to what can be communicated or understood through symbolic representation | The limits of translation, the difficulty of expressing certain concepts in language |

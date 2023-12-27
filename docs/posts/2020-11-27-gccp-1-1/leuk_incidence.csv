@@ -1,0 +1,343 @@
+region,disease,data,val
+global,leukaemia,incidence,109944
+global,leukaemia,lower,100097
+global,leukaemia,upper,120885
+global,lymphoid,incidence,74511
+global,lymphoid,lower,66820
+global,lymphoid,upper,83192
+global,acute_myeloid,incidence,16905
+global,acute_myeloid,lower,13720
+global,acute_myeloid,upper,19487
+global,cmd,incidence,2846
+global,cmd,lower,2376
+global,cmd,upper,3361
+global,mds_other,incidence,1852
+global,mds_other,lower,1392
+global,mds_other,upper,2492
+global,unspecified_leukaemia,incidence,13830
+global,unspecified_leukaemia,lower,10913
+global,unspecified_leukaemia,upper,17638
+eastern africa,leukaemia,incidence,6402
+eastern africa,leukaemia,lower,4437
+eastern africa,leukaemia,upper,9422
+eastern africa,lymphoid,incidence,3526
+eastern africa,lymphoid,lower,2091
+eastern africa,lymphoid,upper,5469
+eastern africa,acute_myeloid,incidence,673
+eastern africa,acute_myeloid,lower,280
+eastern africa,acute_myeloid,upper,1296
+eastern africa,cmd,incidence,220
+eastern africa,cmd,lower,128
+eastern africa,cmd,upper,354
+eastern africa,mds_other,incidence,226
+eastern africa,mds_other,lower,67
+eastern africa,mds_other,upper,482
+eastern africa,unspecified_leukaemia,incidence,1756
+eastern africa,unspecified_leukaemia,lower,939
+eastern africa,unspecified_leukaemia,upper,3453
+southern africa,leukaemia,incidence,1333
+southern africa,leukaemia,lower,949
+southern africa,leukaemia,upper,1729
+southern africa,lymphoid,incidence,823
+southern africa,lymphoid,lower,556
+southern africa,lymphoid,upper,1171
+southern africa,acute_myeloid,incidence,388
+southern africa,acute_myeloid,lower,259
+southern africa,acute_myeloid,upper,610
+southern africa,cmd,incidence,43
+southern africa,cmd,lower,14
+southern africa,cmd,upper,87
+southern africa,mds_other,incidence,21
+southern africa,mds_other,lower,6
+southern africa,mds_other,upper,90
+southern africa,unspecified_leukaemia,incidence,57
+southern africa,unspecified_leukaemia,lower,16
+southern africa,unspecified_leukaemia,upper,184
+western africa,leukaemia,incidence,4229
+western africa,leukaemia,lower,2819
+western africa,leukaemia,upper,6683
+western africa,lymphoid,incidence,1699
+western africa,lymphoid,lower,884
+western africa,lymphoid,upper,3307
+western africa,acute_myeloid,incidence,770
+western africa,acute_myeloid,lower,395
+western africa,acute_myeloid,upper,1543
+western africa,cmd,incidence,204
+western africa,cmd,lower,49
+western africa,cmd,upper,547
+western africa,mds_other,incidence,304
+western africa,mds_other,lower,101
+western africa,mds_other,upper,871
+western africa,unspecified_leukaemia,incidence,1251
+western africa,unspecified_leukaemia,lower,602
+western africa,unspecified_leukaemia,upper,2811
+northern africa,leukaemia,incidence,3533
+northern africa,leukaemia,lower,2378
+northern africa,leukaemia,upper,4640
+northern africa,lymphoid,incidence,2173
+northern africa,lymphoid,lower,1268
+northern africa,lymphoid,upper,3016
+northern africa,acute_myeloid,incidence,699
+northern africa,acute_myeloid,lower,472
+northern africa,acute_myeloid,upper,929
+northern africa,cmd,incidence,111
+northern africa,cmd,lower,45
+northern africa,cmd,upper,230
+northern africa,mds_other,incidence,168
+northern africa,mds_other,lower,100
+northern africa,mds_other,upper,297
+northern africa,unspecified_leukaemia,incidence,381
+northern africa,unspecified_leukaemia,lower,186
+northern africa,unspecified_leukaemia,upper,699
+eastern asia,leukaemia,incidence,14752
+eastern asia,leukaemia,lower,11034
+eastern asia,leukaemia,upper,19851
+eastern asia,lymphoid,incidence,10173
+eastern asia,lymphoid,lower,6421
+eastern asia,lymphoid,upper,14711
+eastern asia,acute_myeloid,incidence,2525
+eastern asia,acute_myeloid,lower,1282
+eastern asia,acute_myeloid,upper,3559
+eastern asia,cmd,incidence,409
+eastern asia,cmd,lower,171
+eastern asia,cmd,upper,672
+eastern asia,mds_other,incidence,490
+eastern asia,mds_other,lower,251
+eastern asia,mds_other,upper,726
+eastern asia,unspecified_leukaemia,incidence,1155
+eastern asia,unspecified_leukaemia,lower,306
+eastern asia,unspecified_leukaemia,upper,2416
+south-central asia,leukaemia,incidence,40678
+south-central asia,leukaemia,lower,34395
+south-central asia,leukaemia,upper,48175
+south-central asia,lymphoid,incidence,28538
+south-central asia,lymphoid,lower,23000
+south-central asia,lymphoid,upper,34534
+south-central asia,acute_myeloid,incidence,5437
+south-central asia,acute_myeloid,lower,4054
+south-central asia,acute_myeloid,upper,6624
+south-central asia,cmd,incidence,1006
+south-central asia,cmd,lower,792
+south-central asia,cmd,upper,1235
+south-central asia,mds_other,incidence,198
+south-central asia,mds_other,lower,56
+south-central asia,mds_other,upper,553
+south-central asia,unspecified_leukaemia,incidence,5500
+south-central asia,unspecified_leukaemia,lower,4124
+south-central asia,unspecified_leukaemia,upper,6994
+south-eastern asia,leukaemia,incidence,13028
+south-eastern asia,leukaemia,lower,9683
+south-eastern asia,leukaemia,upper,18099
+south-eastern asia,lymphoid,incidence,7320
+south-eastern asia,lymphoid,lower,4326
+south-eastern asia,lymphoid,upper,12152
+south-eastern asia,acute_myeloid,incidence,2567
+south-eastern asia,acute_myeloid,lower,1388
+south-eastern asia,acute_myeloid,upper,3899
+south-eastern asia,cmd,incidence,361
+south-eastern asia,cmd,lower,167
+south-eastern asia,cmd,upper,578
+south-eastern asia,mds_other,incidence,77
+south-eastern asia,mds_other,lower,30
+south-eastern asia,mds_other,upper,143
+south-eastern asia,unspecified_leukaemia,incidence,2702
+south-eastern asia,unspecified_leukaemia,lower,1698
+south-eastern asia,unspecified_leukaemia,upper,4002
+western asia,leukaemia,incidence,4182
+western asia,leukaemia,lower,3299
+western asia,leukaemia,upper,5098
+western asia,lymphoid,incidence,3145
+western asia,lymphoid,lower,2319
+western asia,lymphoid,upper,4036
+western asia,acute_myeloid,incidence,682
+western asia,acute_myeloid,lower,466
+western asia,acute_myeloid,upper,907
+western asia,cmd,incidence,74
+western asia,cmd,lower,46
+western asia,cmd,upper,109
+western asia,mds_other,incidence,79
+western asia,mds_other,lower,47
+western asia,mds_other,upper,123
+western asia,unspecified_leukaemia,incidence,201
+western asia,unspecified_leukaemia,lower,138
+western asia,unspecified_leukaemia,upper,291
+eastern europe,leukaemia,incidence,2361
+eastern europe,leukaemia,lower,1751
+eastern europe,leukaemia,upper,3051
+eastern europe,lymphoid,incidence,1903
+eastern europe,lymphoid,lower,1318
+eastern europe,lymphoid,upper,2520
+eastern europe,acute_myeloid,incidence,318
+eastern europe,acute_myeloid,lower,182
+eastern europe,acute_myeloid,upper,464
+eastern europe,cmd,incidence,45
+eastern europe,cmd,lower,24
+eastern europe,cmd,upper,69
+eastern europe,mds_other,incidence,26
+eastern europe,mds_other,lower,12
+eastern europe,mds_other,upper,44
+eastern europe,unspecified_leukaemia,incidence,69
+eastern europe,unspecified_leukaemia,lower,33
+eastern europe,unspecified_leukaemia,upper,110
+northern europe,leukaemia,incidence,851
+northern europe,leukaemia,lower,714
+northern europe,leukaemia,upper,994
+northern europe,lymphoid,incidence,690
+northern europe,lymphoid,lower,555
+northern europe,lymphoid,upper,827
+northern europe,acute_myeloid,incidence,120
+northern europe,acute_myeloid,lower,65
+northern europe,acute_myeloid,upper,162
+northern europe,cmd,incidence,11
+northern europe,cmd,lower,3
+northern europe,cmd,upper,21
+northern europe,mds_other,incidence,14
+northern europe,mds_other,lower,4
+northern europe,mds_other,upper,26
+northern europe,unspecified_leukaemia,incidence,16
+northern europe,unspecified_leukaemia,lower,6
+northern europe,unspecified_leukaemia,upper,26
+southern europe,leukaemia,incidence,1135
+southern europe,leukaemia,lower,967
+southern europe,leukaemia,upper,1277
+southern europe,lymphoid,incidence,918
+southern europe,lymphoid,lower,758
+southern europe,lymphoid,upper,1062
+southern europe,acute_myeloid,incidence,158
+southern europe,acute_myeloid,lower,110
+southern europe,acute_myeloid,upper,203
+southern europe,cmd,incidence,23
+southern europe,cmd,lower,13
+southern europe,cmd,upper,37
+southern europe,mds_other,incidence,15
+southern europe,mds_other,lower,7
+southern europe,mds_other,upper,25
+southern europe,unspecified_leukaemia,incidence,20
+southern europe,unspecified_leukaemia,lower,9
+southern europe,unspecified_leukaemia,upper,34
+western europe,leukaemia,incidence,1357
+western europe,leukaemia,lower,1179
+western europe,leukaemia,upper,1566
+western europe,lymphoid,incidence,1082
+western europe,lymphoid,lower,913
+western europe,lymphoid,upper,1280
+western europe,acute_myeloid,incidence,198
+western europe,acute_myeloid,lower,128
+western europe,acute_myeloid,upper,253
+western europe,cmd,incidence,25
+western europe,cmd,lower,12
+western europe,cmd,upper,40
+western europe,mds_other,incidence,39
+western europe,mds_other,lower,18
+western europe,mds_other,upper,61
+western europe,unspecified_leukaemia,incidence,13
+western europe,unspecified_leukaemia,lower,3
+western europe,unspecified_leukaemia,upper,26
+northern america,leukaemia,incidence,3431
+northern america,leukaemia,lower,3165
+northern america,leukaemia,upper,3790
+northern america,lymphoid,incidence,2677
+northern america,lymphoid,lower,2470
+northern america,lymphoid,upper,2951
+northern america,acute_myeloid,incidence,499
+northern america,acute_myeloid,lower,332
+northern america,acute_myeloid,upper,610
+northern america,cmd,incidence,94
+northern america,cmd,lower,47
+northern america,cmd,upper,128
+northern america,mds_other,incidence,74
+northern america,mds_other,lower,14
+northern america,mds_other,upper,111
+northern america,unspecified_leukaemia,incidence,86
+northern america,unspecified_leukaemia,lower,49
+northern america,unspecified_leukaemia,upper,126
+caribbean,leukaemia,incidence,446
+caribbean,leukaemia,lower,294
+caribbean,leukaemia,upper,664
+caribbean,lymphoid,incidence,316
+caribbean,lymphoid,lower,157
+caribbean,lymphoid,upper,525
+caribbean,acute_myeloid,incidence,68
+caribbean,acute_myeloid,lower,35
+caribbean,acute_myeloid,upper,119
+caribbean,cmd,incidence,16
+caribbean,cmd,lower,6
+caribbean,cmd,upper,29
+caribbean,mds_other,incidence,3
+caribbean,mds_other,lower,0
+caribbean,mds_other,upper,14
+caribbean,unspecified_leukaemia,incidence,43
+caribbean,unspecified_leukaemia,lower,23
+caribbean,unspecified_leukaemia,upper,70
+central america,leukaemia,incidence,4454
+central america,leukaemia,lower,2797
+central america,leukaemia,upper,5828
+central america,lymphoid,incidence,3696
+central america,lymphoid,lower,2197
+central america,lymphoid,upper,4934
+central america,acute_myeloid,incidence,585
+central america,acute_myeloid,lower,286
+central america,acute_myeloid,upper,833
+central america,cmd,incidence,70
+central america,cmd,lower,30
+central america,cmd,upper,106
+central america,mds_other,incidence,36
+central america,mds_other,lower,17
+central america,mds_other,upper,62
+central america,unspecified_leukaemia,incidence,66
+central america,unspecified_leukaemia,lower,24
+central america,unspecified_leukaemia,upper,111
+south america,leukaemia,incidence,7290
+south america,leukaemia,lower,5631
+south america,leukaemia,upper,8521
+south america,lymphoid,incidence,5468
+south america,lymphoid,lower,4158
+south america,lymphoid,upper,6718
+south america,acute_myeloid,incidence,1128
+south america,acute_myeloid,lower,696
+south america,acute_myeloid,upper,1503
+south america,cmd,incidence,121
+south america,cmd,lower,72
+south america,cmd,upper,183
+south america,mds_other,incidence,72
+south america,mds_other,lower,42
+south america,mds_other,upper,108
+south america,unspecified_leukaemia,incidence,502
+south america,unspecified_leukaemia,lower,280
+south america,unspecified_leukaemia,upper,760
+oceania,leukaemia,incidence,176
+oceania,leukaemia,lower,93
+oceania,leukaemia,upper,282
+oceania,lymphoid,incidence,119
+oceania,lymphoid,lower,36
+oceania,lymphoid,upper,201
+oceania,acute_myeloid,incidence,39
+oceania,acute_myeloid,lower,7
+oceania,acute_myeloid,upper,70
+oceania,cmd,incidence,6
+oceania,cmd,lower,0
+oceania,cmd,upper,14
+oceania,mds_other,incidence,5
+oceania,mds_other,lower,0
+oceania,mds_other,upper,13
+oceania,unspecified_leukaemia,incidence,9
+oceania,unspecified_leukaemia,lower,0
+oceania,unspecified_leukaemia,upper,22
+australia/new zealand,leukaemia,incidence,306
+australia/new zealand,leukaemia,lower,249
+australia/new zealand,leukaemia,upper,397
+australia/new zealand,lymphoid,incidence,245
+australia/new zealand,lymphoid,lower,190
+australia/new zealand,lymphoid,upper,318
+australia/new zealand,acute_myeloid,incidence,49
+australia/new zealand,acute_myeloid,lower,27
+australia/new zealand,acute_myeloid,upper,78
+australia/new zealand,cmd,incidence,5
+australia/new zealand,cmd,lower,1
+australia/new zealand,cmd,upper,13
+australia/new zealand,mds_other,incidence,3
+australia/new zealand,mds_other,lower,0
+australia/new zealand,mds_other,upper,9
+australia/new zealand,unspecified_leukaemia,incidence,3
+australia/new zealand,unspecified_leukaemia,lower,0
+australia/new zealand,unspecified_leukaemia,upper,8

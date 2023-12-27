@@ -1,0 +1,400 @@
+region,disease,data,val
+global,carcinoma_melanoma,incidence,16182
+global,carcinoma_melanoma,lower,13908
+global,carcinoma_melanoma,upper,20421
+global,adrenocortical,incidence,526
+global,adrenocortical,lower,381
+global,adrenocortical,upper,807
+global,thyroid,incidence,3240
+global,thyroid,lower,2571
+global,thyroid,upper,5051
+global,nasopharyngeal,incidence,2451
+global,nasopharyngeal,lower,1833
+global,nasopharyngeal,upper,5071
+global,melanoma,incidence,1245
+global,melanoma,lower,970
+global,melanoma,upper,1968
+global,skin_carcinoma,incidence,1849
+global,skin_carcinoma,lower,1507
+global,skin_carcinoma,upper,2298
+global,unspecified_carcinoma,incidence,6871
+global,unspecified_carcinoma,lower,5319
+global,unspecified_carcinoma,upper,9850
+eastern africa,carcinoma_melanoma,incidence,2264
+eastern africa,carcinoma_melanoma,lower,1750
+eastern africa,carcinoma_melanoma,upper,3325
+eastern africa,adrenocortical,incidence,58
+eastern africa,adrenocortical,lower,10
+eastern africa,adrenocortical,upper,232
+eastern africa,thyroid,incidence,239
+eastern africa,thyroid,lower,103
+eastern africa,thyroid,upper,477
+eastern africa,nasopharyngeal,incidence,479
+eastern africa,nasopharyngeal,lower,272
+eastern africa,nasopharyngeal,upper,795
+eastern africa,melanoma,incidence,163
+eastern africa,melanoma,lower,87
+eastern africa,melanoma,upper,346
+eastern africa,skin_carcinoma,incidence,289
+eastern africa,skin_carcinoma,lower,155
+eastern africa,skin_carcinoma,upper,479
+eastern africa,unspecified_carcinoma,incidence,1037
+eastern africa,unspecified_carcinoma,lower,615
+eastern africa,unspecified_carcinoma,upper,1914
+southern africa,carcinoma_melanoma,incidence,227
+southern africa,carcinoma_melanoma,lower,143
+southern africa,carcinoma_melanoma,upper,379
+southern africa,adrenocortical,incidence,8
+southern africa,adrenocortical,lower,1
+southern africa,adrenocortical,upper,20
+southern africa,thyroid,incidence,15
+southern africa,thyroid,lower,3
+southern africa,thyroid,upper,64
+southern africa,nasopharyngeal,incidence,44
+southern africa,nasopharyngeal,lower,18
+southern africa,nasopharyngeal,upper,80
+southern africa,melanoma,incidence,27
+southern africa,melanoma,lower,11
+southern africa,melanoma,upper,52
+southern africa,skin_carcinoma,incidence,31
+southern africa,skin_carcinoma,lower,9
+southern africa,skin_carcinoma,upper,74
+southern africa,unspecified_carcinoma,incidence,101
+southern africa,unspecified_carcinoma,lower,35
+southern africa,unspecified_carcinoma,upper,244
+western africa,carcinoma_melanoma,incidence,3233
+western africa,carcinoma_melanoma,lower,2109
+western africa,carcinoma_melanoma,upper,6198
+western africa,adrenocortical,incidence,54
+western africa,adrenocortical,lower,11
+western africa,adrenocortical,upper,187
+western africa,thyroid,incidence,222
+western africa,thyroid,lower,111
+western africa,thyroid,upper,435
+western africa,nasopharyngeal,incidence,665
+western africa,nasopharyngeal,lower,210
+western africa,nasopharyngeal,upper,3150
+western africa,melanoma,incidence,223
+western africa,melanoma,lower,100
+western africa,melanoma,upper,575
+western africa,skin_carcinoma,incidence,368
+western africa,skin_carcinoma,lower,213
+western africa,skin_carcinoma,upper,573
+western africa,unspecified_carcinoma,incidence,1701
+western africa,unspecified_carcinoma,lower,826
+western africa,unspecified_carcinoma,upper,4844
+northern africa,carcinoma_melanoma,incidence,838
+northern africa,carcinoma_melanoma,lower,658
+northern africa,carcinoma_melanoma,upper,1081
+northern africa,adrenocortical,incidence,23
+northern africa,adrenocortical,lower,8
+northern africa,adrenocortical,upper,52
+northern africa,thyroid,incidence,108
+northern africa,thyroid,lower,65
+northern africa,thyroid,upper,154
+northern africa,nasopharyngeal,incidence,244
+northern africa,nasopharyngeal,lower,155
+northern africa,nasopharyngeal,upper,347
+northern africa,melanoma,incidence,49
+northern africa,melanoma,lower,25
+northern africa,melanoma,upper,110
+northern africa,skin_carcinoma,incidence,196
+northern africa,skin_carcinoma,lower,108
+northern africa,skin_carcinoma,upper,302
+northern africa,unspecified_carcinoma,incidence,218
+northern africa,unspecified_carcinoma,lower,149
+northern africa,unspecified_carcinoma,upper,312
+eastern asia,carcinoma_melanoma,incidence,1309
+eastern asia,carcinoma_melanoma,lower,850
+eastern asia,carcinoma_melanoma,upper,1878
+eastern asia,adrenocortical,incidence,52
+eastern asia,adrenocortical,lower,15
+eastern asia,adrenocortical,upper,97
+eastern asia,thyroid,incidence,623
+eastern asia,thyroid,lower,170
+eastern asia,thyroid,upper,1209
+eastern asia,nasopharyngeal,incidence,105
+eastern asia,nasopharyngeal,lower,33
+eastern asia,nasopharyngeal,upper,200
+eastern asia,melanoma,incidence,85
+eastern asia,melanoma,lower,23
+eastern asia,melanoma,upper,151
+eastern asia,skin_carcinoma,incidence,64
+eastern asia,skin_carcinoma,lower,21
+eastern asia,skin_carcinoma,upper,128
+eastern asia,unspecified_carcinoma,incidence,380
+eastern asia,unspecified_carcinoma,lower,107
+eastern asia,unspecified_carcinoma,upper,588
+south-central asia,carcinoma_melanoma,incidence,3978
+south-central asia,carcinoma_melanoma,lower,3117
+south-central asia,carcinoma_melanoma,upper,4996
+south-central asia,adrenocortical,incidence,149
+south-central asia,adrenocortical,lower,94
+south-central asia,adrenocortical,upper,217
+south-central asia,thyroid,incidence,738
+south-central asia,thyroid,lower,535
+south-central asia,thyroid,upper,1798
+south-central asia,nasopharyngeal,incidence,417
+south-central asia,nasopharyngeal,lower,295
+south-central asia,nasopharyngeal,upper,571
+south-central asia,melanoma,incidence,146
+south-central asia,melanoma,lower,68
+south-central asia,melanoma,upper,468
+south-central asia,skin_carcinoma,incidence,431
+south-central asia,skin_carcinoma,lower,267
+south-central asia,skin_carcinoma,upper,687
+south-central asia,unspecified_carcinoma,incidence,2097
+south-central asia,unspecified_carcinoma,lower,1337
+south-central asia,unspecified_carcinoma,upper,2695
+south-eastern asia,carcinoma_melanoma,incidence,1334
+south-eastern asia,carcinoma_melanoma,lower,1011
+south-eastern asia,carcinoma_melanoma,upper,1725
+south-eastern asia,adrenocortical,incidence,25
+south-eastern asia,adrenocortical,lower,7
+south-eastern asia,adrenocortical,upper,56
+south-eastern asia,thyroid,incidence,388
+south-eastern asia,thyroid,lower,234
+south-eastern asia,thyroid,upper,674
+south-eastern asia,nasopharyngeal,incidence,189
+south-eastern asia,nasopharyngeal,lower,105
+south-eastern asia,nasopharyngeal,upper,286
+south-eastern asia,melanoma,incidence,62
+south-eastern asia,melanoma,lower,27
+south-eastern asia,melanoma,upper,115
+south-eastern asia,skin_carcinoma,incidence,73
+south-eastern asia,skin_carcinoma,lower,42
+south-eastern asia,skin_carcinoma,upper,113
+south-eastern asia,unspecified_carcinoma,incidence,598
+south-eastern asia,unspecified_carcinoma,lower,389
+south-eastern asia,unspecified_carcinoma,upper,909
+western asia,carcinoma_melanoma,incidence,469
+western asia,carcinoma_melanoma,lower,375
+western asia,carcinoma_melanoma,upper,578
+western asia,adrenocortical,incidence,24
+western asia,adrenocortical,lower,12
+western asia,adrenocortical,upper,40
+western asia,thyroid,incidence,147
+western asia,thyroid,lower,89
+western asia,thyroid,upper,219
+western asia,nasopharyngeal,incidence,83
+western asia,nasopharyngeal,lower,49
+western asia,nasopharyngeal,upper,136
+western asia,melanoma,incidence,44
+western asia,melanoma,lower,22
+western asia,melanoma,upper,76
+western asia,skin_carcinoma,incidence,39
+western asia,skin_carcinoma,lower,19
+western asia,skin_carcinoma,upper,64
+western asia,unspecified_carcinoma,incidence,132
+western asia,unspecified_carcinoma,lower,81
+western asia,unspecified_carcinoma,upper,196
+eastern europe,carcinoma_melanoma,incidence,256
+eastern europe,carcinoma_melanoma,lower,184
+eastern europe,carcinoma_melanoma,upper,344
+eastern europe,adrenocortical,incidence,9
+eastern europe,adrenocortical,lower,2
+eastern europe,adrenocortical,upper,20
+eastern europe,thyroid,incidence,119
+eastern europe,thyroid,lower,63
+eastern europe,thyroid,upper,198
+eastern europe,nasopharyngeal,incidence,15
+eastern europe,nasopharyngeal,lower,4
+eastern europe,nasopharyngeal,upper,32
+eastern europe,melanoma,incidence,35
+eastern europe,melanoma,lower,16
+eastern europe,melanoma,upper,58
+eastern europe,skin_carcinoma,incidence,16
+eastern europe,skin_carcinoma,lower,6
+eastern europe,skin_carcinoma,upper,30
+eastern europe,unspecified_carcinoma,incidence,60
+eastern europe,unspecified_carcinoma,lower,29
+eastern europe,unspecified_carcinoma,upper,95
+northern europe,carcinoma_melanoma,incidence,68
+northern europe,carcinoma_melanoma,lower,46
+northern europe,carcinoma_melanoma,upper,94
+northern europe,adrenocortical,incidence,4
+northern europe,adrenocortical,lower,0
+northern europe,adrenocortical,upper,9
+northern europe,thyroid,incidence,16
+northern europe,thyroid,lower,6
+northern europe,thyroid,upper,28
+northern europe,nasopharyngeal,incidence,6
+northern europe,nasopharyngeal,lower,1
+northern europe,nasopharyngeal,upper,14
+northern europe,melanoma,incidence,14
+northern europe,melanoma,lower,4
+northern europe,melanoma,upper,25
+northern europe,skin_carcinoma,incidence,9
+northern europe,skin_carcinoma,lower,1
+northern europe,skin_carcinoma,upper,19
+northern europe,unspecified_carcinoma,incidence,20
+northern europe,unspecified_carcinoma,lower,7
+northern europe,unspecified_carcinoma,upper,33
+southern europe,carcinoma_melanoma,incidence,146
+southern europe,carcinoma_melanoma,lower,112
+southern europe,carcinoma_melanoma,upper,188
+southern europe,adrenocortical,incidence,3
+southern europe,adrenocortical,lower,0
+southern europe,adrenocortical,upper,7
+southern europe,thyroid,incidence,61
+southern europe,thyroid,lower,38
+southern europe,thyroid,upper,86
+southern europe,nasopharyngeal,incidence,8
+southern europe,nasopharyngeal,lower,2
+southern europe,nasopharyngeal,upper,17
+southern europe,melanoma,incidence,34
+southern europe,melanoma,lower,20
+southern europe,melanoma,upper,51
+southern europe,skin_carcinoma,incidence,14
+southern europe,skin_carcinoma,lower,4
+southern europe,skin_carcinoma,upper,30
+southern europe,unspecified_carcinoma,incidence,26
+southern europe,unspecified_carcinoma,lower,14
+southern europe,unspecified_carcinoma,upper,41
+western europe,carcinoma_melanoma,incidence,187
+western europe,carcinoma_melanoma,lower,142
+western europe,carcinoma_melanoma,upper,243
+western europe,adrenocortical,incidence,3
+western europe,adrenocortical,lower,0
+western europe,adrenocortical,upper,8
+western europe,thyroid,incidence,51
+western europe,thyroid,lower,24
+western europe,thyroid,upper,79
+western europe,nasopharyngeal,incidence,8
+western europe,nasopharyngeal,lower,1
+western europe,nasopharyngeal,upper,18
+western europe,melanoma,incidence,57
+western europe,melanoma,lower,32
+western europe,melanoma,upper,82
+western europe,skin_carcinoma,incidence,11
+western europe,skin_carcinoma,lower,4
+western europe,skin_carcinoma,upper,21
+western europe,unspecified_carcinoma,incidence,57
+western europe,unspecified_carcinoma,lower,27
+western europe,unspecified_carcinoma,upper,90
+northern america,carcinoma_melanoma,incidence,444
+northern america,carcinoma_melanoma,lower,346
+northern america,carcinoma_melanoma,upper,532
+northern america,adrenocortical,incidence,14
+northern america,adrenocortical,lower,5
+northern america,adrenocortical,upper,23
+northern america,thyroid,incidence,162
+northern america,thyroid,lower,71
+northern america,thyroid,upper,218
+northern america,nasopharyngeal,incidence,27
+northern america,nasopharyngeal,lower,10
+northern america,nasopharyngeal,upper,51
+northern america,melanoma,incidence,126
+northern america,melanoma,lower,52
+northern america,melanoma,upper,176
+northern america,skin_carcinoma,incidence,7
+northern america,skin_carcinoma,lower,1
+northern america,skin_carcinoma,upper,17
+northern america,unspecified_carcinoma,incidence,109
+northern america,unspecified_carcinoma,lower,65
+northern america,unspecified_carcinoma,upper,149
+caribbean,carcinoma_melanoma,incidence,85
+caribbean,carcinoma_melanoma,lower,54
+caribbean,carcinoma_melanoma,upper,123
+caribbean,adrenocortical,incidence,2
+caribbean,adrenocortical,lower,0
+caribbean,adrenocortical,upper,8
+caribbean,thyroid,incidence,21
+caribbean,thyroid,lower,8
+caribbean,thyroid,upper,36
+caribbean,nasopharyngeal,incidence,6
+caribbean,nasopharyngeal,lower,1
+caribbean,nasopharyngeal,upper,15
+caribbean,melanoma,incidence,7
+caribbean,melanoma,lower,1
+caribbean,melanoma,upper,16
+caribbean,skin_carcinoma,incidence,20
+caribbean,skin_carcinoma,lower,6
+caribbean,skin_carcinoma,upper,42
+caribbean,unspecified_carcinoma,incidence,29
+caribbean,unspecified_carcinoma,lower,13
+caribbean,unspecified_carcinoma,upper,58
+central america,carcinoma_melanoma,incidence,542
+central america,carcinoma_melanoma,lower,379
+central america,carcinoma_melanoma,upper,782
+central america,adrenocortical,incidence,33
+central america,adrenocortical,lower,15
+central america,adrenocortical,upper,67
+central america,thyroid,incidence,114
+central america,thyroid,lower,55
+central america,thyroid,upper,170
+central america,nasopharyngeal,incidence,110
+central america,nasopharyngeal,lower,53
+central america,nasopharyngeal,upper,192
+central america,melanoma,incidence,46
+central america,melanoma,lower,15
+central america,melanoma,upper,107
+central america,skin_carcinoma,incidence,144
+central america,skin_carcinoma,lower,54
+central america,skin_carcinoma,upper,340
+central america,unspecified_carcinoma,incidence,94
+central america,unspecified_carcinoma,lower,33
+central america,unspecified_carcinoma,upper,191
+south america,carcinoma_melanoma,incidence,754
+south america,carcinoma_melanoma,lower,583
+south america,carcinoma_melanoma,upper,937
+south america,adrenocortical,incidence,63
+south america,adrenocortical,lower,24
+south america,adrenocortical,upper,113
+south america,thyroid,incidence,207
+south america,thyroid,lower,122
+south america,thyroid,upper,302
+south america,nasopharyngeal,incidence,43
+south america,nasopharyngeal,lower,15
+south america,nasopharyngeal,upper,94
+south america,melanoma,incidence,108
+south america,melanoma,lower,68
+south america,melanoma,upper,151
+south america,skin_carcinoma,incidence,137
+south america,skin_carcinoma,lower,66
+south america,skin_carcinoma,upper,236
+south america,unspecified_carcinoma,incidence,197
+south america,unspecified_carcinoma,lower,123
+south america,unspecified_carcinoma,upper,278
+oceania,carcinoma_melanoma,incidence,17
+oceania,carcinoma_melanoma,lower,7
+oceania,carcinoma_melanoma,upper,32
+oceania,adrenocortical,incidence,2
+oceania,adrenocortical,lower,0
+oceania,adrenocortical,upper,5
+oceania,thyroid,incidence,4
+oceania,thyroid,lower,0
+oceania,thyroid,upper,10
+oceania,nasopharyngeal,incidence,1
+oceania,nasopharyngeal,lower,0
+oceania,nasopharyngeal,upper,5
+oceania,melanoma,incidence,5
+oceania,melanoma,lower,0
+oceania,melanoma,upper,14
+oceania,skin_carcinoma,incidence,0
+oceania,skin_carcinoma,lower,0
+oceania,skin_carcinoma,upper,2
+oceania,unspecified_carcinoma,incidence,5
+oceania,unspecified_carcinoma,lower,0
+oceania,unspecified_carcinoma,upper,13
+australia/new zealand,carcinoma_melanoma,incidence,30
+australia/new zealand,carcinoma_melanoma,lower,14
+australia/new zealand,carcinoma_melanoma,upper,51
+australia/new zealand,adrenocortical,incidence,0
+australia/new zealand,adrenocortical,lower,0
+australia/new zealand,adrenocortical,upper,2
+australia/new zealand,thyroid,incidence,4
+australia/new zealand,thyroid,lower,0
+australia/new zealand,thyroid,upper,12
+australia/new zealand,nasopharyngeal,incidence,1
+australia/new zealand,nasopharyngeal,lower,0
+australia/new zealand,nasopharyngeal,upper,5
+australia/new zealand,melanoma,incidence,13
+australia/new zealand,melanoma,lower,2
+australia/new zealand,melanoma,upper,27
+australia/new zealand,skin_carcinoma,incidence,1
+australia/new zealand,skin_carcinoma,lower,0
+australia/new zealand,skin_carcinoma,upper,3
+australia/new zealand,unspecified_carcinoma,incidence,11
+australia/new zealand,unspecified_carcinoma,lower,2
+australia/new zealand,unspecified_carcinoma,upper,21

@@ -1,0 +1,343 @@
+region,disease,data,val
+global,bone_tumours,incidence,22434
+global,bone_tumours,lower,18622
+global,bone_tumours,upper,35150
+global,osteosarcoma,incidence,9572
+global,osteosarcoma,lower,8264
+global,osteosarcoma,upper,11063
+global,chondrosarcoma,incidence,1034
+global,chondrosarcoma,lower,688
+global,chondrosarcoma,upper,1681
+global,ewing_related,incidence,5672
+global,ewing_related,lower,4584
+global,ewing_related,upper,6799
+global,other_specified_bone,incidence,1231
+global,other_specified_bone,lower,819
+global,other_specified_bone,upper,2057
+global,unspecified_bone,incidence,4924
+global,unspecified_bone,lower,2426
+global,unspecified_bone,upper,15463
+eastern africa,bone_tumours,incidence,2375
+eastern africa,bone_tumours,lower,1357
+eastern africa,bone_tumours,upper,3835
+eastern africa,osteosarcoma,incidence,1165
+eastern africa,osteosarcoma,lower,694
+eastern africa,osteosarcoma,upper,2403
+eastern africa,chondrosarcoma,incidence,75
+eastern africa,chondrosarcoma,lower,9
+eastern africa,chondrosarcoma,upper,235
+eastern africa,ewing_related,incidence,404
+eastern africa,ewing_related,lower,181
+eastern africa,ewing_related,upper,969
+eastern africa,other_specified_bone,incidence,241
+eastern africa,other_specified_bone,lower,105
+eastern africa,other_specified_bone,upper,613
+eastern africa,unspecified_bone,incidence,489
+eastern africa,unspecified_bone,lower,269
+eastern africa,unspecified_bone,upper,865
+southern africa,bone_tumours,incidence,297
+southern africa,bone_tumours,lower,186
+southern africa,bone_tumours,upper,453
+southern africa,osteosarcoma,incidence,189
+southern africa,osteosarcoma,lower,95
+southern africa,osteosarcoma,upper,319
+southern africa,chondrosarcoma,incidence,12
+southern africa,chondrosarcoma,lower,2
+southern africa,chondrosarcoma,upper,29
+southern africa,ewing_related,incidence,44
+southern africa,ewing_related,lower,25
+southern africa,ewing_related,upper,79
+southern africa,other_specified_bone,incidence,9
+southern africa,other_specified_bone,lower,1
+southern africa,other_specified_bone,upper,24
+southern africa,unspecified_bone,incidence,42
+southern africa,unspecified_bone,lower,20
+southern africa,unspecified_bone,upper,86
+western africa,bone_tumours,incidence,5175
+western africa,bone_tumours,lower,2790
+western africa,bone_tumours,upper,17603
+western africa,osteosarcoma,incidence,816
+western africa,osteosarcoma,lower,436
+western africa,osteosarcoma,upper,1458
+western africa,chondrosarcoma,incidence,475
+western africa,chondrosarcoma,lower,142
+western africa,chondrosarcoma,upper,1073
+western africa,ewing_related,incidence,553
+western africa,ewing_related,lower,251
+western africa,ewing_related,upper,1181
+western africa,other_specified_bone,incidence,344
+western africa,other_specified_bone,lower,125
+western africa,other_specified_bone,upper,567
+western africa,unspecified_bone,incidence,2988
+western africa,unspecified_bone,lower,953
+western africa,unspecified_bone,upper,13682
+northern africa,bone_tumours,incidence,1026
+northern africa,bone_tumours,lower,745
+northern africa,bone_tumours,upper,1271
+northern africa,osteosarcoma,incidence,441
+northern africa,osteosarcoma,lower,267
+northern africa,osteosarcoma,upper,601
+northern africa,chondrosarcoma,incidence,30
+northern africa,chondrosarcoma,lower,14
+northern africa,chondrosarcoma,upper,49
+northern africa,ewing_related,incidence,383
+northern africa,ewing_related,lower,250
+northern africa,ewing_related,upper,531
+northern africa,other_specified_bone,incidence,55
+northern africa,other_specified_bone,lower,27
+northern africa,other_specified_bone,upper,95
+northern africa,unspecified_bone,incidence,117
+northern africa,unspecified_bone,lower,67
+northern africa,unspecified_bone,upper,209
+eastern asia,bone_tumours,incidence,1737
+eastern asia,bone_tumours,lower,929
+eastern asia,bone_tumours,upper,2753
+eastern asia,osteosarcoma,incidence,1162
+eastern asia,osteosarcoma,lower,451
+eastern asia,osteosarcoma,upper,2043
+eastern asia,chondrosarcoma,incidence,65
+eastern asia,chondrosarcoma,lower,13
+eastern asia,chondrosarcoma,upper,111
+eastern asia,ewing_related,incidence,305
+eastern asia,ewing_related,lower,127
+eastern asia,ewing_related,upper,462
+eastern asia,other_specified_bone,incidence,68
+eastern asia,other_specified_bone,lower,26
+eastern asia,other_specified_bone,upper,118
+eastern asia,unspecified_bone,incidence,137
+eastern asia,unspecified_bone,lower,58
+eastern asia,unspecified_bone,upper,215
+south-central asia,bone_tumours,incidence,6776
+south-central asia,bone_tumours,lower,5731
+south-central asia,bone_tumours,upper,8131
+south-central asia,osteosarcoma,incidence,2910
+south-central asia,osteosarcoma,lower,2247
+south-central asia,osteosarcoma,upper,3576
+south-central asia,chondrosarcoma,incidence,221
+south-central asia,chondrosarcoma,lower,133
+south-central asia,chondrosarcoma,upper,329
+south-central asia,ewing_related,incidence,2527
+south-central asia,ewing_related,lower,1447
+south-central asia,ewing_related,upper,3208
+south-central asia,other_specified_bone,incidence,341
+south-central asia,other_specified_bone,lower,205
+south-central asia,other_specified_bone,upper,560
+south-central asia,unspecified_bone,incidence,777
+south-central asia,unspecified_bone,lower,534
+south-central asia,unspecified_bone,upper,1062
+south-eastern asia,bone_tumours,incidence,1528
+south-eastern asia,bone_tumours,lower,1029
+south-eastern asia,bone_tumours,upper,2383
+south-eastern asia,osteosarcoma,incidence,1074
+south-eastern asia,osteosarcoma,lower,598
+south-eastern asia,osteosarcoma,upper,1984
+south-eastern asia,chondrosarcoma,incidence,39
+south-eastern asia,chondrosarcoma,lower,18
+south-eastern asia,chondrosarcoma,upper,69
+south-eastern asia,ewing_related,incidence,209
+south-eastern asia,ewing_related,lower,112
+south-eastern asia,ewing_related,upper,312
+south-eastern asia,other_specified_bone,incidence,32
+south-eastern asia,other_specified_bone,lower,12
+south-eastern asia,other_specified_bone,upper,61
+south-eastern asia,unspecified_bone,incidence,174
+south-eastern asia,unspecified_bone,lower,101
+south-eastern asia,unspecified_bone,upper,287
+western asia,bone_tumours,incidence,627
+western asia,bone_tumours,lower,492
+western asia,bone_tumours,upper,788
+western asia,osteosarcoma,incidence,277
+western asia,osteosarcoma,lower,175
+western asia,osteosarcoma,upper,383
+western asia,chondrosarcoma,incidence,17
+western asia,chondrosarcoma,lower,7
+western asia,chondrosarcoma,upper,34
+western asia,ewing_related,incidence,286
+western asia,ewing_related,lower,188
+western asia,ewing_related,upper,407
+western asia,other_specified_bone,incidence,20
+western asia,other_specified_bone,lower,9
+western asia,other_specified_bone,upper,34
+western asia,unspecified_bone,incidence,26
+western asia,unspecified_bone,lower,11
+western asia,unspecified_bone,upper,47
+eastern europe,bone_tumours,incidence,303
+eastern europe,bone_tumours,lower,221
+eastern europe,bone_tumours,upper,377
+eastern europe,osteosarcoma,incidence,134
+eastern europe,osteosarcoma,lower,80
+eastern europe,osteosarcoma,upper,202
+eastern europe,chondrosarcoma,incidence,16
+eastern europe,chondrosarcoma,lower,6
+eastern europe,chondrosarcoma,upper,30
+eastern europe,ewing_related,incidence,121
+eastern europe,ewing_related,lower,77
+eastern europe,ewing_related,upper,168
+eastern europe,other_specified_bone,incidence,15
+eastern europe,other_specified_bone,lower,6
+eastern europe,other_specified_bone,upper,27
+eastern europe,unspecified_bone,incidence,18
+eastern europe,unspecified_bone,lower,5
+eastern europe,unspecified_bone,upper,35
+northern europe,bone_tumours,incidence,101
+northern europe,bone_tumours,lower,70
+northern europe,bone_tumours,upper,137
+northern europe,osteosarcoma,incidence,44
+northern europe,osteosarcoma,lower,21
+northern europe,osteosarcoma,upper,67
+northern europe,chondrosarcoma,incidence,3
+northern europe,chondrosarcoma,lower,0
+northern europe,chondrosarcoma,upper,8
+northern europe,ewing_related,incidence,41
+northern europe,ewing_related,lower,22
+northern europe,ewing_related,upper,61
+northern europe,other_specified_bone,incidence,11
+northern europe,other_specified_bone,lower,2
+northern europe,other_specified_bone,upper,29
+northern europe,unspecified_bone,incidence,3
+northern europe,unspecified_bone,lower,0
+northern europe,unspecified_bone,upper,8
+southern europe,bone_tumours,incidence,182
+southern europe,bone_tumours,lower,131
+southern europe,bone_tumours,upper,231
+southern europe,osteosarcoma,incidence,79
+southern europe,osteosarcoma,lower,46
+southern europe,osteosarcoma,upper,109
+southern europe,chondrosarcoma,incidence,4
+southern europe,chondrosarcoma,lower,0
+southern europe,chondrosarcoma,upper,11
+southern europe,ewing_related,incidence,76
+southern europe,ewing_related,lower,50
+southern europe,ewing_related,upper,106
+southern europe,other_specified_bone,incidence,3
+southern europe,other_specified_bone,lower,0
+southern europe,other_specified_bone,upper,7
+southern europe,unspecified_bone,incidence,21
+southern europe,unspecified_bone,lower,3
+southern europe,unspecified_bone,upper,60
+western europe,bone_tumours,incidence,219
+western europe,bone_tumours,lower,171
+western europe,bone_tumours,upper,270
+western europe,osteosarcoma,incidence,104
+western europe,osteosarcoma,lower,66
+western europe,osteosarcoma,upper,140
+western europe,chondrosarcoma,incidence,6
+western europe,chondrosarcoma,lower,1
+western europe,chondrosarcoma,upper,13
+western europe,ewing_related,incidence,97
+western europe,ewing_related,lower,68
+western europe,ewing_related,upper,130
+western europe,other_specified_bone,incidence,9
+western europe,other_specified_bone,lower,2
+western europe,other_specified_bone,upper,19
+western europe,unspecified_bone,incidence,4
+western europe,unspecified_bone,lower,0
+western europe,unspecified_bone,upper,9
+northern america,bone_tumours,incidence,451
+northern america,bone_tumours,lower,339
+northern america,bone_tumours,upper,545
+northern america,osteosarcoma,incidence,248
+northern america,osteosarcoma,lower,142
+northern america,osteosarcoma,upper,315
+northern america,chondrosarcoma,incidence,11
+northern america,chondrosarcoma,lower,4
+northern america,chondrosarcoma,upper,20
+northern america,ewing_related,incidence,162
+northern america,ewing_related,lower,99
+northern america,ewing_related,upper,216
+northern america,other_specified_bone,incidence,17
+northern america,other_specified_bone,lower,6
+northern america,other_specified_bone,upper,28
+northern america,unspecified_bone,incidence,12
+northern america,unspecified_bone,lower,4
+northern america,unspecified_bone,upper,21
+caribbean,bone_tumours,incidence,73
+caribbean,bone_tumours,lower,45
+caribbean,bone_tumours,upper,111
+caribbean,osteosarcoma,incidence,44
+caribbean,osteosarcoma,lower,22
+caribbean,osteosarcoma,upper,75
+caribbean,chondrosarcoma,incidence,5
+caribbean,chondrosarcoma,lower,0
+caribbean,chondrosarcoma,upper,17
+caribbean,ewing_related,incidence,16
+caribbean,ewing_related,lower,6
+caribbean,ewing_related,upper,31
+caribbean,other_specified_bone,incidence,2
+caribbean,other_specified_bone,lower,0
+caribbean,other_specified_bone,upper,8
+caribbean,unspecified_bone,incidence,6
+caribbean,unspecified_bone,lower,1
+caribbean,unspecified_bone,upper,20
+central america,bone_tumours,incidence,461
+central america,bone_tumours,lower,262
+central america,bone_tumours,upper,691
+central america,osteosarcoma,incidence,271
+central america,osteosarcoma,lower,89
+central america,osteosarcoma,upper,457
+central america,chondrosarcoma,incidence,21
+central america,chondrosarcoma,lower,3
+central america,chondrosarcoma,upper,50
+central america,ewing_related,incidence,108
+central america,ewing_related,lower,35
+central america,ewing_related,upper,174
+central america,other_specified_bone,incidence,20
+central america,other_specified_bone,lower,3
+central america,other_specified_bone,upper,55
+central america,unspecified_bone,incidence,41
+central america,unspecified_bone,lower,13
+central america,unspecified_bone,upper,78
+south america,bone_tumours,incidence,1034
+south america,bone_tumours,lower,772
+south america,bone_tumours,upper,1330
+south america,osteosarcoma,incidence,582
+south america,osteosarcoma,lower,357
+south america,osteosarcoma,upper,799
+south america,chondrosarcoma,incidence,34
+south america,chondrosarcoma,lower,16
+south america,chondrosarcoma,upper,61
+south america,ewing_related,incidence,306
+south america,ewing_related,lower,168
+south america,ewing_related,upper,437
+south america,other_specified_bone,incidence,42
+south america,other_specified_bone,lower,21
+south america,other_specified_bone,upper,81
+south america,unspecified_bone,incidence,69
+south america,unspecified_bone,lower,36
+south america,unspecified_bone,upper,106
+oceania,bone_tumours,incidence,34
+oceania,bone_tumours,lower,14
+oceania,bone_tumours,upper,57
+oceania,osteosarcoma,incidence,14
+oceania,osteosarcoma,lower,3
+oceania,osteosarcoma,upper,37
+oceania,chondrosarcoma,incidence,0
+oceania,chondrosarcoma,lower,0
+oceania,chondrosarcoma,upper,1
+oceania,ewing_related,incidence,16
+oceania,ewing_related,lower,4
+oceania,ewing_related,upper,33
+oceania,other_specified_bone,incidence,2
+oceania,other_specified_bone,lower,0
+oceania,other_specified_bone,upper,8
+oceania,unspecified_bone,incidence,1
+oceania,unspecified_bone,lower,0
+oceania,unspecified_bone,upper,5
+australia/new zealand,bone_tumours,incidence,35
+australia/new zealand,bone_tumours,lower,19
+australia/new zealand,bone_tumours,upper,57
+australia/new zealand,osteosarcoma,incidence,17
+australia/new zealand,osteosarcoma,lower,4
+australia/new zealand,osteosarcoma,upper,38
+australia/new zealand,chondrosarcoma,incidence,0
+australia/new zealand,chondrosarcoma,lower,0
+australia/new zealand,chondrosarcoma,upper,2
+australia/new zealand,ewing_related,incidence,17
+australia/new zealand,ewing_related,lower,8
+australia/new zealand,ewing_related,upper,29
+australia/new zealand,other_specified_bone,incidence,1
+australia/new zealand,other_specified_bone,lower,0
+australia/new zealand,other_specified_bone,upper,3
+australia/new zealand,unspecified_bone,incidence,0
+australia/new zealand,unspecified_bone,lower,0
+australia/new zealand,unspecified_bone,upper,2

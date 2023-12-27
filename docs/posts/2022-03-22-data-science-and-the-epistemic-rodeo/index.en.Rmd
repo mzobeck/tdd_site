@@ -1,0 +1,52 @@
+---
+title: "Data science is a saddle for the epistemic rodeo: healthcare as a complex system"
+subtitle: "Taming complexity, one analysis at a time."
+author: "Mark Zobeck"
+date: 2022-03-22
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "data-science-and-the-epistemic-rodeo"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+Healthcare is complicated. Healthcare is also complex. To use data science to improve treatment delivery in low-resource settings, it is important to understand in what way healthcare is complicated and in what was it is complex.
+
+We will turn to the [Cynefin](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) (pronounced ku-nev-in) framework to understand the difference between complicated and complex contexts.
+
+-   Complicated - the domain of experts, clear cause-and-effect relationships but it requires knowledge and expertise to arrive reliably at the right answers
+
+-   Complex - dynamic system, changing, non-stationary cause-effect relationships, right answer may not exist but best answers for a unique situtions may be found by interacting carefully with the system
+
+## **Clinical care is complicated**
+
+Doctors and nurses require incredible expertise to do their job well. We know a lot about the human body and about a multitude of disease states. Providers use that knowledge to gather data about the patient's clinical presentation to arrive at a correct diagnosis or to identify effective treatments. Expert knowledge and experience is the key.
+
+Importantly, although each individual patient's body is unique and ever changing, the application of biological knowledge in the in the context of diagnosis and treatment is a stable process. Diseases act in more-or-less in predictable ways. When diseases are unpredictable, the steady application of clinical knowledge can provide further answers and treatments.
+
+## **Healthcare systems are complex**
+
+The healthcare system that is built to deliver care to patients is comprised of many moving parts that are hierarchically nested within functional units that interact in nonlinear ways. Hospitals, clinics, government agencies, nongovernment organizations are all key types of entities that comprise the system. Within each entity there are doctors, nurses, politicians, administrators, and many other types of actors. These entities and actors must perform many functions to deliver medical goods and services to patients. Some actors can react to the activity of others, such as changes in insurance coverage or new legislation, causing unpredictable perturbations throughout the system.
+
+From the perspective of an individual clinic or hospital, these outside forces influence the treatment centers ability to care for patients in many ways. Medications must be secured, equipment must be serviced, staffing must be adequately maintained, and information systems must be kept up to date. The center's ability to maintain these services depends on both the proper functioning of internal operations and the continued management of the ever changing external forces. Add on top of all of that the occasional pandemic or other chaotic force that emerges from the darkness to completely disrupt operations, and it can feel is if you are in an epistemic rodeo, holding on for dear life as new information tosses you about.
+
+## **Data science helps you navigate complex systems**
+
+Taking another insight from the Cynefin framework, in complex contexts the best way to act is to probe, sense, and respond. Probing implies that you have sensors in the system that provide information on how it evolves over time. This equips you with the ability to experiment with small changes to see how the system responds. Sensing is the act of gathering the information about the change in the system to the small changes. This should give sufficient information to know how to respond more effectively to guide the system to the desired outcome. The probe-sense-respond process is similar to several PDSA cycles in QI, but rapid sensing and flexibility with responses are key.
+
+Data science provides all of the required equipment to succeed in the epistemic rodeo by allowing you to probe-sense-respond across all of your organizational complexities. Like a saddle on a bull, data science will stabilize your knowledge and give you something to hold on to as you start to feel the kick from the next challenge. Soon you'll understand how your complex systems behaves and be able to direct it to gallop wherever you need it to go.

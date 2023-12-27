@@ -1,0 +1,58 @@
+---
+title: "Stochastic beasts and how to slay them - Part 1"
+subtitle: "Aleatory beasts roam the countryside looking for trouble."
+author: "Mark Zobeck"
+date: 2022-03-25
+categories: ["Confident Uncertainty"]
+tags: ["Stochasticism"]
+slug: "stochastic-beasts-1"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+What do the Balrogs, huge earthquakes, and nuclear war have in common?
+
+They are all unpredictable demons that emerge from the abyss to destroy your future. While Balrogs may be mythical beasts from Middle Earth, earthquakes and nuclear war are very real threats.
+
+[In my last post,](https://www.thedoctorsdialectic.com/2022/03/24/two_types_of_uncertainty/) I discussed the two types of uncertainty, aleatory and epistemic. I described them with nice and tidy examples, consistent with how they are usually presented in classroom settings. These tame illustrations were a good start to illustrate the concepts so that you can recognize them when you come across them.
+
+Unfortunately, real life is not tame. There are radical forms of both aleatory and epistemic uncertainty. These are events that are completely unpredictable, although in slightly different ways.
+
+It is good to understand these forms of uncertainty so that you can face them confidently when they come.
+
+In this post, we will discuss slaying aleatory beasts and in the next post cover epistemic monsters.
+
+## Radical aleatory uncertainty 
+
+The frequency of earthquakes follows an inverse power law as a function of its strength. In other words, stronger earthquakes happen much less frequently than weaker earthquakes. This means you can live in faulty California your whole life and never experience a strong earthquake, although you will probably experience many small and medium-size earthquakes in that time.
+
+This is radical aleatory uncertainty: big events that happen infrequently but conform to mathematical laws. There are underlying physical reasons why earthquakes conform to an inverse power law, which means we can make scientific models that describe their occurrence. Their infrequency also makes them unpredictable, and therein lies the problem.
+
+Radical aleatory uncertainty can lull you to sleep. It's easy to think that because you've done fine in small earthquakes, you'll be fine in a big one, but those are two completely different beasts. It's tempting to save money by building less resilient housing when an earthquake hasn't knocked anything down in a while.
+
+Also, you can take a false sense of security from the fact that we can model the earthquake scientifically, therefore we must have some special insight into how to predict them. Describing their frequency and predicting the next occurrence are two wildly different activities, and we cannot do the latter.
+
+## Slaying aleatory beasts 
+
+There is nothing we can do about earthquakes. We aren't going to geoengineer them away. This applies to many things that exhibit radical aleatory uncertainty. So what to do?
+
+Stay awake. The threats are real and describable mathematically, so take reasonable precautions against them. Take out insurance to protect against rare but serious catastrophes. Keep emergency supplies stocked if you live in an area exposed to natural disasters. Hedge risky in investments with safer bets. Do not over-optimize to your present situation but spend a little extra effort to build in robustness. Advocate for policies and vote for politicians that take small-but-consequential risks seriously and who won't give in to political expediency.
+
+Also, don't let these uncertainties dominate your life. Stay alert to their possibility, but take seriously the fact that they are rare. If you're thinking about the structural integrity of the restaurant you're at with your date, then the beast is winning. Aleatory anxiety is a very real threat to your well-being. To ward it off, I find it helpful to understand the beast in its rare-but-serious mathematical context.
+
+These stochastic beasts are hard to slay, there is no doubt about it. The experience of radical uncertainty is a fundamental part of what makes us human. It may not always be fun to face them, but it is possible to live confidently in the knowledge that you can handle the aleatory beasts come your way.

@@ -1,0 +1,14 @@
+{
+  "hash": "c99d597c60abb4e3363b9c43527f5fd7",
+  "result": {
+    "markdown": "---\ntitle: \"Data Science has a garbage problem\"\nsubtitle: \"Garbage in, garbage out, unfortunately.\"\nauthor: \"Mark Zobeck\"\ndate: 2022-03-17\ncategories: [\"Data Science + Global Health\"]\ntags: [\"Data science\"]\nslug: \"garbage-in-data-science\"\n---\n\n::: {.cell}\n\n:::\n\n\n**Data science has a data problem.**\n\nThe vast edifice of technologies, visualizations, statistics, machine learning algorithms that make up the data science empire are built on a foundation that can either be as solid as a rock or as unstable as shifting sand.\n\n## **The foundation of all of data science is data quality** \n\nIf your data are garbage, then your analyses may as well be toxic waste. You are better off hiring a hard Sci-Fi novelist to imagine what insights you might have gotten from possible analyses than performing any of your own. You can literally produce negative information (information that moves you further from your goal) using bad data.\n\n## **Garbage data is a big problem in Global Health** \n\nInformation technologies are limited or nonexistent, and data collection is performed manually. There may be limited time and resources to dedicate toward the inglorious task of data management. Leadership may not understand the value of clean data and may encourage shortcuts that compromise quality. To put it bluntly, data management is boring, hard to do well, and just not sexy compared to the rest of data science.\n\nThis is a problem when resources and time are scarce because the wasted effort to collect garbage data is effort that could have been spent on something more valuable.\n\n## **Garbage data today will poison data science tomorrow**\n\nAs bad analyses accrue over time, a perception will emerge in the organization that data collection is administrative busywork, and the data are untrustworthy and useless for practical applications. This will make future efforts toward data science even more difficult.\n\n## **The good news is that garbage data can be cleaned up!**\n\nWith a little effort, your organization can collect beautiful, high-quality data! Thoughtful data management designed to work within the constraints of the organization's data collection infrastructure is key. Even if time and resources are limited, you can still ask and answer incredibly important questions from the data in a way that is useful for practice application and builds trust among people who lost confidence in data-driven insights.\n\nIn my next post, I'll give you a few key steps to collect and maintain beautiful, gloriously-insightful data.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

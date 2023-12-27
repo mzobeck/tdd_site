@@ -1,0 +1,343 @@
+region,disease,data,val
+global,germ_cell_tumours,incidence,14402
+global,germ_cell_tumours,lower,12358
+global,germ_cell_tumours,upper,18314
+global,cns_germ_cell,incidence,2207
+global,cns_germ_cell,lower,1449
+global,cns_germ_cell,upper,2976
+global,other_extragonadal,incidence,3008
+global,other_extragonadal,lower,2113
+global,other_extragonadal,upper,5773
+global,gonadal_germ_cell,incidence,6528
+global,gonadal_germ_cell,lower,5457
+global,gonadal_germ_cell,upper,7792
+global,gonadal_carcinoma,incidence,1249
+global,gonadal_carcinoma,lower,891
+global,gonadal_carcinoma,upper,2237
+global,unspecified_gonadal,incidence,1410
+global,unspecified_gonadal,lower,1067
+global,unspecified_gonadal,upper,1985
+eastern africa,germ_cell_tumours,incidence,1117
+eastern africa,germ_cell_tumours,lower,794
+eastern africa,germ_cell_tumours,upper,1600
+eastern africa,cns_germ_cell,incidence,285
+eastern africa,cns_germ_cell,lower,118
+eastern africa,cns_germ_cell,upper,701
+eastern africa,other_extragonadal,incidence,233
+eastern africa,other_extragonadal,lower,112
+eastern africa,other_extragonadal,upper,490
+eastern africa,gonadal_germ_cell,incidence,243
+eastern africa,gonadal_germ_cell,lower,130
+eastern africa,gonadal_germ_cell,upper,386
+eastern africa,gonadal_carcinoma,incidence,107
+eastern africa,gonadal_carcinoma,lower,44
+eastern africa,gonadal_carcinoma,upper,280
+eastern africa,unspecified_gonadal,incidence,249
+eastern africa,unspecified_gonadal,lower,146
+eastern africa,unspecified_gonadal,upper,410
+southern africa,germ_cell_tumours,incidence,253
+southern africa,germ_cell_tumours,lower,164
+southern africa,germ_cell_tumours,upper,461
+southern africa,cns_germ_cell,incidence,14
+southern africa,cns_germ_cell,lower,4
+southern africa,cns_germ_cell,upper,33
+southern africa,other_extragonadal,incidence,125
+southern africa,other_extragonadal,lower,71
+southern africa,other_extragonadal,upper,215
+southern africa,gonadal_germ_cell,incidence,69
+southern africa,gonadal_germ_cell,lower,28
+southern africa,gonadal_germ_cell,upper,133
+southern africa,gonadal_carcinoma,incidence,33
+southern africa,gonadal_carcinoma,lower,9
+southern africa,gonadal_carcinoma,upper,139
+southern africa,unspecified_gonadal,incidence,12
+southern africa,unspecified_gonadal,lower,1
+southern africa,unspecified_gonadal,upper,41
+western africa,germ_cell_tumours,incidence,2299
+western africa,germ_cell_tumours,lower,1384
+western africa,germ_cell_tumours,upper,5599
+western africa,cns_germ_cell,incidence,124
+western africa,cns_germ_cell,lower,37
+western africa,cns_germ_cell,upper,274
+western africa,other_extragonadal,incidence,826
+western africa,other_extragonadal,lower,321
+western africa,other_extragonadal,upper,3734
+western africa,gonadal_germ_cell,incidence,588
+western africa,gonadal_germ_cell,lower,265
+western africa,gonadal_germ_cell,upper,1314
+western africa,gonadal_carcinoma,incidence,363
+western africa,gonadal_carcinoma,lower,156
+western africa,gonadal_carcinoma,upper,867
+western africa,unspecified_gonadal,incidence,398
+western africa,unspecified_gonadal,lower,212
+western africa,unspecified_gonadal,upper,969
+northern africa,germ_cell_tumours,incidence,355
+northern africa,germ_cell_tumours,lower,257
+northern africa,germ_cell_tumours,upper,586
+northern africa,cns_germ_cell,incidence,54
+northern africa,cns_germ_cell,lower,21
+northern africa,cns_germ_cell,upper,302
+northern africa,other_extragonadal,incidence,78
+northern africa,other_extragonadal,lower,38
+northern africa,other_extragonadal,upper,130
+northern africa,gonadal_germ_cell,incidence,128
+northern africa,gonadal_germ_cell,lower,70
+northern africa,gonadal_germ_cell,upper,192
+northern africa,gonadal_carcinoma,incidence,48
+northern africa,gonadal_carcinoma,lower,22
+northern africa,gonadal_carcinoma,upper,109
+northern africa,unspecified_gonadal,incidence,47
+northern africa,unspecified_gonadal,lower,21
+northern africa,unspecified_gonadal,upper,86
+eastern asia,germ_cell_tumours,incidence,2709
+eastern asia,germ_cell_tumours,lower,1720
+eastern asia,germ_cell_tumours,upper,3662
+eastern asia,cns_germ_cell,incidence,913
+eastern asia,cns_germ_cell,lower,229
+eastern asia,cns_germ_cell,upper,1613
+eastern asia,other_extragonadal,incidence,462
+eastern asia,other_extragonadal,lower,194
+eastern asia,other_extragonadal,upper,750
+eastern asia,gonadal_germ_cell,incidence,1197
+eastern asia,gonadal_germ_cell,lower,383
+eastern asia,gonadal_germ_cell,upper,1915
+eastern asia,gonadal_carcinoma,incidence,69
+eastern asia,gonadal_carcinoma,lower,20
+eastern asia,gonadal_carcinoma,upper,145
+eastern asia,unspecified_gonadal,incidence,69
+eastern asia,unspecified_gonadal,lower,14
+eastern asia,unspecified_gonadal,upper,122
+south-central asia,germ_cell_tumours,incidence,3615
+south-central asia,germ_cell_tumours,lower,2974
+south-central asia,germ_cell_tumours,upper,4507
+south-central asia,cns_germ_cell,incidence,204
+south-central asia,cns_germ_cell,lower,107
+south-central asia,cns_germ_cell,upper,340
+south-central asia,other_extragonadal,incidence,534
+south-central asia,other_extragonadal,lower,362
+south-central asia,other_extragonadal,upper,796
+south-central asia,gonadal_germ_cell,incidence,2140
+south-central asia,gonadal_germ_cell,lower,1607
+south-central asia,gonadal_germ_cell,upper,2676
+south-central asia,gonadal_carcinoma,incidence,384
+south-central asia,gonadal_carcinoma,lower,249
+south-central asia,gonadal_carcinoma,upper,673
+south-central asia,unspecified_gonadal,incidence,354
+south-central asia,unspecified_gonadal,lower,253
+south-central asia,unspecified_gonadal,upper,611
+south-eastern asia,germ_cell_tumours,incidence,1427
+south-eastern asia,germ_cell_tumours,lower,1100
+south-eastern asia,germ_cell_tumours,upper,1848
+south-eastern asia,cns_germ_cell,incidence,159
+south-eastern asia,cns_germ_cell,lower,74
+south-eastern asia,cns_germ_cell,upper,310
+south-eastern asia,other_extragonadal,incidence,231
+south-eastern asia,other_extragonadal,lower,139
+south-eastern asia,other_extragonadal,upper,464
+south-eastern asia,gonadal_germ_cell,incidence,814
+south-eastern asia,gonadal_germ_cell,lower,503
+south-eastern asia,gonadal_germ_cell,upper,1162
+south-eastern asia,gonadal_carcinoma,incidence,89
+south-eastern asia,gonadal_carcinoma,lower,48
+south-eastern asia,gonadal_carcinoma,upper,163
+south-eastern asia,unspecified_gonadal,incidence,133
+south-eastern asia,unspecified_gonadal,lower,73
+south-eastern asia,unspecified_gonadal,upper,222
+western asia,germ_cell_tumours,incidence,370
+western asia,germ_cell_tumours,lower,285
+western asia,germ_cell_tumours,upper,479
+western asia,cns_germ_cell,incidence,62
+western asia,cns_germ_cell,lower,38
+western asia,cns_germ_cell,upper,94
+western asia,other_extragonadal,incidence,100
+western asia,other_extragonadal,lower,59
+western asia,other_extragonadal,upper,145
+western asia,gonadal_germ_cell,incidence,175
+western asia,gonadal_germ_cell,lower,89
+western asia,gonadal_germ_cell,upper,252
+western asia,gonadal_carcinoma,incidence,17
+western asia,gonadal_carcinoma,lower,3
+western asia,gonadal_carcinoma,upper,37
+western asia,unspecified_gonadal,incidence,17
+western asia,unspecified_gonadal,lower,4
+western asia,unspecified_gonadal,upper,39
+eastern europe,germ_cell_tumours,incidence,197
+eastern europe,germ_cell_tumours,lower,141
+eastern europe,germ_cell_tumours,upper,259
+eastern europe,cns_germ_cell,incidence,30
+eastern europe,cns_germ_cell,lower,14
+eastern europe,cns_germ_cell,upper,48
+eastern europe,other_extragonadal,incidence,51
+eastern europe,other_extragonadal,lower,25
+eastern europe,other_extragonadal,upper,81
+eastern europe,gonadal_germ_cell,incidence,94
+eastern europe,gonadal_germ_cell,lower,49
+eastern europe,gonadal_germ_cell,upper,147
+eastern europe,gonadal_carcinoma,incidence,10
+eastern europe,gonadal_carcinoma,lower,3
+eastern europe,gonadal_carcinoma,upper,20
+eastern europe,unspecified_gonadal,incidence,11
+eastern europe,unspecified_gonadal,lower,3
+eastern europe,unspecified_gonadal,upper,22
+northern europe,germ_cell_tumours,incidence,70
+northern europe,germ_cell_tumours,lower,48
+northern europe,germ_cell_tumours,upper,96
+northern europe,cns_germ_cell,incidence,16
+northern europe,cns_germ_cell,lower,6
+northern europe,cns_germ_cell,upper,28
+northern europe,other_extragonadal,incidence,18
+northern europe,other_extragonadal,lower,6
+northern europe,other_extragonadal,upper,32
+northern europe,gonadal_germ_cell,incidence,30
+northern europe,gonadal_germ_cell,lower,16
+northern europe,gonadal_germ_cell,upper,46
+northern europe,gonadal_carcinoma,incidence,2
+northern europe,gonadal_carcinoma,lower,0
+northern europe,gonadal_carcinoma,upper,5
+northern europe,unspecified_gonadal,incidence,5
+northern europe,unspecified_gonadal,lower,0
+northern europe,unspecified_gonadal,upper,13
+southern europe,germ_cell_tumours,incidence,106
+southern europe,germ_cell_tumours,lower,79
+southern europe,germ_cell_tumours,upper,135
+southern europe,cns_germ_cell,incidence,23
+southern europe,cns_germ_cell,lower,11
+southern europe,cns_germ_cell,upper,36
+southern europe,other_extragonadal,incidence,25
+southern europe,other_extragonadal,lower,13
+southern europe,other_extragonadal,upper,37
+southern europe,gonadal_germ_cell,incidence,51
+southern europe,gonadal_germ_cell,lower,33
+southern europe,gonadal_germ_cell,upper,70
+southern europe,gonadal_carcinoma,incidence,2
+southern europe,gonadal_carcinoma,lower,0
+southern europe,gonadal_carcinoma,upper,6
+southern europe,unspecified_gonadal,incidence,6
+southern europe,unspecified_gonadal,lower,0
+southern europe,unspecified_gonadal,upper,19
+western europe,germ_cell_tumours,incidence,132
+western europe,germ_cell_tumours,lower,99
+western europe,germ_cell_tumours,upper,166
+western europe,cns_germ_cell,incidence,31
+western europe,cns_germ_cell,lower,17
+western europe,cns_germ_cell,upper,48
+western europe,other_extragonadal,incidence,35
+western europe,other_extragonadal,lower,16
+western europe,other_extragonadal,upper,53
+western europe,gonadal_germ_cell,incidence,58
+western europe,gonadal_germ_cell,lower,34
+western europe,gonadal_germ_cell,upper,85
+western europe,gonadal_carcinoma,incidence,3
+western europe,gonadal_carcinoma,lower,0
+western europe,gonadal_carcinoma,upper,11
+western europe,unspecified_gonadal,incidence,4
+western europe,unspecified_gonadal,lower,1
+western europe,unspecified_gonadal,upper,10
+northern america,germ_cell_tumours,incidence,352
+northern america,germ_cell_tumours,lower,274
+northern america,germ_cell_tumours,upper,426
+northern america,cns_germ_cell,incidence,105
+northern america,cns_germ_cell,lower,46
+northern america,cns_germ_cell,upper,144
+northern america,other_extragonadal,incidence,86
+northern america,other_extragonadal,lower,49
+northern america,other_extragonadal,upper,115
+northern america,gonadal_germ_cell,incidence,145
+northern america,gonadal_germ_cell,lower,97
+northern america,gonadal_germ_cell,upper,192
+northern america,gonadal_carcinoma,incidence,6
+northern america,gonadal_carcinoma,lower,1
+northern america,gonadal_carcinoma,upper,12
+northern america,unspecified_gonadal,incidence,11
+northern america,unspecified_gonadal,lower,4
+northern america,unspecified_gonadal,upper,19
+caribbean,germ_cell_tumours,incidence,48
+caribbean,germ_cell_tumours,lower,25
+caribbean,germ_cell_tumours,upper,86
+caribbean,cns_germ_cell,incidence,4
+caribbean,cns_germ_cell,lower,0
+caribbean,cns_germ_cell,upper,11
+caribbean,other_extragonadal,incidence,11
+caribbean,other_extragonadal,lower,3
+caribbean,other_extragonadal,upper,24
+caribbean,gonadal_germ_cell,incidence,26
+caribbean,gonadal_germ_cell,lower,10
+caribbean,gonadal_germ_cell,upper,47
+caribbean,gonadal_carcinoma,incidence,4
+caribbean,gonadal_carcinoma,lower,0
+caribbean,gonadal_carcinoma,upper,21
+caribbean,unspecified_gonadal,incidence,3
+caribbean,unspecified_gonadal,lower,0
+caribbean,unspecified_gonadal,upper,12
+central america,germ_cell_tumours,incidence,542
+central america,germ_cell_tumours,lower,291
+central america,germ_cell_tumours,upper,818
+central america,cns_germ_cell,incidence,78
+central america,cns_germ_cell,lower,28
+central america,cns_germ_cell,upper,146
+central america,other_extragonadal,incidence,48
+central america,other_extragonadal,lower,20
+central america,other_extragonadal,upper,76
+central america,gonadal_germ_cell,incidence,324
+central america,gonadal_germ_cell,lower,109
+central america,gonadal_germ_cell,upper,567
+central america,gonadal_carcinoma,incidence,56
+central america,gonadal_carcinoma,lower,11
+central america,gonadal_carcinoma,upper,239
+central america,unspecified_gonadal,incidence,36
+central america,unspecified_gonadal,lower,13
+central america,unspecified_gonadal,upper,90
+south america,germ_cell_tumours,incidence,757
+south america,germ_cell_tumours,lower,591
+south america,germ_cell_tumours,upper,935
+south america,cns_germ_cell,incidence,87
+south america,cns_germ_cell,lower,47
+south america,cns_germ_cell,upper,128
+south america,other_extragonadal,incidence,131
+south america,other_extragonadal,lower,71
+south america,other_extragonadal,upper,196
+south america,gonadal_germ_cell,incidence,426
+south america,gonadal_germ_cell,lower,283
+south america,gonadal_germ_cell,upper,554
+south america,gonadal_carcinoma,incidence,58
+south america,gonadal_carcinoma,lower,30
+south america,gonadal_carcinoma,upper,93
+south america,unspecified_gonadal,incidence,55
+south america,unspecified_gonadal,lower,34
+south america,unspecified_gonadal,upper,84
+oceania,germ_cell_tumours,incidence,25
+oceania,germ_cell_tumours,lower,9
+oceania,germ_cell_tumours,upper,47
+oceania,cns_germ_cell,incidence,7
+oceania,cns_germ_cell,lower,1
+oceania,cns_germ_cell,upper,19
+oceania,other_extragonadal,incidence,7
+oceania,other_extragonadal,lower,1
+oceania,other_extragonadal,upper,16
+oceania,gonadal_germ_cell,incidence,9
+oceania,gonadal_germ_cell,lower,1
+oceania,gonadal_germ_cell,upper,22
+oceania,gonadal_carcinoma,incidence,1
+oceania,gonadal_carcinoma,lower,0
+oceania,gonadal_carcinoma,upper,3
+oceania,unspecified_gonadal,incidence,0
+oceania,unspecified_gonadal,lower,0
+oceania,unspecified_gonadal,upper,2
+australia/new zealand,germ_cell_tumours,incidence,28
+australia/new zealand,germ_cell_tumours,lower,13
+australia/new zealand,germ_cell_tumours,upper,44
+australia/new zealand,cns_germ_cell,incidence,7
+australia/new zealand,cns_germ_cell,lower,1
+australia/new zealand,cns_germ_cell,upper,15
+australia/new zealand,other_extragonadal,incidence,8
+australia/new zealand,other_extragonadal,lower,2
+australia/new zealand,other_extragonadal,upper,16
+australia/new zealand,gonadal_germ_cell,incidence,12
+australia/new zealand,gonadal_germ_cell,lower,3
+australia/new zealand,gonadal_germ_cell,upper,22
+australia/new zealand,gonadal_carcinoma,incidence,1
+australia/new zealand,gonadal_carcinoma,lower,0
+australia/new zealand,gonadal_carcinoma,upper,3
+australia/new zealand,unspecified_gonadal,incidence,0
+australia/new zealand,unspecified_gonadal,lower,0
+australia/new zealand,unspecified_gonadal,upper,2

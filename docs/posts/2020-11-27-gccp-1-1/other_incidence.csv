@@ -1,0 +1,172 @@
+region,disease,data,val
+global,other_tot,incidence,18643
+global,other_tot,lower,13619
+global,other_tot,upper,26324
+global,other_specified,incidence,791
+global,other_specified,lower,542
+global,other_specified,upper,1106
+global,other_unspecified,incidence,17852
+global,other_unspecified,lower,12968
+global,other_unspecified,upper,25566
+eastern africa,other_tot,incidence,3311
+eastern africa,other_tot,lower,2099
+eastern africa,other_tot,upper,4722
+eastern africa,other_specified,incidence,188
+eastern africa,other_specified,lower,89
+eastern africa,other_specified,upper,461
+eastern africa,other_unspecified,incidence,3123
+eastern africa,other_unspecified,lower,1967
+eastern africa,other_unspecified,upper,4521
+southern africa,other_tot,incidence,67
+southern africa,other_tot,lower,23
+southern africa,other_tot,upper,149
+southern africa,other_specified,incidence,9
+southern africa,other_specified,lower,2
+southern africa,other_specified,upper,23
+southern africa,other_unspecified,incidence,58
+southern africa,other_unspecified,lower,16
+southern africa,other_unspecified,upper,141
+western africa,other_tot,incidence,8554
+western africa,other_tot,lower,4503
+western africa,other_tot,upper,16436
+western africa,other_specified,incidence,102
+western africa,other_specified,lower,33
+western africa,other_specified,upper,229
+western africa,other_unspecified,incidence,8451
+western africa,other_unspecified,lower,4400
+western africa,other_unspecified,upper,16326
+northern africa,other_tot,incidence,466
+northern africa,other_tot,lower,265
+northern africa,other_tot,upper,607
+northern africa,other_specified,incidence,62
+northern africa,other_specified,lower,38
+northern africa,other_specified,upper,112
+northern africa,other_unspecified,incidence,403
+northern africa,other_unspecified,lower,202
+northern africa,other_unspecified,upper,544
+eastern asia,other_tot,incidence,689
+eastern asia,other_tot,lower,250
+eastern asia,other_tot,upper,1303
+eastern asia,other_specified,incidence,109
+eastern asia,other_specified,lower,23
+eastern asia,other_specified,upper,205
+eastern asia,other_unspecified,incidence,580
+eastern asia,other_unspecified,lower,160
+eastern asia,other_unspecified,upper,1178
+south-central asia,other_tot,incidence,3418
+south-central asia,other_tot,lower,2247
+south-central asia,other_tot,upper,5750
+south-central asia,other_specified,incidence,128
+south-central asia,other_specified,lower,70
+south-central asia,other_specified,upper,234
+south-central asia,other_unspecified,incidence,3290
+south-central asia,other_unspecified,lower,2107
+south-central asia,other_unspecified,upper,5618
+south-eastern asia,other_tot,incidence,1063
+south-eastern asia,other_tot,lower,662
+south-eastern asia,other_tot,upper,1689
+south-eastern asia,other_specified,incidence,34
+south-eastern asia,other_specified,lower,12
+south-eastern asia,other_specified,upper,90
+south-eastern asia,other_unspecified,incidence,1029
+south-eastern asia,other_unspecified,lower,643
+south-eastern asia,other_unspecified,upper,1662
+western asia,other_tot,incidence,124
+western asia,other_tot,lower,73
+western asia,other_tot,upper,195
+western asia,other_specified,incidence,21
+western asia,other_specified,lower,7
+western asia,other_specified,upper,57
+western asia,other_unspecified,incidence,103
+western asia,other_unspecified,lower,57
+western asia,other_unspecified,upper,161
+eastern europe,other_tot,incidence,93
+eastern europe,other_tot,lower,54
+eastern europe,other_tot,upper,140
+eastern europe,other_specified,incidence,10
+eastern europe,other_specified,lower,3
+eastern europe,other_specified,upper,19
+eastern europe,other_unspecified,incidence,83
+eastern europe,other_unspecified,lower,44
+eastern europe,other_unspecified,upper,130
+northern europe,other_tot,incidence,15
+northern europe,other_tot,lower,6
+northern europe,other_tot,upper,27
+northern europe,other_specified,incidence,4
+northern europe,other_specified,lower,0
+northern europe,other_specified,upper,11
+northern europe,other_unspecified,incidence,11
+northern europe,other_unspecified,lower,3
+northern europe,other_unspecified,upper,22
+southern europe,other_tot,incidence,16
+southern europe,other_tot,lower,6
+southern europe,other_tot,upper,28
+southern europe,other_specified,incidence,5
+southern europe,other_specified,lower,1
+southern europe,other_specified,upper,11
+southern europe,other_unspecified,incidence,11
+southern europe,other_unspecified,lower,3
+southern europe,other_unspecified,upper,24
+western europe,other_tot,incidence,16
+western europe,other_tot,lower,5
+western europe,other_tot,upper,30
+western europe,other_specified,incidence,5
+western europe,other_specified,lower,0
+western europe,other_specified,upper,11
+western europe,other_unspecified,incidence,11
+western europe,other_unspecified,lower,2
+western europe,other_unspecified,upper,23
+northern america,other_tot,incidence,54
+northern america,other_tot,lower,34
+northern america,other_tot,upper,76
+northern america,other_specified,incidence,20
+northern america,other_specified,lower,9
+northern america,other_specified,upper,33
+northern america,other_unspecified,incidence,33
+northern america,other_unspecified,lower,17
+northern america,other_unspecified,upper,52
+caribbean,other_tot,incidence,41
+caribbean,other_tot,lower,18
+caribbean,other_tot,upper,65
+caribbean,other_specified,incidence,5
+caribbean,other_specified,lower,0
+caribbean,other_specified,upper,19
+caribbean,other_unspecified,incidence,35
+caribbean,other_unspecified,lower,15
+caribbean,other_unspecified,upper,60
+central america,other_tot,incidence,406
+central america,other_tot,lower,157
+central america,other_tot,upper,877
+central america,other_specified,incidence,31
+central america,other_specified,lower,12
+central america,other_specified,upper,81
+central america,other_unspecified,incidence,375
+central america,other_unspecified,lower,135
+central america,other_unspecified,upper,851
+south america,other_tot,incidence,304
+south america,other_tot,lower,173
+south america,other_tot,upper,448
+south america,other_specified,incidence,54
+south america,other_specified,lower,26
+south america,other_specified,upper,114
+south america,other_unspecified,incidence,250
+south america,other_unspecified,lower,128
+south america,other_unspecified,upper,383
+oceania,other_tot,incidence,7
+oceania,other_tot,lower,2
+oceania,other_tot,upper,17
+oceania,other_specified,incidence,3
+oceania,other_specified,lower,0
+oceania,other_specified,upper,8
+oceania,other_unspecified,incidence,4
+oceania,other_unspecified,lower,0
+oceania,other_unspecified,upper,12
+australia/new zealand,other_tot,incidence,2
+australia/new zealand,other_tot,lower,0
+australia/new zealand,other_tot,upper,6
+australia/new zealand,other_specified,incidence,1
+australia/new zealand,other_specified,lower,0
+australia/new zealand,other_specified,upper,3
+australia/new zealand,other_unspecified,incidence,1
+australia/new zealand,other_unspecified,lower,0
+australia/new zealand,other_unspecified,upper,4

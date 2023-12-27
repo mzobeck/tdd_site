@@ -1,0 +1,88 @@
+---
+title: "Pediatric cancer treatment abandonment: a tragic but preventable event"
+subtitle: "Pediatric cancer treatment abandonment can be prevented."
+author: "Mark Zobeck"
+date: 2022-04-10
+categories: ["Global PHO"]
+tags: ["Gloal Onc"]
+slug: "treatment-abandonment-is-preventable"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+**A tragic reality** that pediatric oncology providers in resource-constrained commonly encounter: after a child with cancer starts treatment, many families leave and never return for care.
+
+The global oncology community has given this event a specific label: *treatment abandonment*.
+
+To explain why treatment abandonment happens and how to prevent it, let me tell you a story. The narrative is fictional, but it is based on the common experiences that families report while their child is undergoing cancer treatment.
+
+**Pablo was a five-year-old boy who lived with his mom and two younger sisters in a rural village in Central America.**
+
+He liked to do things most little boys like to do -- kick a ball around in the street, chase his sisters with bugs, and help his mom care for their chickens. One day he developed a fever and became very pale. Over the next two weeks, the fevers didn't stop, so his mom took him to the clinic in his village, where he saw a nurse who decided to send them for blood tests at the nearest hospital.
+
+It was two days before his mom could secure a ride to make the normally two-hour journey to the hospital that took four hours because rain turned the dirt roads leading out of the village to mud. Workers at the hospital took blood from Pablo and after a few hours, a somber-looking doctor told his mom the bad news.
+
+### **The doctor was concerned Pablo had a life-threatening blood cancer called "leukemia".**
+
+Pablo's mom had a 3rd-grade education. She primarily spoke the indigenous language of her village and was merely conversational in Spanish, her doctor's primary language. The doctor spent an hour talking to her about many things, much of which she didn't understand. She knew her son had a disease in his blood, and she knew it was life-threatening, but she still wasn't clear how he got it and feared negative spiritual forces were at work.
+
+The doctors started treatment in the hospital, and after a few days, Pablo started looking much better, almost back to normal. He was discharged from the hospital and told he had appointments to come back every week for the next several months. Their family had government insurance that covered part of the hospital stay, but they would still have to pay the costs of travel, food, and lodging for every visit.
+
+Pablo's aunt and uncle lived in the city where the hospital was located.
+
+### **Pablo and his mom moved in with his aunt and uncle, their 4 kids, 2 dogs, and a coop full of chickens to save money.**
+
+His sisters had to stay with their grandmother back in the village.
+
+After five weeks of treatment, his aunt was convinced that he was cured. "He looks fine," she would tell his mom, "how could he still possibly be sick?" She would also insist that many doctors are greedy and give people medicine only to make money. Over time, his mother did notice that Pablo seemed to look sicker after visiting the doctor and receiving treatment. Perhaps his aunt was right, she would think to herself.
+
+### **By week 12 of treatment, Pablo's mom felt she was near a breaking point.**
+
+She lost her job because of her long absence, and they were dependent on financial support from extended family members who had little disposable income. Living in the full house with their relatives was cramped and noisy, and the family felt like a burden. Pablo was sick most of the time and would cry at night because he missed his sisters.
+
+His mom tried to talk to the doctors several times about their difficulties, but she felt she didn't get her point across in her broken Spanish, and it appeared to her that the busy doctors did not have time to understand her problems.
+
+Eventually, his mother heard about a traditional religious healer near their village whose treatments were much cheaper. She talked with several family members who told her the traditional healer had helped them when they were sick. This was enough to help her make the decision.
+
+### **That day they packed up and returned to their home. They said nothing to their doctors, nor did they return to finish treatment.**
+
+Cancer treatment can be a brutal journey, but if the entire treatment is not finished, the patient is at extremely high risk for the aggressive return of their disease.
+
+This narrative illustrates the corrosive effects of cancer on the whole family.
+
+-   Financial difficulties
+
+-   Geographic barriers to care
+
+-   Disrupted life rhythms and social strain
+
+-   Poor communication with the healthcare team
+
+-   Poor understanding of cancer and how to successfully treat it
+
+-   Reliance on extended family for material and financial support
+
+### **The answer to treatment abandonment is to understand the difficulties of a family's journey and support them through it.**
+
+There is nothing overly complex here. Families need support during the treatment journey. Financial assistance, material support with food and housing assistance, improved family education and communication with the healthcare team, and initiatives about how communities can support families through treatment all help to **dramatically** reduce treatment abandonment rates. There is a significant body of published research that demonstrates the efficacy of all of these interventions.
+
+The link between family support and the successful completion of treatment is so strong, that many providers argue it should be prioritized as important as medicine or surgery.
+
+### **Supporting families financially, psychologically, socially, and spiritually is an essential part of pediatric cancer treatment.**
+
+\

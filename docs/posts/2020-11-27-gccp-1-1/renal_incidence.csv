@@ -1,0 +1,229 @@
+region,disease,data,val
+global,renal_tumours,incidence,26451
+global,renal_tumours,lower,22348
+global,renal_tumours,upper,30998
+global,nephroblastoma,incidence,20978
+global,nephroblastoma,lower,17309
+global,nephroblastoma,upper,25375
+global,renal_carcinoma,incidence,2150
+global,renal_carcinoma,lower,1123
+global,renal_carcinoma,upper,3993
+global,unspecified_renal,incidence,3323
+global,unspecified_renal,lower,1999
+global,unspecified_renal,upper,5873
+eastern africa,renal_tumours,incidence,3956
+eastern africa,renal_tumours,lower,2805
+eastern africa,renal_tumours,upper,6066
+eastern africa,nephroblastoma,incidence,3194
+eastern africa,nephroblastoma,lower,2214
+eastern africa,nephroblastoma,upper,5220
+eastern africa,renal_carcinoma,incidence,517
+eastern africa,renal_carcinoma,lower,90
+eastern africa,renal_carcinoma,upper,1776
+eastern africa,unspecified_renal,incidence,246
+eastern africa,unspecified_renal,lower,144
+eastern africa,unspecified_renal,upper,419
+southern africa,renal_tumours,incidence,920
+southern africa,renal_tumours,lower,603
+southern africa,renal_tumours,upper,1458
+southern africa,nephroblastoma,incidence,783
+southern africa,nephroblastoma,lower,504
+southern africa,nephroblastoma,upper,1262
+southern africa,renal_carcinoma,incidence,46
+southern africa,renal_carcinoma,lower,8
+southern africa,renal_carcinoma,upper,148
+southern africa,unspecified_renal,incidence,91
+southern africa,unspecified_renal,lower,32
+southern africa,unspecified_renal,upper,194
+western africa,renal_tumours,incidence,9008
+western africa,renal_tumours,lower,5718
+western africa,renal_tumours,upper,14074
+western africa,nephroblastoma,incidence,6198
+western africa,nephroblastoma,lower,2858
+western africa,nephroblastoma,upper,11362
+western africa,renal_carcinoma,incidence,559
+western africa,renal_carcinoma,lower,164
+western africa,renal_carcinoma,upper,1508
+western africa,unspecified_renal,incidence,2251
+western africa,unspecified_renal,lower,1038
+western africa,unspecified_renal,upper,4879
+northern africa,renal_tumours,incidence,1263
+northern africa,renal_tumours,lower,853
+northern africa,renal_tumours,upper,1750
+northern africa,nephroblastoma,incidence,974
+northern africa,nephroblastoma,lower,598
+northern africa,nephroblastoma,upper,1307
+northern africa,renal_carcinoma,incidence,220
+northern africa,renal_carcinoma,lower,70
+northern africa,renal_carcinoma,upper,663
+northern africa,unspecified_renal,incidence,70
+northern africa,unspecified_renal,lower,42
+northern africa,unspecified_renal,upper,103
+eastern asia,renal_tumours,incidence,1349
+eastern asia,renal_tumours,lower,559
+eastern asia,renal_tumours,upper,2106
+eastern asia,nephroblastoma,incidence,1187
+eastern asia,nephroblastoma,lower,408
+eastern asia,nephroblastoma,upper,1942
+eastern asia,renal_carcinoma,incidence,103
+eastern asia,renal_carcinoma,lower,27
+eastern asia,renal_carcinoma,upper,236
+eastern asia,unspecified_renal,incidence,59
+eastern asia,unspecified_renal,lower,14
+eastern asia,unspecified_renal,upper,107
+south-central asia,renal_tumours,incidence,4982
+south-central asia,renal_tumours,lower,3428
+south-central asia,renal_tumours,upper,6221
+south-central asia,nephroblastoma,incidence,4164
+south-central asia,nephroblastoma,lower,2704
+south-central asia,nephroblastoma,upper,5165
+south-central asia,renal_carcinoma,incidence,460
+south-central asia,renal_carcinoma,lower,288
+south-central asia,renal_carcinoma,upper,760
+south-central asia,unspecified_renal,incidence,358
+south-central asia,unspecified_renal,lower,216
+south-central asia,unspecified_renal,upper,578
+south-eastern asia,renal_tumours,incidence,1226
+south-eastern asia,renal_tumours,lower,834
+south-eastern asia,renal_tumours,upper,1776
+south-eastern asia,nephroblastoma,incidence,1081
+south-eastern asia,nephroblastoma,lower,656
+south-eastern asia,nephroblastoma,upper,1627
+south-eastern asia,renal_carcinoma,incidence,50
+south-eastern asia,renal_carcinoma,lower,19
+south-eastern asia,renal_carcinoma,upper,90
+south-eastern asia,unspecified_renal,incidence,95
+south-eastern asia,unspecified_renal,lower,52
+south-eastern asia,unspecified_renal,upper,165
+western asia,renal_tumours,incidence,607
+western asia,renal_tumours,lower,396
+western asia,renal_tumours,upper,881
+western asia,nephroblastoma,incidence,542
+western asia,nephroblastoma,lower,326
+western asia,nephroblastoma,upper,822
+western asia,renal_carcinoma,incidence,48
+western asia,renal_carcinoma,lower,21
+western asia,renal_carcinoma,upper,97
+western asia,unspecified_renal,incidence,17
+western asia,unspecified_renal,lower,3
+western asia,unspecified_renal,upper,44
+eastern europe,renal_tumours,incidence,498
+eastern europe,renal_tumours,lower,311
+eastern europe,renal_tumours,upper,685
+eastern europe,nephroblastoma,incidence,463
+eastern europe,nephroblastoma,lower,276
+eastern europe,nephroblastoma,upper,650
+eastern europe,renal_carcinoma,incidence,15
+eastern europe,renal_carcinoma,lower,5
+eastern europe,renal_carcinoma,upper,29
+eastern europe,unspecified_renal,incidence,19
+eastern europe,unspecified_renal,lower,6
+eastern europe,unspecified_renal,upper,35
+northern europe,renal_tumours,incidence,138
+northern europe,renal_tumours,lower,77
+northern europe,renal_tumours,upper,191
+northern europe,nephroblastoma,incidence,126
+northern europe,nephroblastoma,lower,67
+northern europe,nephroblastoma,upper,176
+northern europe,renal_carcinoma,incidence,4
+northern europe,renal_carcinoma,lower,0
+northern europe,renal_carcinoma,upper,10
+northern europe,unspecified_renal,incidence,7
+northern europe,unspecified_renal,lower,1
+northern europe,unspecified_renal,upper,21
+southern europe,renal_tumours,incidence,192
+southern europe,renal_tumours,lower,140
+southern europe,renal_tumours,upper,241
+southern europe,nephroblastoma,incidence,176
+southern europe,nephroblastoma,lower,126
+southern europe,nephroblastoma,upper,223
+southern europe,renal_carcinoma,incidence,8
+southern europe,renal_carcinoma,lower,3
+southern europe,renal_carcinoma,upper,16
+southern europe,unspecified_renal,incidence,7
+southern europe,unspecified_renal,lower,1
+southern europe,unspecified_renal,upper,20
+western europe,renal_tumours,incidence,249
+western europe,renal_tumours,lower,185
+western europe,renal_tumours,upper,313
+western europe,nephroblastoma,incidence,238
+western europe,nephroblastoma,lower,175
+western europe,nephroblastoma,upper,300
+western europe,renal_carcinoma,incidence,5
+western europe,renal_carcinoma,lower,1
+western europe,renal_carcinoma,upper,15
+western europe,unspecified_renal,incidence,6
+western europe,unspecified_renal,lower,1
+western europe,unspecified_renal,upper,14
+northern america,renal_tumours,incidence,576
+northern america,renal_tumours,lower,396
+northern america,renal_tumours,upper,692
+northern america,nephroblastoma,incidence,550
+northern america,nephroblastoma,lower,373
+northern america,nephroblastoma,upper,665
+northern america,renal_carcinoma,incidence,22
+northern america,renal_carcinoma,lower,8
+northern america,renal_carcinoma,upper,34
+northern america,unspecified_renal,incidence,4
+northern america,unspecified_renal,lower,0
+northern america,unspecified_renal,upper,10
+caribbean,renal_tumours,incidence,88
+caribbean,renal_tumours,lower,47
+caribbean,renal_tumours,upper,143
+caribbean,nephroblastoma,incidence,82
+caribbean,nephroblastoma,lower,43
+caribbean,nephroblastoma,upper,136
+caribbean,renal_carcinoma,incidence,3
+caribbean,renal_carcinoma,lower,0
+caribbean,renal_carcinoma,upper,11
+caribbean,unspecified_renal,incidence,4
+caribbean,unspecified_renal,lower,0
+caribbean,unspecified_renal,upper,22
+central america,renal_tumours,incidence,417
+central america,renal_tumours,lower,199
+central america,renal_tumours,upper,610
+central america,nephroblastoma,incidence,340
+central america,nephroblastoma,lower,133
+central america,nephroblastoma,upper,542
+central america,renal_carcinoma,incidence,36
+central america,renal_carcinoma,lower,6
+central america,renal_carcinoma,upper,85
+central america,unspecified_renal,incidence,40
+central america,unspecified_renal,lower,12
+central america,unspecified_renal,upper,93
+south america,renal_tumours,incidence,921
+south america,renal_tumours,lower,618
+south america,renal_tumours,upper,1263
+south america,nephroblastoma,incidence,822
+south america,nephroblastoma,lower,532
+south america,nephroblastoma,upper,1165
+south america,renal_carcinoma,incidence,51
+south america,renal_carcinoma,lower,26
+south america,renal_carcinoma,upper,83
+south america,unspecified_renal,incidence,48
+south america,unspecified_renal,lower,27
+south america,unspecified_renal,upper,71
+oceania,renal_tumours,incidence,19
+oceania,renal_tumours,lower,4
+oceania,renal_tumours,upper,36
+oceania,nephroblastoma,incidence,17
+oceania,nephroblastoma,lower,3
+oceania,nephroblastoma,upper,34
+oceania,renal_carcinoma,incidence,1
+oceania,renal_carcinoma,lower,0
+oceania,renal_carcinoma,upper,5
+oceania,unspecified_renal,incidence,0
+oceania,unspecified_renal,lower,0
+oceania,unspecified_renal,upper,2
+australia/new zealand,renal_tumours,incidence,42
+australia/new zealand,renal_tumours,lower,14
+australia/new zealand,renal_tumours,upper,69
+australia/new zealand,nephroblastoma,incidence,41
+australia/new zealand,nephroblastoma,lower,14
+australia/new zealand,nephroblastoma,upper,68
+australia/new zealand,renal_carcinoma,incidence,1
+australia/new zealand,renal_carcinoma,lower,0
+australia/new zealand,renal_carcinoma,upper,3
+australia/new zealand,unspecified_renal,incidence,0
+australia/new zealand,unspecified_renal,lower,0
+australia/new zealand,unspecified_renal,upper,2

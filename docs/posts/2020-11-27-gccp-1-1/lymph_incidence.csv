@@ -1,0 +1,343 @@
+region,disease,data,val
+global,lymphoma_related,incidence,69567
+global,lymphoma_related,lower,59262
+global,lymphoma_related,upper,89891
+global,hodgkin,incidence,16606
+global,hodgkin,lower,13834
+global,hodgkin,upper,19616
+global,non_hodgkin_except_bl,incidence,21661
+global,non_hodgkin_except_bl,lower,16552
+global,non_hodgkin_except_bl,upper,29681
+global,burkitt_bl,incidence,19550
+global,burkitt_bl,lower,12178
+global,burkitt_bl,upper,43761
+global,lymphoreticular,incidence,3481
+global,lymphoreticular,lower,2363
+global,lymphoreticular,upper,8817
+global,unspecified_lymphoma,incidence,8268
+global,unspecified_lymphoma,lower,6165
+global,unspecified_lymphoma,upper,11196
+eastern africa,lymphoma_related,incidence,12092
+eastern africa,lymphoma_related,lower,8363
+eastern africa,lymphoma_related,upper,17534
+eastern africa,hodgkin,incidence,1901
+eastern africa,hodgkin,lower,1236
+eastern africa,hodgkin,upper,2817
+eastern africa,non_hodgkin_except_bl,incidence,3183
+eastern africa,non_hodgkin_except_bl,lower,1867
+eastern africa,non_hodgkin_except_bl,upper,5814
+eastern africa,burkitt_bl,incidence,4091
+eastern africa,burkitt_bl,lower,1680
+eastern africa,burkitt_bl,upper,7214
+eastern africa,lymphoreticular,incidence,733
+eastern africa,lymphoreticular,lower,191
+eastern africa,lymphoreticular,upper,3147
+eastern africa,unspecified_lymphoma,incidence,2184
+eastern africa,unspecified_lymphoma,lower,1259
+eastern africa,unspecified_lymphoma,upper,4179
+southern africa,lymphoma_related,incidence,1035
+southern africa,lymphoma_related,lower,785
+southern africa,lymphoma_related,upper,1342
+southern africa,hodgkin,incidence,312
+southern africa,hodgkin,lower,186
+southern africa,hodgkin,upper,496
+southern africa,non_hodgkin_except_bl,incidence,446
+southern africa,non_hodgkin_except_bl,lower,220
+southern africa,non_hodgkin_except_bl,upper,751
+southern africa,burkitt_bl,incidence,200
+southern africa,burkitt_bl,lower,120
+southern africa,burkitt_bl,upper,308
+southern africa,lymphoreticular,incidence,44
+southern africa,lymphoreticular,lower,17
+southern africa,lymphoreticular,upper,106
+southern africa,unspecified_lymphoma,incidence,34
+southern africa,unspecified_lymphoma,lower,10
+southern africa,unspecified_lymphoma,upper,80
+western africa,lymphoma_related,incidence,23277
+western africa,lymphoma_related,lower,14885
+western africa,lymphoma_related,upper,43037
+western africa,hodgkin,incidence,2457
+western africa,hodgkin,lower,1042
+western africa,hodgkin,upper,4307
+western africa,non_hodgkin_except_bl,incidence,5888
+western africa,non_hodgkin_except_bl,lower,2465
+western africa,non_hodgkin_except_bl,upper,13459
+western africa,burkitt_bl,incidence,11803
+western africa,burkitt_bl,lower,4747
+western africa,burkitt_bl,upper,33914
+western africa,lymphoreticular,incidence,549
+western africa,lymphoreticular,lower,123
+western africa,lymphoreticular,upper,3633
+western africa,unspecified_lymphoma,incidence,2581
+western africa,unspecified_lymphoma,lower,1064
+western africa,unspecified_lymphoma,upper,4582
+northern africa,lymphoma_related,incidence,2745
+northern africa,lymphoma_related,lower,2078
+northern africa,lymphoma_related,upper,3357
+northern africa,hodgkin,incidence,1117
+northern africa,hodgkin,lower,707
+northern africa,hodgkin,upper,1488
+northern africa,non_hodgkin_except_bl,incidence,851
+northern africa,non_hodgkin_except_bl,lower,415
+northern africa,non_hodgkin_except_bl,upper,1303
+northern africa,burkitt_bl,incidence,403
+northern africa,burkitt_bl,lower,198
+northern africa,burkitt_bl,upper,656
+northern africa,lymphoreticular,incidence,187
+northern africa,lymphoreticular,lower,82
+northern africa,lymphoreticular,upper,337
+northern africa,unspecified_lymphoma,incidence,187
+northern africa,unspecified_lymphoma,lower,100
+northern africa,unspecified_lymphoma,upper,309
+eastern asia,lymphoma_related,incidence,3128
+eastern asia,lymphoma_related,lower,2190
+eastern asia,lymphoma_related,upper,4179
+eastern asia,hodgkin,incidence,352
+eastern asia,hodgkin,lower,39
+eastern asia,hodgkin,upper,605
+eastern asia,non_hodgkin_except_bl,incidence,1429
+eastern asia,non_hodgkin_except_bl,lower,542
+eastern asia,non_hodgkin_except_bl,upper,2275
+eastern asia,burkitt_bl,incidence,440
+eastern asia,burkitt_bl,lower,179
+eastern asia,burkitt_bl,upper,661
+eastern asia,lymphoreticular,incidence,368
+eastern asia,lymphoreticular,lower,194
+eastern asia,lymphoreticular,upper,548
+eastern asia,unspecified_lymphoma,incidence,539
+eastern asia,unspecified_lymphoma,lower,176
+eastern asia,unspecified_lymphoma,upper,1318
+south-central asia,lymphoma_related,incidence,15298
+south-central asia,lymphoma_related,lower,12502
+south-central asia,lymphoma_related,upper,18291
+south-central asia,hodgkin,incidence,6407
+south-central asia,hodgkin,lower,4074
+south-central asia,hodgkin,upper,8361
+south-central asia,non_hodgkin_except_bl,incidence,5403
+south-central asia,non_hodgkin_except_bl,lower,2836
+south-central asia,non_hodgkin_except_bl,upper,7227
+south-central asia,burkitt_bl,incidence,987
+south-central asia,burkitt_bl,lower,626
+south-central asia,burkitt_bl,upper,1340
+south-central asia,lymphoreticular,incidence,776
+south-central asia,lymphoreticular,lower,433
+south-central asia,lymphoreticular,upper,1839
+south-central asia,unspecified_lymphoma,incidence,1724
+south-central asia,unspecified_lymphoma,lower,1086
+south-central asia,unspecified_lymphoma,upper,2341
+south-eastern asia,lymphoma_related,incidence,2579
+south-eastern asia,lymphoma_related,lower,1923
+south-eastern asia,lymphoma_related,upper,3360
+south-eastern asia,hodgkin,incidence,404
+south-eastern asia,hodgkin,lower,224
+south-eastern asia,hodgkin,upper,712
+south-eastern asia,non_hodgkin_except_bl,incidence,1188
+south-eastern asia,non_hodgkin_except_bl,lower,598
+south-eastern asia,non_hodgkin_except_bl,upper,1859
+south-eastern asia,burkitt_bl,incidence,165
+south-eastern asia,burkitt_bl,lower,96
+south-eastern asia,burkitt_bl,upper,273
+south-eastern asia,lymphoreticular,incidence,165
+south-eastern asia,lymphoreticular,lower,92
+south-eastern asia,lymphoreticular,upper,283
+south-eastern asia,unspecified_lymphoma,incidence,658
+south-eastern asia,unspecified_lymphoma,lower,379
+south-eastern asia,unspecified_lymphoma,upper,945
+western asia,lymphoma_related,incidence,1973
+western asia,lymphoma_related,lower,1611
+western asia,lymphoma_related,upper,2359
+western asia,hodgkin,incidence,880
+western asia,hodgkin,lower,577
+western asia,hodgkin,upper,1224
+western asia,non_hodgkin_except_bl,incidence,627
+western asia,non_hodgkin_except_bl,lower,422
+western asia,non_hodgkin_except_bl,upper,852
+western asia,burkitt_bl,incidence,326
+western asia,burkitt_bl,lower,210
+western asia,burkitt_bl,upper,459
+western asia,lymphoreticular,incidence,89
+western asia,lymphoreticular,lower,49
+western asia,lymphoreticular,upper,134
+western asia,unspecified_lymphoma,incidence,50
+western asia,unspecified_lymphoma,lower,27
+western asia,unspecified_lymphoma,upper,82
+eastern europe,lymphoma_related,incidence,835
+eastern europe,lymphoma_related,lower,614
+eastern europe,lymphoma_related,upper,1057
+eastern europe,hodgkin,incidence,364
+eastern europe,hodgkin,lower,202
+eastern europe,hodgkin,upper,505
+eastern europe,non_hodgkin_except_bl,incidence,279
+eastern europe,non_hodgkin_except_bl,lower,141
+eastern europe,non_hodgkin_except_bl,upper,416
+eastern europe,burkitt_bl,incidence,118
+eastern europe,burkitt_bl,lower,72
+eastern europe,burkitt_bl,upper,186
+eastern europe,lymphoreticular,incidence,52
+eastern europe,lymphoreticular,lower,17
+eastern europe,lymphoreticular,upper,94
+eastern europe,unspecified_lymphoma,incidence,22
+eastern europe,unspecified_lymphoma,lower,7
+eastern europe,unspecified_lymphoma,upper,41
+northern europe,lymphoma_related,incidence,241
+northern europe,lymphoma_related,lower,181
+northern europe,lymphoma_related,upper,305
+northern europe,hodgkin,incidence,93
+northern europe,hodgkin,lower,47
+northern europe,hodgkin,upper,129
+northern europe,non_hodgkin_except_bl,incidence,92
+northern europe,non_hodgkin_except_bl,lower,54
+northern europe,non_hodgkin_except_bl,upper,126
+northern europe,burkitt_bl,incidence,32
+northern europe,burkitt_bl,lower,13
+northern europe,burkitt_bl,upper,51
+northern europe,lymphoreticular,incidence,13
+northern europe,lymphoreticular,lower,5
+northern europe,lymphoreticular,upper,21
+northern europe,unspecified_lymphoma,incidence,11
+northern europe,unspecified_lymphoma,lower,5
+northern europe,unspecified_lymphoma,upper,20
+southern europe,lymphoma_related,incidence,484
+southern europe,lymphoma_related,lower,395
+southern europe,lymphoma_related,upper,577
+southern europe,hodgkin,incidence,191
+southern europe,hodgkin,lower,133
+southern europe,hodgkin,upper,249
+southern europe,non_hodgkin_except_bl,incidence,144
+southern europe,non_hodgkin_except_bl,lower,101
+southern europe,non_hodgkin_except_bl,upper,184
+southern europe,burkitt_bl,incidence,99
+southern europe,burkitt_bl,lower,59
+southern europe,burkitt_bl,upper,135
+southern europe,lymphoreticular,incidence,36
+southern europe,lymphoreticular,lower,20
+southern europe,lymphoreticular,upper,56
+southern europe,unspecified_lymphoma,incidence,13
+southern europe,unspecified_lymphoma,lower,4
+southern europe,unspecified_lymphoma,upper,27
+western europe,lymphoma_related,incidence,523
+western europe,lymphoma_related,lower,416
+western europe,lymphoma_related,upper,609
+western europe,hodgkin,incidence,202
+western europe,hodgkin,lower,124
+western europe,hodgkin,upper,269
+western europe,non_hodgkin_except_bl,incidence,163
+western europe,non_hodgkin_except_bl,lower,96
+western europe,non_hodgkin_except_bl,upper,231
+western europe,burkitt_bl,incidence,105
+western europe,burkitt_bl,lower,61
+western europe,burkitt_bl,upper,144
+western europe,lymphoreticular,incidence,48
+western europe,lymphoreticular,lower,22
+western europe,lymphoreticular,upper,84
+western europe,unspecified_lymphoma,incidence,5
+western europe,unspecified_lymphoma,lower,1
+western europe,unspecified_lymphoma,upper,12
+northern america,lymphoma_related,incidence,1152
+northern america,lymphoma_related,lower,959
+northern america,lymphoma_related,upper,1340
+northern america,hodgkin,incidence,394
+northern america,hodgkin,lower,223
+northern america,hodgkin,upper,505
+northern america,non_hodgkin_except_bl,incidence,441
+northern america,non_hodgkin_except_bl,lower,281
+northern america,non_hodgkin_except_bl,upper,555
+northern america,burkitt_bl,incidence,170
+northern america,burkitt_bl,lower,94
+northern america,burkitt_bl,upper,232
+northern america,lymphoreticular,incidence,125
+northern america,lymphoreticular,lower,64
+northern america,lymphoreticular,upper,175
+northern america,unspecified_lymphoma,incidence,22
+northern america,unspecified_lymphoma,lower,11
+northern america,unspecified_lymphoma,upper,34
+caribbean,lymphoma_related,incidence,208
+caribbean,lymphoma_related,lower,133
+caribbean,lymphoma_related,upper,304
+caribbean,hodgkin,incidence,73
+caribbean,hodgkin,lower,41
+caribbean,hodgkin,upper,118
+caribbean,non_hodgkin_except_bl,incidence,102
+caribbean,non_hodgkin_except_bl,lower,42
+caribbean,non_hodgkin_except_bl,upper,196
+caribbean,burkitt_bl,incidence,16
+caribbean,burkitt_bl,lower,6
+caribbean,burkitt_bl,upper,29
+caribbean,lymphoreticular,incidence,7
+caribbean,lymphoreticular,lower,1
+caribbean,lymphoreticular,upper,16
+caribbean,unspecified_lymphoma,incidence,9
+caribbean,unspecified_lymphoma,lower,2
+caribbean,unspecified_lymphoma,upper,18
+central america,lymphoma_related,incidence,1314
+central america,lymphoma_related,lower,977
+central america,lymphoma_related,upper,1735
+central america,hodgkin,incidence,508
+central america,hodgkin,lower,263
+central america,hodgkin,upper,730
+central america,non_hodgkin_except_bl,incidence,509
+central america,non_hodgkin_except_bl,lower,213
+central america,non_hodgkin_except_bl,upper,761
+central america,burkitt_bl,incidence,158
+central america,burkitt_bl,lower,86
+central america,burkitt_bl,upper,233
+central america,lymphoreticular,incidence,95
+central america,lymphoreticular,lower,34
+central america,lymphoreticular,upper,158
+central america,unspecified_lymphoma,incidence,45
+central america,unspecified_lymphoma,lower,22
+central america,unspecified_lymphoma,upper,70
+south america,lymphoma_related,incidence,2569
+south america,lymphoma_related,lower,1991
+south america,lymphoma_related,upper,3137
+south america,hodgkin,incidence,911
+south america,hodgkin,lower,561
+south america,hodgkin,upper,1271
+south america,non_hodgkin_except_bl,incidence,872
+south america,non_hodgkin_except_bl,lower,572
+south america,non_hodgkin_except_bl,upper,1245
+south america,burkitt_bl,incidence,415
+south america,burkitt_bl,lower,249
+south america,burkitt_bl,upper,595
+south america,lymphoreticular,incidence,191
+south america,lymphoreticular,lower,106
+south america,lymphoreticular,upper,296
+south america,unspecified_lymphoma,incidence,181
+south america,unspecified_lymphoma,lower,101
+south america,unspecified_lymphoma,upper,270
+oceania,lymphoma_related,incidence,40
+oceania,lymphoma_related,lower,19
+oceania,lymphoma_related,upper,65
+oceania,hodgkin,incidence,13
+oceania,hodgkin,lower,4
+oceania,hodgkin,upper,25
+oceania,non_hodgkin_except_bl,incidence,14
+oceania,non_hodgkin_except_bl,lower,2
+oceania,non_hodgkin_except_bl,upper,31
+oceania,burkitt_bl,incidence,9
+oceania,burkitt_bl,lower,1
+oceania,burkitt_bl,upper,19
+oceania,lymphoreticular,incidence,2
+oceania,lymphoreticular,lower,0
+oceania,lymphoreticular,upper,7
+oceania,unspecified_lymphoma,incidence,2
+oceania,unspecified_lymphoma,lower,0
+oceania,unspecified_lymphoma,upper,6
+australia/new zealand,lymphoma_related,incidence,74
+australia/new zealand,lymphoma_related,lower,44
+australia/new zealand,lymphoma_related,upper,103
+australia/new zealand,hodgkin,incidence,26
+australia/new zealand,hodgkin,lower,8
+australia/new zealand,hodgkin,upper,43
+australia/new zealand,non_hodgkin_except_bl,incidence,30
+australia/new zealand,non_hodgkin_except_bl,lower,11
+australia/new zealand,non_hodgkin_except_bl,upper,52
+australia/new zealand,burkitt_bl,incidence,13
+australia/new zealand,burkitt_bl,lower,4
+australia/new zealand,burkitt_bl,upper,24
+australia/new zealand,lymphoreticular,incidence,4
+australia/new zealand,lymphoreticular,lower,0
+australia/new zealand,lymphoreticular,upper,10
+australia/new zealand,unspecified_lymphoma,incidence,1
+australia/new zealand,unspecified_lymphoma,lower,0
+australia/new zealand,unspecified_lymphoma,upper,3

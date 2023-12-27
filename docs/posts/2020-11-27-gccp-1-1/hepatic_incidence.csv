@@ -1,0 +1,229 @@
+region,disease,data,val
+global,hepatic_tumours,incidence,7552
+global,hepatic_tumours,lower,6205
+global,hepatic_tumours,upper,10465
+global,hepatoblastoma,incidence,3973
+global,hepatoblastoma,lower,3051
+global,hepatoblastoma,upper,7031
+global,hepatic_carcinoma,incidence,1960
+global,hepatic_carcinoma,lower,1456
+global,hepatic_carcinoma,upper,2556
+global,unspecified_hepatic,incidence,1619
+global,unspecified_hepatic,lower,796
+global,unspecified_hepatic,upper,2506
+eastern africa,hepatic_tumours,incidence,832
+eastern africa,hepatic_tumours,lower,509
+eastern africa,hepatic_tumours,upper,1463
+eastern africa,hepatoblastoma,incidence,275
+eastern africa,hepatoblastoma,lower,115
+eastern africa,hepatoblastoma,upper,630
+eastern africa,hepatic_carcinoma,incidence,295
+eastern africa,hepatic_carcinoma,lower,161
+eastern africa,hepatic_carcinoma,upper,581
+eastern africa,unspecified_hepatic,incidence,262
+eastern africa,unspecified_hepatic,lower,64
+eastern africa,unspecified_hepatic,upper,653
+southern africa,hepatic_tumours,incidence,128
+southern africa,hepatic_tumours,lower,84
+southern africa,hepatic_tumours,upper,191
+southern africa,hepatoblastoma,incidence,76
+southern africa,hepatoblastoma,lower,44
+southern africa,hepatoblastoma,upper,115
+southern africa,hepatic_carcinoma,incidence,44
+southern africa,hepatic_carcinoma,lower,14
+southern africa,hepatic_carcinoma,upper,79
+southern africa,unspecified_hepatic,incidence,9
+southern africa,unspecified_hepatic,lower,0
+southern africa,unspecified_hepatic,upper,30
+western africa,hepatic_tumours,incidence,1700
+western africa,hepatic_tumours,lower,904
+western africa,hepatic_tumours,upper,4686
+western africa,hepatoblastoma,incidence,764
+western africa,hepatoblastoma,lower,265
+western africa,hepatoblastoma,upper,3851
+western africa,hepatic_carcinoma,incidence,415
+western africa,hepatic_carcinoma,lower,158
+western africa,hepatic_carcinoma,upper,905
+western africa,unspecified_hepatic,incidence,520
+western africa,unspecified_hepatic,lower,193
+western africa,unspecified_hepatic,upper,981
+northern africa,hepatic_tumours,incidence,322
+northern africa,hepatic_tumours,lower,220
+northern africa,hepatic_tumours,upper,453
+northern africa,hepatoblastoma,incidence,125
+northern africa,hepatoblastoma,lower,63
+northern africa,hepatoblastoma,upper,183
+northern africa,hepatic_carcinoma,incidence,145
+northern africa,hepatic_carcinoma,lower,75
+northern africa,hepatic_carcinoma,upper,267
+northern africa,unspecified_hepatic,incidence,52
+northern africa,unspecified_hepatic,lower,24
+northern africa,unspecified_hepatic,upper,88
+eastern asia,hepatic_tumours,incidence,981
+eastern asia,hepatic_tumours,lower,533
+eastern asia,hepatic_tumours,upper,1425
+eastern asia,hepatoblastoma,incidence,706
+eastern asia,hepatoblastoma,lower,282
+eastern asia,hepatoblastoma,upper,1049
+eastern asia,hepatic_carcinoma,incidence,136
+eastern asia,hepatic_carcinoma,lower,42
+eastern asia,hepatic_carcinoma,upper,294
+eastern asia,unspecified_hepatic,incidence,139
+eastern asia,unspecified_hepatic,lower,21
+eastern asia,unspecified_hepatic,upper,372
+south-central asia,hepatic_tumours,incidence,1610
+south-central asia,hepatic_tumours,lower,1295
+south-central asia,hepatic_tumours,upper,1931
+south-central asia,hepatoblastoma,incidence,832
+south-central asia,hepatoblastoma,lower,591
+south-central asia,hepatoblastoma,upper,1091
+south-central asia,hepatic_carcinoma,incidence,568
+south-central asia,hepatic_carcinoma,lower,422
+south-central asia,hepatic_carcinoma,upper,792
+south-central asia,unspecified_hepatic,incidence,211
+south-central asia,unspecified_hepatic,lower,109
+south-central asia,unspecified_hepatic,upper,401
+south-eastern asia,hepatic_tumours,incidence,792
+south-eastern asia,hepatic_tumours,lower,535
+south-eastern asia,hepatic_tumours,upper,1131
+south-eastern asia,hepatoblastoma,incidence,390
+south-eastern asia,hepatoblastoma,lower,218
+south-eastern asia,hepatoblastoma,upper,634
+south-eastern asia,hepatic_carcinoma,incidence,142
+south-eastern asia,hepatic_carcinoma,lower,77
+south-eastern asia,hepatic_carcinoma,upper,221
+south-eastern asia,unspecified_hepatic,incidence,261
+south-eastern asia,unspecified_hepatic,lower,118
+south-eastern asia,unspecified_hepatic,upper,470
+western asia,hepatic_tumours,incidence,149
+western asia,hepatic_tumours,lower,98
+western asia,hepatic_tumours,upper,199
+western asia,hepatoblastoma,incidence,101
+western asia,hepatoblastoma,lower,55
+western asia,hepatoblastoma,upper,152
+western asia,hepatic_carcinoma,incidence,30
+western asia,hepatic_carcinoma,lower,14
+western asia,hepatic_carcinoma,upper,47
+western asia,unspecified_hepatic,incidence,18
+western asia,unspecified_hepatic,lower,5
+western asia,unspecified_hepatic,upper,42
+eastern europe,hepatic_tumours,incidence,112
+eastern europe,hepatic_tumours,lower,66
+eastern europe,hepatic_tumours,upper,158
+eastern europe,hepatoblastoma,incidence,86
+eastern europe,hepatoblastoma,lower,47
+eastern europe,hepatoblastoma,upper,123
+eastern europe,hepatic_carcinoma,incidence,17
+eastern europe,hepatic_carcinoma,lower,5
+eastern europe,hepatic_carcinoma,upper,34
+eastern europe,unspecified_hepatic,incidence,9
+eastern europe,unspecified_hepatic,lower,1
+eastern europe,unspecified_hepatic,upper,22
+northern europe,hepatic_tumours,incidence,36
+northern europe,hepatic_tumours,lower,19
+northern europe,hepatic_tumours,upper,54
+northern europe,hepatoblastoma,incidence,25
+northern europe,hepatoblastoma,lower,11
+northern europe,hepatoblastoma,upper,40
+northern europe,hepatic_carcinoma,incidence,8
+northern europe,hepatic_carcinoma,lower,2
+northern europe,hepatic_carcinoma,upper,17
+northern europe,unspecified_hepatic,incidence,4
+northern europe,unspecified_hepatic,lower,0
+northern europe,unspecified_hepatic,upper,12
+southern europe,hepatic_tumours,incidence,69
+southern europe,hepatic_tumours,lower,41
+southern europe,hepatic_tumours,upper,148
+southern europe,hepatoblastoma,incidence,33
+southern europe,hepatoblastoma,lower,19
+southern europe,hepatoblastoma,upper,49
+southern europe,hepatic_carcinoma,incidence,8
+southern europe,hepatic_carcinoma,lower,3
+southern europe,hepatic_carcinoma,upper,17
+southern europe,unspecified_hepatic,incidence,28
+southern europe,unspecified_hepatic,lower,6
+southern europe,unspecified_hepatic,upper,105
+western europe,hepatic_tumours,incidence,49
+western europe,hepatic_tumours,lower,28
+western europe,hepatic_tumours,upper,70
+western europe,hepatoblastoma,incidence,40
+western europe,hepatoblastoma,lower,22
+western europe,hepatoblastoma,upper,59
+western europe,hepatic_carcinoma,incidence,5
+western europe,hepatic_carcinoma,lower,1
+western europe,hepatic_carcinoma,upper,11
+western europe,unspecified_hepatic,incidence,3
+western europe,unspecified_hepatic,lower,0
+western europe,unspecified_hepatic,upper,11
+northern america,hepatic_tumours,incidence,176
+northern america,hepatic_tumours,lower,110
+northern america,hepatic_tumours,upper,231
+northern america,hepatoblastoma,incidence,148
+northern america,hepatoblastoma,lower,84
+northern america,hepatoblastoma,upper,201
+northern america,hepatic_carcinoma,incidence,25
+northern america,hepatic_carcinoma,lower,11
+northern america,hepatic_carcinoma,upper,38
+northern america,unspecified_hepatic,incidence,3
+northern america,unspecified_hepatic,lower,0
+northern america,unspecified_hepatic,upper,7
+caribbean,hepatic_tumours,incidence,17
+caribbean,hepatic_tumours,lower,7
+caribbean,hepatic_tumours,upper,30
+caribbean,hepatoblastoma,incidence,11
+caribbean,hepatoblastoma,lower,3
+caribbean,hepatoblastoma,upper,22
+caribbean,hepatic_carcinoma,incidence,5
+caribbean,hepatic_carcinoma,lower,1
+caribbean,hepatic_carcinoma,upper,12
+caribbean,unspecified_hepatic,incidence,1
+caribbean,unspecified_hepatic,lower,0
+caribbean,unspecified_hepatic,upper,7
+central america,hepatic_tumours,incidence,250
+central america,hepatic_tumours,lower,133
+central america,hepatic_tumours,upper,408
+central america,hepatoblastoma,incidence,158
+central america,hepatoblastoma,lower,61
+central america,hepatoblastoma,upper,283
+central america,hepatic_carcinoma,incidence,59
+central america,hepatic_carcinoma,lower,25
+central america,hepatic_carcinoma,upper,113
+central america,unspecified_hepatic,incidence,33
+central america,unspecified_hepatic,lower,7
+central america,unspecified_hepatic,upper,83
+south america,hepatic_tumours,incidence,308
+south america,hepatic_tumours,lower,218
+south america,hepatic_tumours,upper,394
+south america,hepatoblastoma,incidence,190
+south america,hepatoblastoma,lower,104
+south america,hepatoblastoma,upper,266
+south america,hepatic_carcinoma,incidence,55
+south america,hepatic_carcinoma,lower,35
+south america,hepatic_carcinoma,upper,81
+south america,unspecified_hepatic,incidence,63
+south america,unspecified_hepatic,lower,39
+south america,unspecified_hepatic,upper,94
+oceania,hepatic_tumours,incidence,10
+oceania,hepatic_tumours,lower,2
+oceania,hepatic_tumours,upper,22
+oceania,hepatoblastoma,incidence,5
+oceania,hepatoblastoma,lower,0
+oceania,hepatoblastoma,upper,15
+oceania,hepatic_carcinoma,incidence,3
+oceania,hepatic_carcinoma,lower,0
+oceania,hepatic_carcinoma,upper,10
+oceania,unspecified_hepatic,incidence,2
+oceania,unspecified_hepatic,lower,0
+oceania,unspecified_hepatic,upper,7
+australia/new zealand,hepatic_tumours,incidence,11
+australia/new zealand,hepatic_tumours,lower,4
+australia/new zealand,hepatic_tumours,upper,21
+australia/new zealand,hepatoblastoma,incidence,9
+australia/new zealand,hepatoblastoma,lower,2
+australia/new zealand,hepatoblastoma,upper,19
+australia/new zealand,hepatic_carcinoma,incidence,1
+australia/new zealand,hepatic_carcinoma,lower,0
+australia/new zealand,hepatic_carcinoma,upper,3
+australia/new zealand,unspecified_hepatic,incidence,1
+australia/new zealand,unspecified_hepatic,lower,0
+australia/new zealand,unspecified_hepatic,upper,5

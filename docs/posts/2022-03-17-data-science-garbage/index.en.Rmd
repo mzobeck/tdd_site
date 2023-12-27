@@ -1,0 +1,50 @@
+---
+title: "Data Science has a garbage problem"
+subtitle: "Garbage in, garbage out, unfortunately."
+author: "Mark Zobeck"
+date: 2022-03-17
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "garbage-in-data-science"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+**Data science has a data problem.**
+
+The vast edifice of technologies, visualizations, statistics, machine learning algorithms that make up the data science empire are built on a foundation that can either be as solid as a rock or as unstable as shifting sand.
+
+## **The foundation of all of data science is data quality** 
+
+If your data are garbage, then your analyses may as well be toxic waste. You are better off hiring a hard Sci-Fi novelist to imagine what insights you might have gotten from possible analyses than performing any of your own. You can literally produce negative information (information that moves you further from your goal) using bad data.
+
+## **Garbage data is a big problem in Global Health** 
+
+Information technologies are limited or nonexistent, and data collection is performed manually. There may be limited time and resources to dedicate toward the inglorious task of data management. Leadership may not understand the value of clean data and may encourage shortcuts that compromise quality. To put it bluntly, data management is boring, hard to do well, and just not sexy compared to the rest of data science.
+
+This is a problem when resources and time are scarce because the wasted effort to collect garbage data is effort that could have been spent on something more valuable.
+
+## **Garbage data today will poison data science tomorrow**
+
+As bad analyses accrue over time, a perception will emerge in the organization that data collection is administrative busywork, and the data are untrustworthy and useless for practical applications. This will make future efforts toward data science even more difficult.
+
+## **The good news is that garbage data can be cleaned up!**
+
+With a little effort, your organization can collect beautiful, high-quality data! Thoughtful data management designed to work within the constraints of the organization's data collection infrastructure is key. Even if time and resources are limited, you can still ask and answer incredibly important questions from the data in a way that is useful for practice application and builds trust among people who lost confidence in data-driven insights.
+
+In my next post, I'll give you a few key steps to collect and maintain beautiful, gloriously-insightful data.

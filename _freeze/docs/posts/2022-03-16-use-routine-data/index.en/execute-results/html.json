@@ -1,0 +1,16 @@
+{
+  "hash": "9cbab8d2810033ad062b61eca422c7e1",
+  "result": {
+    "markdown": "---\ntitle: \"10 ways Global Health organizations can use routine data to improve patient care\"\nsubtitle: \"Ideas about how to make your data work for your patients.\"\nauthor: \"Mark Zobeck\"\ndate: 2022-03-16\ncategories: [\"Data Science + Global Health\"]\ntags: [\"Data science\"]\nslug: \"ideas-for-routine-data\"\n---\n\n::: {.cell}\n\n:::\n\n\nGlobal Health needs Data Science because efficient and effective healthcare delivery is the key to success.\n\nHere are 10 examples of how Data Science capabilities can improve your organization's operations and the care you provide to patients.\n\nAll of these ideas are possible to do well even if you don't have an electronic medical record. All it takes is careful data collection of a limited number of variables. You don't need big data to do Data Science successfully in Global Health, but you do need good data.\n\n## **Data Science + Global Health Ideas**\n\n1.  Forecast patient volumes, drug requirements, and medical equipment use\n\n2.  Identify risk factors for patients who might not return for needed care\n\n3.  Monitor health outcomes disparities by age, sex, race, religion, etc.\n\n4.  Create a real-time dashboard of statistical process control charts\n\n5.  Analyze the referral pathways for patients to arrive at the facility\n\n6.  Use geospatial information to map and monitor disease clusters\n\n7.  Create high-level dashboards of key indicators for leadership\n\n8.  Measure inpatient census and calculate nurse:patient ratios\n\n9.  Monitor safety event frequency and flag increases early\n\n10. Use algorithms to predict clinical deterioration events\n\n## **Simple measurements create powerful insights** \n\nThere are tremendous opportunities to improve healthcare delivery in resource-constrained settings through the careful collection of a handful of variables. With a little time and diligence, you too can wrangle your data into useful insights about how to improve care for your patients.\n",
+    "supporting": [
+      "index.en_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
