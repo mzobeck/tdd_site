@@ -32,7 +32,7 @@ website:
         aria-label: email
         href: "mailto:mzobeck@gmail.com"  
 
-#google-analytics: <Insert your ID here>
+google-analytics: 254401398
 cookie-consent: true
 twitter-card: 
     image: img/tdd_logo-a.png
