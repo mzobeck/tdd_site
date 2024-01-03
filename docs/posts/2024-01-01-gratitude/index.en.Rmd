@@ -10,9 +10,9 @@ editor:
     wrap: 72
 ---
 
-![](coffee-chillin.png)
+![](coffee-chillin.png){.preview-image}
 
-## **The contentification of life** 
+## **The contentification of life**
 
 The world is increasingly filled with noise and nonsense, making it
 difficult to see what is valuable amid a torrent of trivialities. With
@@ -31,7 +31,7 @@ maximize the moment and optimize our happiness. Almost all of this is a
 heap of rubbish. Yet there are always small, buried treasures that keep
 us coming back to rummage through the garbage.
 
-## **The exponentiation of life** 
+## **The exponentiation of life**
 
 Beyond the value of the content we produce, the speed of production also
 gives us heartburn. We humans, evolved in the cradle of the natural
@@ -43,7 +43,7 @@ worlds unfolding at ever increasing speeds ahead of us. Navigating life
 is increasingly complex, increasingly overwhelming. Our attention can't
 handle it all.
 
-## **Many options that mostly stink** 
+## **Many options that mostly stink**
 
 So, we have tons of ways we could spend our time, energy, and attention.
 Too many. Most of these options are garbage. But it's hard to tell
@@ -77,7 +77,7 @@ she exists influences what I do. My gratitude is about our existence
 together - a dynamic, fluid, abstract-yet-influential relationship that
 helps to direct my experiences and actions over time.
 
-## **Gratitude as a signal of value** 
+## **Gratitude as a signal of value**
 
 Rosie has helped me find what is valuable. My gratitude acted as both
 search and filter for finding something that has meaning to me. Easy,
@@ -108,7 +108,7 @@ valuable and that would make me grateful anew. In a sea of infinite
 options, gratitude has reduced the dimensions I must consider, helping
 me reflect on where I've been and chart a course for the future.
 
-## **Gratitude in 2024** 
+## **Gratitude in 2024**
 
 This has been a meditation on part of life I find overwhelming. I want
 to do good stuff. I want to be good at the things I do. I want to have
