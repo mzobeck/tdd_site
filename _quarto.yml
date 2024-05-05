@@ -10,11 +10,10 @@ website:
   page-navigation: true
   site-url: https://www.thedoctorsdialectic.com
   google-analytics: "G-D9Y95ZTCEN"
-  twitter-card: 
-    image: img/tdd_logo-a.png
-    card-style: summary_large_image
-    creator: "@MarkZobeck"
-
+  open-graph: true
+  twitter-card: true
+  favicon: img/tdd_logo-a.png
+    
   navbar:
     background: white
     logo: img/d_logo.jpg
@@ -35,6 +34,8 @@ website:
     right:
       - icon: twitter
         href: https://twitter.com/MarkZobeck
+      - icon: github
+        href: https://github.com/mzobeck/tdd_site
       - icon: envelope
         aria-label: email
         href: "mailto:mzobeck@gmail.com"  
