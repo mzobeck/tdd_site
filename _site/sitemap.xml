@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.thedoctorsdialectic.com/blog.html</loc>
-    <lastmod>2024-05-05T03:38:00.859Z</lastmod>
+    <lastmod>2024-05-05T14:19:27.428Z</lastmod>
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/about/index.html</loc>
-    <lastmod>2024-05-05T03:37:58.522Z</lastmod>
+    <lastmod>2024-05-05T14:08:12.376Z</lastmod>
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/epistemic_limits/information_dynamics/index.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/epistemic_limits/limit_zoo/halting_problem/index.html</loc>
-    <lastmod>2024-05-05T03:40:27.397Z</lastmod>
+    <lastmod>2024-05-05T14:10:34.564Z</lastmod>
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/epistemic_limits/into_the_unknown/index.html</loc>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/research/index.html</loc>
-    <lastmod>2024-01-03T16:44:22.754Z</lastmod>
+    <lastmod>2024-05-05T14:08:15.082Z</lastmod>
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/posts/2022-04-05-htma-3-definition-of-risk/index.en.html</loc>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/posts/2024-01-01-gratitude/index.en.html</loc>
-    <lastmod>2024-01-03T16:46:27.973Z</lastmod>
+    <lastmod>2024-05-05T14:16:43.643Z</lastmod>
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/docs/posts/2022-03-12-cure-more-kids/index.en.html</loc>
@@ -146,6 +146,10 @@
   </url>
   <url>
     <loc>https://www.thedoctorsdialectic.com/index.html</loc>
-    <lastmod>2024-01-03T16:44:37.352Z</lastmod>
+    <lastmod>2024-05-05T14:03:29.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thedoctorsdialectic.com/docs/posts/2024-01-01-gratitude/index.html</loc>
+    <lastmod>2024-05-05T14:19:28.576Z</lastmod>
   </url>
 </urlset>
