@@ -3,7 +3,6 @@ project:
 
 website:
   title: "The Doctor's Dialectic"
-  description: "The personal blog of Dr. Mark Zobeck"
   image: img/tdd_logo-a.png
   search: true
   reader-mode: true
