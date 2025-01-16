@@ -23,13 +23,15 @@ website:
     pinned: false
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - href: docs/about/index.qmd
-        text: About
+        text: "About"
       - href: docs/research/index.qmd
-        text: Research
+        text: "Research"
       - href: blog.qmd
-        text: Blog
+        text: "Blog"
+#      - href: docs/epistemic_limits/index.qmd
+#        text: "Epistemic Limits"
         
     right:
       - icon: twitter
@@ -39,8 +41,35 @@ website:
       - icon: envelope
         aria-label: email
         href: "mailto:mzobeck@gmail.com"  
+        
+#  sidebar:
+#    - id: epistemic-limits
+#      title: "Epistemic Limits"
+#      sytle: "floating"
+#      colapse-level: 1
+#      align: left
+#      contents:
+#        - href: docs/epistemic_limits/index.qmd
+#          text: "Epistemic Limits"
+#        - section: "The Menagerie of Unknowables"
+#          href: docs/epistemic_limits/menagerie/index.qmd
+#          contents:
+#            - text: "Absolute Epistemic Limits"
+#              href: docs/epistemic_limits/menagerie/absolute_limits/index.qmd
+#              contents: 
+#                - section: "First-order"
+#                  contents:
+#                    - section: "Logical"
+#                    - section: "Mathematical"
+#                    - section: "Computation"
+#                      contents:
+#                        - text: "The Halting Problem"
+#                          href: docs/epistemic_limits/menagerie/absolute_limits/halting_problem/index.qmd
+#                    - section: "Scientific"
 
-
+exclude:
+  - staging/* 
+ 
 format:
   html:
     theme:

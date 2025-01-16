@@ -1,5 +1,40 @@
 ---
 title: "Epistemic Limits"
+sidebar: epistemic-limits
 ---
 
-We're going to talk about all the things. 
+[**I've started a weird collection.**]{style="color:#0047AB;"}
+
+**I'm collecting things that are intrinsically unknowable**, facts that are impossible to know with certainty.
+
+What's the purpose of this collection?
+
+Well, let me ask you: **Have you ever been stumped by a question from a preschool kid?** Children are curious creatures by nature, and it seems to be a common pastime of all kids to annoy their parents with what I affectionately call "the infinite *'why'* regress."
+
+"Eat your peas."
+
+*"Why?"* "Because they're good for you."
+
+*"Why?"* "Because they contain nutrients that your body needs to be healthy."
+
+*"Why?"* "Because, kid, homeostasis depends on proper enzymatic function that can only be achieved through the presence of micronutrients acting as cofactors to catalyze important metabolic reactions."
+
+*"Why?"* "Because the anti-entropic processes that sustain life require electrochemical and physical methods to manage energy gradients by exploiting the thermodynamic properties of different elements that issue from their unique atomic and subatomic constituents."
+
+*"Why?"* "Because God made it that way now eat your peas!"
+
+This common experience of tired parents demonstrates that our knowledge is limited. Sooner or later, in the infinite *why* regress, we come to a question we cannot answer. When we subject our reasoning to unyielding interrogation, **we always arrive at the point where we must say, "I don't know."**
+
+**As a physician, I am confronted with the limits of our certainty every day.** I am a pediatric oncologist. I provide clinical care to children with cancer. When a child is diagnosed with a life-threatening disease like cancer, one of the most common questions a parent asks is, "Will my child survive?" Unfortunately, the honest answer has to be, "We don't know." We have gotten very good at curing childhood cancer. Over 80% of all children with cancer in the United States survive, but we cannot cure everyone. I do not know the child's future. I only have statistics and a promise that we will do everything in our power to cure their disease.
+
+**These examples are practical demonstrations of the limits of our knowledge.** Preschoolers show us that our explanatory abilities bottom out after enough pressure. Clinical medicine demonstrates that there are things we would like to know that are beyond our powers to predict. Everywhere in life, we run into questions who's answer is "I don't know." Uncertainty seems to be a fundamental feature of human existence.
+
+In fact, **advances in science and mathematics in the last century demonstrate that uncertainty is a fundamental feature of the existence of any creature that possesses knowledge.** We are subject to fundamental epistemic limits, boundaries of knowledge that we cannot cross. These limits introduce uncertainty into any claim about knowledge. This uncertainty has radical consequences that shape how we can know anything at all.
+
+**So, I'm collecting things that are intrinsically unknowable.** These unknowables show us our epistemic limits. These limits are ordinarily very difficult to see, but the unknowables highlight them like dust giving concrete form to a ray of light. By making them more substantial, **we'll see that our epistemic limits have a profound impact on our lives.** They impact our understanding of epistemology by limiting what knowledge we can possess. They impact our understanding of phenomenology by illuminating the role of the subjective perspective in experience. They impact our science by prescribing empirical methods that deliver reliable information about reality. They even impact our metaphysics by illuminating what beliefs about reality can and cannot be held with certainty.
+
+**This is a work in progress.** My plan is to first grow my collection of unknowables in phase 1 and then draw out the implications of the epistemic limits they represent in phase 2.
+
+**This is a side project.** Progress may be slow.
+
+**Most importantly, this is a living and breathing set of ideas.** They will all grow, mature, and maybe even rebel against their former selves. If things are different in a year when you come back here, don't be surprised. That is the nature of knowledge when certainty is impossible.
