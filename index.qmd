@@ -1,4 +1,5 @@
 ---
+pagetitle: "The Doctor's Dialectic"
 toc: false
 ---
 
