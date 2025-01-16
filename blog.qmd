@@ -11,6 +11,6 @@ listing:
   feed: true
   #include:
   #  categories: "Statistics & Heuristics"
-  image-placeholder: img/d_smol.png 
+  image-placeholder: d_smol.png 
   #image-height: 0.5 in
 ---

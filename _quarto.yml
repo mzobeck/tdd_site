@@ -3,7 +3,7 @@ project:
 
 website:
   title: "The Doctor's Dialectic"
-  image: img/tdd_logo-a.png
+  image: tdd_logo-a.png
   search: true
   reader-mode: true
   page-navigation: true
@@ -11,7 +11,7 @@ website:
   google-analytics: "G-D9Y95ZTCEN"
   open-graph: true
   twitter-card: true
-  favicon: img/tdd_logo-a.png
+  favicon: tdd_logo-a.png
     
   navbar:
     background: white
