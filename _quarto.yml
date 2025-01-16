@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - img
 
 website:
   title: "The Doctor's Dialectic"
