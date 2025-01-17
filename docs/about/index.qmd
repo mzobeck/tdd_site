@@ -24,10 +24,10 @@ about:
 
 ## Welcome to The Doctor's Dialectic
 
-Hi, I'm Dr. Mark Zobeck. I'm a physician who cares for children with cancers and blood disorders around the world. When not caring for patients, I also conduct research. My primary focus is on creating clinical prediction models to improve treatment outcomes for pediatric cancers. I also use data science to improve the delivery of medical care in low- and middle-income countries. I love writing about and teaching statistics. Personally, I have a bias toward the Bayesian. For better or worse, I'm also given to musing about the metaphysical and epistemological foundations of science. You'll find some weird fusion of all of these things on this blog. Welcome!
+Hi, I'm Dr. Mark Zobeck. I'm a physician who cares for children with cancers and blood disorders around the world. When not caring for patients, I also conduct research. My primary focus is creating clinical prediction models to improve treatment outcomes for pediatric cancers. I also use data science to improve the delivery of medical care in low- and middle-income countries. I love writing about and teaching statistics. I confess that I am biased toward the Bayesian. For better or worse, I'm also given to musing about the metaphysical and epistemological foundations of science. You'll find some weird fusion of these things on this blog. Welcome!
 
 ## Why the theme of the dialectic? 
-I think there are things that we can only lean through slowly turning opposing viewpoints over and over in our heads. There is truth in the tension between ideas. This practice is harder to find as the world becomes increasingly fast-paced and polarized, this practice is harder to find. As generative algorithms produce exponential amounts of entertaining refuse, the patient exploration of ideas is being swallowed in noise.  
+There are things that we can only learn by slowly turning opposing viewpoints over and over in our heads. Truth is found in the tension between ideas. This practice is harder to find as the world becomes increasingly fast-paced and polarized. As generative algorithms produce exponential amounts of entertaining refuse, the patient exploration of ideas is being swallowed in noise
 
 This blog is my attempt to engage in this type of discussion with the reader and with myself.   
 
