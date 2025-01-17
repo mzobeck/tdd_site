@@ -12,7 +12,7 @@ format:
     toc-depth: 3
 mainfont: Palatino
 echo: false
-image: external_control.jpeg
+image: external_control.png
 bibliography: references.bib 
 categories: ["Causation & Clinical Trials"]
 tags: 
