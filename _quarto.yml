@@ -12,8 +12,10 @@ website:
   site-url: https://www.thedoctorsdialectic.com
   google-analytics: "G-D9Y95ZTCEN"
   open-graph: true
-  twitter-card: true
   favicon: img/d_logo.jpg
+  twitter-card: 
+    title: "The Doctor's Dialectic"
+    image: img/tdd_smol.jpg
     
   navbar:
     background: white
