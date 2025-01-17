@@ -22,7 +22,7 @@ editor:
     wrap: 72
 ---
 
-![](external_control.jpeg){.preview-image fig-align="center"
+![](external_control.png){.preview-image fig-align="center"
 width="432"}
 
 ## Introduction
