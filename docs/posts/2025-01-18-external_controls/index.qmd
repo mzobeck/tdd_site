@@ -1,0 +1,190 @@
+---
+title: "External Controls in Oncology Clinical Trials"
+subtitle: "Are these things legitimate?"
+author: "Mark Zobeck"
+date: 2025-01-19
+image: external_control.png
+categories: ["Causation & Clinical Trials"]
+bibliography: references.bib
+editor: 
+  markdown: 
+    wrap: 72
+---
+ 
+![](external_control.png){.preview-image}
+
+## Introduction
+
+External controls are, for better or worse, common in pediatric oncology
+clinical trials. I don’t love them. They are dangerous. However, there
+are arguments in their favor. In this post, I’ll briefly discuss what
+historical controls are, when their use might be justified, and why
+they’re dangerous.
+
+## What are external controls?
+
+The purpose of clinical trials is to evaluate the effect of a treatment
+in some population of patients. In a classic randomized clinical trial,
+patients who meet the study criteria are randomized to either receive
+the standard of care for their disease or a new treatment. The outcome
+between the two groups is compared, and due to the miracle of
+randomization, the treatment effect can be identified as the difference
+in the outcomes between the groups.
+
+External controls are a group of patients not enrolled in a clinical
+trial but used as a comparison group for patients on a trial. The
+difference between the outcomes for the controls and the treatment group
+is taken as the effect of treatment, much like the comparison with the
+standard of care arm in a clinical trial. For valid comparisons, the
+control group should look as similar as possible to those that could
+have been enrolled in the trial. The group may be taken from a previous
+clinical trial, a patient registry, or other real-world data source. The
+key limitation of this design is that external controls do not benefit
+from the wonders of randomization, which makes bias a much greater
+danger when estimating the effect of treatment.
+
+## Why we might use external controls
+
+External controls are generally used when trialists cannot or should not
+enroll a comparison group for ethical reasons or because the disease is
+so rare. Below is a table briefly explaining three reasons that might
+justifying using external controls. I wouldn’t go so far as to call
+these *good* reasons, but perhaps they are permissible
+[@marion_use_2023].
+
+### Permissible reasons
+
+|                                                                                                                                                                                                                                                                                                     |
+|------------------------------------------------------------------------|
+| **When Randomization to Placebo is Unethical**<br> In condition has with well-established, effective treatments, then randomizing patients to receive a placebo would be unethical. If investigators wish to measure the effect compared to no treatment then they may opt for an external control. |
+| **Rare Disease Research**<br>Rare diseases make it difficult to recruit sufficient numbers of participants to meet the power requirements for a trial. External controls may be used to reduce the size of the trial.                                                                               |
+| **Severe Outcomes or Vulnerable Populations**<br> Randomization may be viewed as unacceptable for diseases with particularly severe outcomes (e.g. terminal illness) or that affect vulnerable populations (e.g. children) even if there is no standard of care.                                    |
+
+: {.striped .hover}
+
+@collignon_implementing_2021 sums up the use cases for historical
+(external) controls in their conclusion:
+
+> The use of historical controls, therefore, is better suited for cases
+> of high unmet clinical need, where the disease course is well
+> characterized and the primary endpoint is objective.
+
+### Suspect reasons
+
+There are also many suspicious reasons for using external control. One
+is that they reduce the time and costs associated with conducting a
+trial. The problem with this reasoning is that the savings may be
+minimal. Enrolling 200 patients in a trial compared to 400 patients does
+not reduce the budget by half, given the enormous fixed costs associated
+with designing and opening trials. No matter how many patients are
+enrolled, the trial may have to be run for the same time when outcomes
+are measured over years, as with survival in oncology trials. While
+external controls might suggest savings, the benefits are not as
+advertised.
+
+More importantly, there is an enormous price to pay for the credibility
+of the trial’s results. Many sources of bias can confound the treatment
+effect and make clear conclusions impossible. A trial may go on for ten
+years only to end in a collective, scientific shrug ¯\\\_(ツ)\_/¯.
+
+## Sources of bias from external controls
+
+External control’s fundamental problem is that they are not randomized,
+leaving many ways that they can introduce bias into the analysis.
+Randomization reveals a treatment effect by guaranteeing that only
+random chance determines which treatment patients receive. This ensures
+no residual confounding between treatment and the outcome of interest.
+In the parlance of directed acyclic graphs (DAGs), randomization erases
+all back door paths between the treatment and the outcome. No such
+guarantees exist for external controls, and backdoor paths very likely
+exist between treatment and outcomes. I’ve drawn the DAG below to
+represent the essential structure of the problem. There are many other
+more complex structures, but I find this to be a sufficient
+representation of the basic concerns.
+
+```{r dg-single-dag}
+#| echo: false
+DiagrammeR::grViz("
+  digraph mrdag {
+    graph [rankdir=TB]
+
+    # Node definitions
+    node [shape=ellipse]
+    U [label='Patient Group']
+    X [label='Treatment']
+    Y [label='Outcome']
+    { rank = same; X Y }
+
+    # Edges
+    U -> X
+    U -> Y
+    X -> Y [minlen=3]
+  }
+", height = 200)
+```
+
+One example of how patient groups could affect treatment and outcome is
+if the external control group is drawn from a registry of sicker and
+older patients who tend to have worse outcomes than the group in the
+trial that received the treatment. This situation could make the
+treatment appear more effective than it truly is. There are many other
+sources of bias. The table below \[adapted from [@burger_use_2021]\],
+lists some of the main sources of bias and how to mitigate their effect.
+
+### Bias types
+
+| Type of Bias and Description                                                                                                           | Mitigation Strategy                                                                                                                                                                                                                                                                                                     |
+|---------------------------|---------------------------------------------|
+| **Selection Bias**<br>Clinical trial participants often have different characteristics compared to patients in routine care settings   | • Design trial eligibility criteria that can be clearly applied to real-world settings<br>• When selecting external controls, carefully match population characteristics<br>• Use statistical approaches like propensity scoring, inverse probability weighting, or g-computation to account for population differences |
+| **Calendar Time Bias**<br>Treatment outcomes can vary across different time periods due to evolution in medical practices              | • Select control patients from similar time periods as the trial<br>• Provide evidence that standard of care has remained stable<br>• If using historical controls, document stability of outcomes over relevant time periods                                                                                           |
+| **Regional Bias**<br>Patient outcomes may differ between geographical locations due to variations in healthcare delivery               | • Source control patients from comparable geographic regions<br>• Document that care standards are similar across regions<br>• If using different regions, demonstrate comparable outcome patterns                                                                                                                      |
+| **Assessment Bias**<br>Knowledge of treatment assignment can influence how outcomes are evaluated                                      | • Focus on objective endpoints where possible<br>• Consider independent outcome review processes<br>• Implement rigorous sensitivity analyses                                                                                                                                                                           |
+| **Different Endpoint Bias**<br>Clinical trial endpoints may be measured differently than in routine practice                           | • Ensure consistent endpoint definitions<br>• Obtain necessary documentation (e.g., imaging) to allow standardized assessments<br>• Account for differences in assessment frequency                                                                                                                                     |
+| **Immortal Time Bias**<br>Challenges in establishing comparable time zero points between trial and control patients                    | • Clearly define and align study entry time points<br>• Carefully evaluate potential biases in time-based analyses                                                                                                                                                                                                      |
+| **Retrospective Selection Bias**<br>Risk of selectively choosing external data or analysis approaches after seeing results             | • Pre-specify all selection criteria and analyses<br>• Document selection process transparently                                                                                                                                                                                                                         |
+| **Study Bias**<br>Trial participation itself can affect outcomes due to different care patterns                                        | • Consider selecting controls from similar clinical settings<br>• Document and account for differences in care delivery                                                                                                                                                                                                 |
+| **Between Study Variability**<br>High unexplained outcome variation across studies suggests presence of important uncontrolled factors | • Consider randomized design if high unexplained variability exists<br>• Carefully document and account for known sources of variation                                                                                                                                                                                  |
+| **Intercurrent Event Bias**<br>Events occurring after study entry can affect comparability                                             | • Apply consistent approaches to handling intercurrent events<br>• Consider multiple analytical approaches to test robustness                                                                                                                                                                                           |
+
+: {.striped .hover}
+
+## How to reduce bias when using external controls
+
+The best way to reduce bias from external controls is an open area of
+research. This is a polite way of saying it’s complicated and a mess.
+It’s complicated because these studies are not quite observational
+studies, but they definitely aren’t randomized trials. Researchers have,
+therefore, opted for a range of analytical techniques, including using
+thresholds, propensity scores, matching, and meta-analytic methods. A
+full discussion of analytical options is outside the scope of this blog
+post, but see the references at the end for more. Regardless of the
+method used, the most important way to control bias is undoubtedly to
+select an external control group that is a close comparison to the types
+of patients enrolled in the trial.
+
+Analyzing data from these types of studies is also a mess because many
+untoward motivations can sneak into the results. These studies can be
+used to justify regulatory approval for a drug or biomedical device.
+Companies are motivated to represent their product in the best way
+possible because there is a pot of gold at the end of the quest for
+regulatory approval. Mixing a company’s profit margins with a high
+dimensional vector of bias sources and a flexible choice of analytical
+techniques is a recipe for chaos.
+
+## Conclusion
+
+I think it’s possible to justify the use of external controls and glean
+useful information from them in certain settings. Regulators have even
+begun to admit them as evidence to justifty drug approval \[see
+[@mishra-kalyani_external_2022] for examples\]. But I also think it’s a
+generally rational policy to increase one’s skepticism about a study in
+proportion to the number of free researcher degrees of freedom with an
+additional adjustment for the presence of motivated reasoning. Both are
+present in abundance with external controls. So, it makes good sense to
+bring a strong scientific skepticism to these studies. In this blog,
+we’ve outlined the many ways that bias influences their results. The
+burden of proof – a rightfully heavy one – should rest on the
+investigators to demonstrate their study design and analysis overcome
+the many limitations of external controls.
+
+## References
