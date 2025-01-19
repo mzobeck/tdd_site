@@ -111,12 +111,12 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
 <meta property="og:description" content="Are these things legitimate?">
 <meta property="og:image" content="https://www.thedoctorsdialectic.com/docs/posts/2025-01-17-external_controls/external_control.png">
 <meta property="og:site_name" content="The Doctor's Dialectic">
-<meta property="og:image:height" content="1024">
+<meta property="og:image:height" content="530">
 <meta property="og:image:width" content="1024">
 <meta name="twitter:title" content="The Doctor’s Dialectic - External Controls in Oncology Clinical Trials">
 <meta name="twitter:description" content="Are these things legitimate?">
 <meta name="twitter:image" content="https://www.thedoctorsdialectic.com/docs/posts/2025-01-17-external_controls/external_control.png">
-<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-height" content="530">
 <meta name="twitter:image-width" content="1024">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -298,8 +298,8 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
 <p>External control’s fundamental problem is that they are not randomized, leaving many ways that they can introduce bias into the analysis. Randomization reveals a treatment effect by guaranteeing that only random chance determines which treatment patients receive. This ensures no residual confounding between treatment and the outcome of interest. In the parlance of directed acyclic graphs (DAGs), randomization erases all back door paths between the treatment and the outcome. No such guarantees exist for external controls, and backdoor paths very likely exist between treatment and outcomes. I’ve drawn the DAG below to represent the essential structure of the problem. There are many other more complex structures, but I find this to be a sufficient representation of the basic concerns.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-90858118ee66a8758a35" style="width:100%;height:193px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-90858118ee66a8758a35">{"x":{"diagram":"\n  digraph mrdag {\n    graph [rankdir=TB]\n\n    # Node definitions\n    node [shape=ellipse]\n    U [label=\"Patient Group\"]\n    X [label=\"Treatment\"]\n    Y [label=\"Outcome\"]\n    { rank = same; X Y }\n\n    # Edges\n    U -> X\n    U -> Y\n    X -> Y [minlen=3]\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-7ca202e0b6817ae60830" style="width:100%;height:193px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7ca202e0b6817ae60830">{"x":{"diagram":"\n  digraph mrdag {\n    graph [rankdir=TB]\n\n    # Node definitions\n    node [shape=ellipse]\n    U [label=\"Patient Group\"]\n    X [label=\"Treatment\"]\n    Y [label=\"Outcome\"]\n    { rank = same; X Y }\n\n    # Edges\n    U -> X\n    U -> Y\n    X -> Y [minlen=3]\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>One example of how patient groups could affect treatment and outcome is if the external control group is drawn from a registry of sicker and older patients who tend to have worse outcomes than the group in the trial that received the treatment. This situation could make the treatment appear more effective than it truly is. There are many other sources of bias. The table below [adapted from <span class="citation" data-cites="burger_use_2021">(<a href="#ref-burger_use_2021" role="doc-biblioref">Burger et al. 2021</a>)</span>], lists some of the main sources of bias and how to mitigate their effect.</p>
@@ -307,8 +307,8 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="bias-types">Bias types</h3>
 <table class="table-striped table-hover table">
 <colgroup>
-<col style="width: 37%">
-<col style="width: 62%">
+<col style="width: 30%">
+<col style="width: 69%">
 </colgroup>
 <thead>
 <tr class="header">
