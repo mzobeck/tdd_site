@@ -103,6 +103,7 @@ more complex structures, but I find this to be a sufficient
 representation of the basic concerns.
 
 ```{r dg-single-dag}
+#| echo: false
 DiagrammeR::grViz("
   digraph mrdag {
     graph [rankdir=TB]
