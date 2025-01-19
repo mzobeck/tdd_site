@@ -1,20 +1,10 @@
 ---
 title: "The Path to Useful and Trustworthy Clinical Prediction Models"
+subtitle: "A New Year's Meditation"
 author: "Mark Zobeck"
 date: 2025-01-21
-#date-modified: "`r Sys.Date()`"
 image: modeling.png
-format: 
-  html:
-    self-contained: true 
-    toc: true
-    toc-location: right
-    toc-depth: 3
-mainfont: Palatino
-echo: false
-categories: ["Clinical Prediction Modeling"]
-comments: 
-  hypothesis: true
+categories: ["Clinical Prediction Models"]
 editor: 
   markdown: 
     wrap: 72
