@@ -5,14 +5,14 @@ project:
 
 website:
   title: "The Doctor's Dialectic"
-  image: img/d_logo.jpg
+  image: img/d_smol.jpg
   search: true
   reader-mode: true
   page-navigation: true
   site-url: https://www.thedoctorsdialectic.com
   google-analytics: "G-D9Y95ZTCEN"
   open-graph: true
-  favicon: img/d_logo.jpg
+  favicon: img/d_smol.jpg
   twitter-card: true
     
   navbar:
