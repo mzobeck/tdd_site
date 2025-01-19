@@ -11,7 +11,7 @@ editor:
     wrap: 72
 ---
 
-![](external_control.png){.preview-image fig-align="center" width="443"}
+![](external_control.png){.preview-image}
 
 ## Introduction
 
