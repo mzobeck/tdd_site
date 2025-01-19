@@ -19,13 +19,13 @@
 <item>
   <title>Gratitude reduces the complexity of modern life to make it more meaningful</title>
   <dc:creator>Mark Zobeck</dc:creator>
-  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-29-trial/</link>
+  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-30-trial/</link>
   <description><![CDATA[ 
 
 
 
 
-<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-29-trial/modeling.png" class="preview-image img-fluid"></p>
+<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-30-trial/modeling.png" class="preview-image img-fluid"></p>
 <section id="the-contentification-of-life" class="level2">
 <h2 class="anchored" data-anchor-id="the-contentification-of-life"><strong>The contentification of life</strong></h2>
 <p>The world is increasingly filled with noise and nonsense, making it difficult to see what is valuable amid a torrent of trivialities. With the rise of social media, our attention has become an economic commodity. Four million new posts are made on Instagram every hour; 3.7 million new YouTube videos are uploaded every day. This is chump change compared to what’s coming. The rate of content production is going to increase exponentially as generative AI matures in consumer applications. And the contentification of the internet for the commodification of our attention has overflowed into the offline world. Everywhere we turn, we’re offered the chance to level up in our jobs, our relationships, our skills, or our goals (and on Facebook, for me, level up my hip mobility because I clicked on an ad about stretching once). There’s always more to see, more to learn, and more to do to maximize the moment and optimize our happiness. Almost all of this is a heap of rubbish. Yet there are always small, buried treasures that keep us coming back to rummage through the garbage.</p>
@@ -59,14 +59,14 @@
 
  ]]></description>
   <category>Musings &amp; Meditations</category>
-  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-29-trial/</guid>
+  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-30-trial/</guid>
   <pubDate>Wed, 29 Jan 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2025-01-29-trial/modeling.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2025-01-30-trial/modeling.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>The Path to Useful and Trustworthy Clinical Prediction Models</title>
   <dc:creator>Mark Zobeck</dc:creator>
-  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-25-modeling_philosophy/</link>
+  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-26-modeling_philosophy/</link>
   <description><![CDATA[ 
 
 
@@ -74,7 +74,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-25-modeling_philosophy/modeling.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-26-modeling_philosophy/modeling.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="introduction" class="level1">
@@ -130,20 +130,20 @@
 
  ]]></description>
   <category>Clinical Prediction Models</category>
-  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-25-modeling_philosophy/</guid>
+  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-26-modeling_philosophy/</guid>
   <pubDate>Tue, 21 Jan 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2025-01-25-modeling_philosophy/modeling.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2025-01-26-modeling_philosophy/modeling.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>External Controls in Oncology Clinical Trials</title>
   <dc:creator>Mark Zobeck</dc:creator>
-  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-17-external_controls/</link>
+  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-18-external_controls/</link>
   <description><![CDATA[ 
 
 
 
 
-<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-17-external_controls/modeling.png" class="preview-image img-fluid"></p>
+<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-18-external_controls/external_control.png" class="preview-image img-fluid"></p>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>External controls are, for better or worse, common in pediatric oncology clinical trials. I don’t love them. They are dangerous. However, there are arguments in their favor. In this post, I’ll briefly discuss what historical controls are, when their use might be justified, and why they’re dangerous.</p>
@@ -190,8 +190,8 @@
 <p>External control’s fundamental problem is that they are not randomized, leaving many ways that they can introduce bias into the analysis. Randomization reveals a treatment effect by guaranteeing that only random chance determines which treatment patients receive. This ensures no residual confounding between treatment and the outcome of interest. In the parlance of directed acyclic graphs (DAGs), randomization erases all back door paths between the treatment and the outcome. No such guarantees exist for external controls, and backdoor paths very likely exist between treatment and outcomes. I’ve drawn the DAG below to represent the essential structure of the problem. There are many other more complex structures, but I find this to be a sufficient representation of the basic concerns.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-a04bebed472442aa4158" style="width:100%;height:193px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a04bebed472442aa4158">{"x":{"diagram":"\n  digraph mrdag {\n    graph [rankdir=TB]\n\n    # Node definitions\n    node [shape=ellipse]\n    U [label=\"Patient Group\"]\n    X [label=\"Treatment\"]\n    Y [label=\"Outcome\"]\n    { rank = same; X Y }\n\n    # Edges\n    U -> X\n    U -> Y\n    X -> Y [minlen=3]\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-a05f0d4d3754dd380890" style="width:100%;height:193px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a05f0d4d3754dd380890">{"x":{"diagram":"\n  digraph mrdag {\n    graph [rankdir=TB]\n\n    # Node definitions\n    node [shape=ellipse]\n    U [label=\"Patient Group\"]\n    X [label=\"Treatment\"]\n    Y [label=\"Outcome\"]\n    { rank = same; X Y }\n\n    # Edges\n    U -> X\n    U -> Y\n    X -> Y [minlen=3]\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>One example of how patient groups could affect treatment and outcome is if the external control group is drawn from a registry of sicker and older patients who tend to have worse outcomes than the group in the trial that received the treatment. This situation could make the treatment appear more effective than it truly is. There are many other sources of bias. The table below [adapted from <span class="citation" data-cites="burger_use_2021">(Burger et al. 2021)</span>], lists some of the main sources of bias and how to mitigate their effect.</p>
@@ -284,9 +284,9 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 </div>
 </div></section></div> ]]></description>
   <category>Causation &amp; Clinical Trials</category>
-  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-17-external_controls/</guid>
-  <pubDate>Fri, 17 Jan 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2025-01-17-external_controls/modeling.png" medium="image" type="image/png" height="144" width="144"/>
+  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-18-external_controls/</guid>
+  <pubDate>Sun, 19 Jan 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2025-01-18-external_controls/external_control.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>Gratitude reduces the complexity of modern life to make it more meaningful</title>
