@@ -10,7 +10,8 @@ editor:
     wrap: 72
 ---
 
-![](modeling.png){fig-align="center" width="600" height="392"}
+![](modeling.png){.preview-image}
+
 
 # Introduction
 
