@@ -1,8 +1,8 @@
 ---
 title: "External Controls in Oncology Clinical Trials"
 subtitle: "Are these things legitimate?"
-author: Mark Zobeck
-date: "2025-01-17"
+author: "Mark Zobeck"
+date: 2025-01-17
 image: external_control.png
 categories: ["Causation & Clinical Trials"]
 bibliography: references.bib 
