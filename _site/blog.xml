@@ -72,7 +72,11 @@
 
 
 
-<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-25-modeling_philosophy/modeling.png" class="preview-image img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.thedoctorsdialectic.com/docs/posts/2025-01-25-modeling_philosophy/modeling.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
 <p>Clinical prediction modeling, using data to predict patients’ clinical outcomes to improve medical decision-making, can be incredibly powerful if done well. Modern medicine is awash in unused data. Information that we can use to improve the lives of patients is everywhere if we just knew how to distill it from the muck and mire of the everyday chaos of clinical care. With it, we could:</p>
