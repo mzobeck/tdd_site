@@ -2,15 +2,15 @@
 title: "Gratitude reduces the complexity of modern life to make it more meaningful"
 subtitle: "A New Year's Meditation"
 author: "Mark Zobeck"
-date: 2024-01-01
-image: coffee-chillin.png
+date: 2025-01-29
+image: modeling.png
 categories: ["Musings & Meditations"]
 editor: 
   markdown: 
     wrap: 72
 ---
 
-![](coffee-chillin.png){.preview-image}
+![](modeling.png){.preview-image}
 
 ## **The contentification of life**
 
