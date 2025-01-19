@@ -13,9 +13,7 @@ website:
   google-analytics: "G-D9Y95ZTCEN"
   open-graph: true
   favicon: img/d_logo.jpg
-  twitter-card: 
-    title: "The Doctor's Dialectic"
-    image: img/tdd_smol.jpg
+  twitter-card: true
     
   navbar:
     background: white
@@ -42,9 +40,6 @@ website:
       - icon: envelope
         aria-label: email
         href: "mailto:mzobeck@gmail.com"  
- 
-exclude:
-  - staging/* 
  
 format:
   html:
