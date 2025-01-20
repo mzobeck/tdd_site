@@ -40,6 +40,8 @@ website:
       - icon: envelope
         aria-label: email
         href: "mailto:mzobeck@gmail.com"  
+      - icon: rss
+        href: blog.xml
  
 format:
   html:
