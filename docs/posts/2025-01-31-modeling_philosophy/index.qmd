@@ -2,14 +2,14 @@
 title: "The Path to Useful and Trustworthy Clinical Prediction Models"
 author: "Mark Zobeck"
 date: 2025-01-31
-image: external_control.png
+image: modeling.png
 categories: ["Clinical Prediction Modeling"]
 editor: 
   markdown: 
     wrap: 72
 ---
 
-![](external_control.png){.preview-image fig-align="center"}
+![](modeling.png){.preview-image fig-align="center"}
 
 # Introduction
 
