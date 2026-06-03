@@ -1,0 +1,50 @@
+---
+title: ""
+subtitle: ""
+date: YYYY-MM-DD
+categories: ["Methods and Models"]
+image: hero.png
+image-alt: ""
+description: ""
+toc: true
+toc-depth: 3
+bibliography: references.bib
+draft: true
+
+# Private social copy (not rendered). Copy to platform on publish.
+social-x: |
+  X / Twitter version (280 chars max).
+
+social-li: |
+  LinkedIn version (~1500 chars).
+---
+
+![](hero.png){.preview-image fig-align="center"}
+
+Lead with the claim. State what the post will argue and why it matters. Two to four sentences.
+
+# Introduction
+
+Frame the problem. What is the current state of thinking? What is missing? What will this post add?
+
+# Main argument
+
+Develop the case. Cite evidence. Show code if it sharpens the argument. Use figures where they replace a paragraph of description.
+
+```{r}
+#| label: example-chunk
+#| echo: true
+#| fig-cap: "Example figure caption"
+
+# code here
+```
+
+# Counter-arguments
+
+Acknowledge the strongest counter-claims. Address them or concede where warranted. This is the dialectic move that separates serious posts from hot takes.
+
+# What follows
+
+What would need to be true for the argument to be wrong? What is the next thing to test or write?
+
+# References

@@ -1,0 +1,30 @@
+---
+title: ""
+subtitle: ""
+date: YYYY-MM-DD
+categories: ["AI in Practice"]
+image: hero.png
+image-alt: ""
+description: ""
+toc: false
+draft: true
+
+# Private social copy (not rendered). Copy to platform on publish.
+social-x: |
+  X / Twitter version (280 chars max).
+
+social-li: |
+  LinkedIn version (~1500 chars).
+---
+
+![](hero.png){.preview-image fig-align="center"}
+
+Lead paragraph that opens with the sharpest claim. One concrete observation, one specific data point, or one named tool. No throat-clearing.
+
+## Body section
+
+Two to four short paragraphs. One figure, table, or pull-quote if useful.
+
+## Take
+
+One-sentence takeaway. The reader should walk away able to repeat this in a hallway conversation.

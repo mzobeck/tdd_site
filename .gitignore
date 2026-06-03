@@ -4,3 +4,15 @@
 .Ruserdata
 
 /.quarto/
+
+**/*.quarto_ipynb
+
+# macOS Finder metadata.
+.DS_Store
+**/.DS_Store
+
+# Local-only drafts, idea pipeline, and previews for machine-based writing.
+# These are intentionally excluded from Git/GitHub.
+/_drafts/
+/_local_drafts/
+/_local_preview/
