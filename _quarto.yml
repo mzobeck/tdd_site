@@ -45,6 +45,7 @@ website:
  
 format:
   html:
+    html-math-method: katex
     theme:
       light: cosmo
       dark: [cosmo, theme-dark.scss]
