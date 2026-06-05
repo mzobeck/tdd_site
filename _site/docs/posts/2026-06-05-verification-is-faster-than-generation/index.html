@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Mark Zobeck">
-<meta name="dcterms.date" content="2022-03-17">
+<meta name="dcterms.date" content="2026-06-05">
+<meta name="description" content="AI is fast at producing and slow at knowing what you want. The leverage is verification. Pick one task this week with clear standards, run it through AI, and time yourself.">
 
-<title>Data Science has a garbage problem – The Doctor’s Dialectic</title>
+<title>Verification is faster than generation – The Doctor’s Dialectic</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -50,6 +51,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/bootstrap/bootstrap-67066a1b87feadda94346438552b42b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/bootstrap/bootstrap-dark-541c6d021615c1e3152f8b2f5b8011bf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../../site_libs/bootstrap/bootstrap-67066a1b87feadda94346438552b42b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,13 +93,19 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../../custom.css">
-<meta property="og:title" content="Data Science has a garbage problem – The Doctor’s Dialectic">
-<meta property="og:description" content="Garbage in, garbage out, unfortunately.">
-<meta property="og:image" content="https://www.thedoctorsdialectic.com/docs/posts/2022-03-17-data-science-garbage/img/d_smol.jpg">
+<meta property="og:title" content="Verification is faster than generation – The Doctor’s Dialectic">
+<meta property="og:description" content="AI is fast at producing and slow at knowing what you want. The leverage is verification. Pick one task this week with clear standards, run it through AI, and time yourself.">
+<meta property="og:image" content="https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/hero.png">
 <meta property="og:site_name" content="The Doctor’s Dialectic">
-<meta name="twitter:title" content="Data Science has a garbage problem – The Doctor’s Dialectic">
-<meta name="twitter:description" content="Garbage in, garbage out, unfortunately.">
-<meta name="twitter:image" content="https://www.thedoctorsdialectic.com/docs/posts/2022-03-17-data-science-garbage/img/d_smol.jpg">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:alt" content="A gold verification checkmark on a pile of documents.">
+<meta name="twitter:title" content="Verification is faster than generation – The Doctor’s Dialectic">
+<meta name="twitter:description" content="AI is fast at producing and slow at knowing what you want. The leverage is verification. Pick one task this week with clear standards, run it through AI, and time yourself.">
+<meta name="twitter:image" content="https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/hero.png">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
+<meta name="twitter:image:alt" content="A gold verification checkmark on a pile of documents.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -342,10 +352,10 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-foundation-of-all-of-data-science-is-data-quality" id="toc-the-foundation-of-all-of-data-science-is-data-quality" class="nav-link active" data-scroll-target="#the-foundation-of-all-of-data-science-is-data-quality"><strong>The foundation of all of data science is data quality</strong></a></li>
-  <li><a href="#garbage-data-is-a-big-problem-in-global-health" id="toc-garbage-data-is-a-big-problem-in-global-health" class="nav-link" data-scroll-target="#garbage-data-is-a-big-problem-in-global-health"><strong>Garbage data is a big problem in Global Health</strong></a></li>
-  <li><a href="#garbage-data-today-will-poison-data-science-tomorrow" id="toc-garbage-data-today-will-poison-data-science-tomorrow" class="nav-link" data-scroll-target="#garbage-data-today-will-poison-data-science-tomorrow"><strong>Garbage data today will poison data science tomorrow</strong></a></li>
-  <li><a href="#the-good-news-is-that-garbage-data-can-be-cleaned-up" id="toc-the-good-news-is-that-garbage-data-can-be-cleaned-up" class="nav-link" data-scroll-target="#the-good-news-is-that-garbage-data-can-be-cleaned-up"><strong>The good news is that garbage data can be cleaned up!</strong></a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#verification-generation" id="toc-verification-generation" class="nav-link" data-scroll-target="#verification-generation">Verification &gt; Generation</a></li>
+  <li><a href="#you-must-know-what-you-want" id="toc-you-must-know-what-you-want" class="nav-link" data-scroll-target="#you-must-know-what-you-want">You must know what you want</a></li>
+  <li><a href="#start-verifying" id="toc-start-verifying" class="nav-link" data-scroll-target="#start-verifying">Start verifying!</a></li>
   </ul>
 </nav>
     </div>
@@ -355,13 +365,18 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Science has a garbage problem</h1>
-<p class="subtitle lead">Garbage in, garbage out, unfortunately.</p>
+<h1 class="title">Verification is faster than generation</h1>
+<p class="subtitle lead">The minimal first step toward using AI well in knowledge work.</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Data Science + Global Health</div>
+    <div class="quarto-category">AI in Practice</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    AI is fast at producing and slow at knowing what you want. The leverage is verification. Pick one task this week with clear standards, run it through AI, and time yourself.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -376,7 +391,7 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 17, 2022</p>
+      <p class="date">June 5, 2026</p>
     </div>
   </div>
   
@@ -388,25 +403,49 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
 </header>
 
 
-<p><strong>Data science has a data problem.</strong></p>
-<p>The vast edifice of technologies, visualizations, statistics, machine learning algorithms that make up the data science empire are built on a foundation that can either be as solid as a rock or as unstable as shifting sand.</p>
-<section id="the-foundation-of-all-of-data-science-is-data-quality" class="level2">
-<h2 class="anchored" data-anchor-id="the-foundation-of-all-of-data-science-is-data-quality"><strong>The foundation of all of data science is data quality</strong></h2>
-<p>If your data are garbage, then your analyses may as well be toxic waste. You are better off hiring a hard Sci-Fi novelist to imagine what insights you might have gotten from possible analyses than performing any of your own. You can literally produce negative information (information that moves you further from your goal) using bad data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="hero.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="hero.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
+</figure>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>A common complaint I hear from physician colleagues about AI is some version of “I see the potential, but I don’t know how to make it useful in my work.” They may have played with a chat interface, composed a poem, and tried a few medical queries, but these experiences don’t translate into practical next steps to improve their specialized, professional work. The key question is: How can medical professionals build workflows that take advantage of AI?</p>
 </section>
-<section id="garbage-data-is-a-big-problem-in-global-health" class="level2">
-<h2 class="anchored" data-anchor-id="garbage-data-is-a-big-problem-in-global-health"><strong>Garbage data is a big problem in Global Health</strong></h2>
-<p>Information technologies are limited or nonexistent, and data collection is performed manually. There may be limited time and resources to dedicate toward the inglorious task of data management. Leadership may not understand the value of clean data and may encourage shortcuts that compromise quality. To put it bluntly, data management is boring, hard to do well, and just not sexy compared to the rest of data science.</p>
-<p>This is a problem when resources and time are scarce because the wasted effort to collect garbage data is effort that could have been spent on something more valuable.</p>
+<section id="verification-generation" class="level2">
+<h2 class="anchored" data-anchor-id="verification-generation">Verification &gt; Generation</h2>
+<p>My first recommendation is to look for ways to exploit a huge leverage point: <em>verification is faster than generation</em>.</p>
+<p>To explain, let’s start with an example. Try to find the injured robot in the image. When you’re done, click the line below for the answer.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="seek_and_find.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="seek_and_find.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></a></p>
+</figure>
+</div>
+<details>
+<summary>
+<strong>Click for the answer.</strong>
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="seek_and_find_answered.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="seek_and_find_answered.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></a></p>
+</figure>
+</div>
+</details>
+<p>How long did the searching take? It required you to scan the page with your eyes and expend energy recognizing objects and tracking your visual path across the image. All of this activity to generate an answer induced a cost in time, energy, and attention.</p>
+<p>When you clicked for the answer, I gave you a nice indicator. Your attention easily found the circle and readily recognized an injured robot. Verification of the answer I gave allowed you to avoid the temporal and metabolic effort required for you to generate the answer yourself.</p>
+<p>Generation is slow. Verification is fast. AI is good at producing and bad at knowing what you want. So the leverage is in tasks where you can check the output quickly. The minute you can verify the result faster than you can build it from scratch, the entire economics of the task change.</p>
+<p>This is why code became the first killer app for AI. Code has built-in verification. It runs, or it doesn’t. A developer can ask an AI for a function and find out in seconds whether the function does what was asked. The cycle is short, the feedback is honest, and the gains compound.</p>
+<p>Medicine is full of tasks with the same structure. Ask AI to draft a prior authorization appeal, and you can scan it in thirty seconds because you already know the criteria the insurer wants addressed. Ask for patient discharge instructions at a sixth grade reading level, and you can spot a dosing error or a missing red flag symptom at a glance because you wrote the orders. Ask for a differential on a case you have already worked up, and you can immediately judge whether the reasoning holds because you know the answer. In each case, generating the document from scratch would take twenty minutes. Verifying it takes two. You are not delegating your judgment. You are spending it where it is cheap and fast, on checking rather than typing.</p>
 </section>
-<section id="garbage-data-today-will-poison-data-science-tomorrow" class="level2">
-<h2 class="anchored" data-anchor-id="garbage-data-today-will-poison-data-science-tomorrow"><strong>Garbage data today will poison data science tomorrow</strong></h2>
-<p>As bad analyses accrue over time, a perception will emerge in the organization that data collection is administrative busywork, and the data are untrustworthy and useless for practical applications. This will make future efforts toward data science even more difficult.</p>
+<section id="you-must-know-what-you-want" class="level2">
+<h2 class="anchored" data-anchor-id="you-must-know-what-you-want">You must know what you want</h2>
+<p>The hidden precondition to leverage this advantage is that you have to know what is correct. People who struggle with AI most often struggle here. They want “something good” but cannot say what good looks like. AI obligingly produces something, but the person cannot evaluate it confidently, and the whole exercise feels like work without acceleration. However, if you know what is correct output, then verification is possible, and progress starts to stick.</p>
+<p>Knowledge work has always required verification, but standards are often implicit instead of automated. A slide deck needs verification: does it cover the right arguments, in the right order, with the right examples? A technical document needs verification: are the claims accurate, the citations real, the logic intact? An email requires verification: does it say what I meant in the tone I meant? A teaching outline needs verification: does it actually communicate the concepts to someone who does not yet understand them?</p>
 </section>
-<section id="the-good-news-is-that-garbage-data-can-be-cleaned-up" class="level2">
-<h2 class="anchored" data-anchor-id="the-good-news-is-that-garbage-data-can-be-cleaned-up"><strong>The good news is that garbage data can be cleaned up!</strong></h2>
-<p>With a little effort, your organization can collect beautiful, high-quality data! Thoughtful data management designed to work within the constraints of the organization’s data collection infrastructure is key. Even if time and resources are limited, you can still ask and answer incredibly important questions from the data in a way that is useful for practice application and builds trust among people who lost confidence in data-driven insights.</p>
-<p>In my next post, I’ll give you a few key steps to collect and maintain beautiful, gloriously-insightful data.</p>
+<section id="start-verifying" class="level2">
+<h2 class="anchored" data-anchor-id="start-verifying">Start verifying!</h2>
+<p>So if you’re an expert stuck at “what’s next”, a practical first move is to find one task this week that has clear standards for success. Draft a patient letter where you already know the three points it must make. Try the ambient scribe your hospital licensed but you have never opened, and check the note against what you remember from the visit. Build a lecture outline on a topic you have taught before, where you can list the key concepts in advance. Summarize a paper for journal club that you have already read closely. Run that task through whatever AI tool you can safely use. Notice where your effort went. Did most of it go toward reading and deciding rather than producing? Did you save time? If so, you have crossed the on-ramp.</p>
+<p>You will feel the same gap you felt looking for the injured robot. Searching cost time and attention. Verifying cost a glance. That is the asymmetry AI hands you on any knowledge-work task where you already know what correct looks like. Verification is faster than generation.</p>
 
 
 </section>
@@ -828,6 +867,38 @@ gtag('config', 'G-D9Y95ZTCEN', { 'anonymize_ip': true});
 <script src="https://utteranc.es/client.js" repo="mzobeck/BlogComments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

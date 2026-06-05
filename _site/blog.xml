@@ -14,13 +14,77 @@
 <title>The Doctor&#39;s Dialectic</title>
 <link>https://www.thedoctorsdialectic.com/blog.html</link>
 </image>
-<generator>quarto-1.4.554</generator>
-<lastBuildDate>Fri, 31 Jan 2025 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Fri, 05 Jun 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Verification is faster than generation</title>
+  <dc:creator>Mark Zobeck</dc:creator>
+  <link>https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="hero.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/hero.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
+</figure>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>A common complaint I hear from physician colleagues about AI is some version of “I see the potential, but I don’t know how to make it useful in my work.” They may have played with a chat interface, composed a poem, and tried a few medical queries, but these experiences don’t translate into practical next steps to improve their specialized, professional work. The key question is: How can medical professionals build workflows that take advantage of AI?</p>
+</section>
+<section id="verification-generation" class="level2">
+<h2 class="anchored" data-anchor-id="verification-generation">Verification &gt; Generation</h2>
+<p>My first recommendation is to look for ways to exploit a huge leverage point: <em>verification is faster than generation</em>.</p>
+<p>To explain, let’s start with an example. Try to find the injured robot in the image. When you’re done, click the line below for the answer.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="seek_and_find.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/seek_and_find.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></a></p>
+</figure>
+</div>
+<details>
+<summary>
+<strong>Click for the answer.</strong>
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="seek_and_find_answered.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/seek_and_find_answered.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></a></p>
+</figure>
+</div>
+</details>
+<p>How long did the searching take? It required you to scan the page with your eyes and expend energy recognizing objects and tracking your visual path across the image. All of this activity to generate an answer induced a cost in time, energy, and attention.</p>
+<p>When you clicked for the answer, I gave you a nice indicator. Your attention easily found the circle and readily recognized an injured robot. Verification of the answer I gave allowed you to avoid the temporal and metabolic effort required for you to generate the answer yourself.</p>
+<p>Generation is slow. Verification is fast. AI is good at producing and bad at knowing what you want. So the leverage is in tasks where you can check the output quickly. The minute you can verify the result faster than you can build it from scratch, the entire economics of the task change.</p>
+<p>This is why code became the first killer app for AI. Code has built-in verification. It runs, or it doesn’t. A developer can ask an AI for a function and find out in seconds whether the function does what was asked. The cycle is short, the feedback is honest, and the gains compound.</p>
+<p>Medicine is full of tasks with the same structure. Ask AI to draft a prior authorization appeal, and you can scan it in thirty seconds because you already know the criteria the insurer wants addressed. Ask for patient discharge instructions at a sixth grade reading level, and you can spot a dosing error or a missing red flag symptom at a glance because you wrote the orders. Ask for a differential on a case you have already worked up, and you can immediately judge whether the reasoning holds because you know the answer. In each case, generating the document from scratch would take twenty minutes. Verifying it takes two. You are not delegating your judgment. You are spending it where it is cheap and fast, on checking rather than typing.</p>
+</section>
+<section id="you-must-know-what-you-want" class="level2">
+<h2 class="anchored" data-anchor-id="you-must-know-what-you-want">You must know what you want</h2>
+<p>The hidden precondition to leverage this advantage is that you have to know what is correct. People who struggle with AI most often struggle here. They want “something good” but cannot say what good looks like. AI obligingly produces something, but the person cannot evaluate it confidently, and the whole exercise feels like work without acceleration. However, if you know what is correct output, then verification is possible, and progress starts to stick.</p>
+<p>Knowledge work has always required verification, but standards are often implicit instead of automated. A slide deck needs verification: does it cover the right arguments, in the right order, with the right examples? A technical document needs verification: are the claims accurate, the citations real, the logic intact? An email requires verification: does it say what I meant in the tone I meant? A teaching outline needs verification: does it actually communicate the concepts to someone who does not yet understand them?</p>
+</section>
+<section id="start-verifying" class="level2">
+<h2 class="anchored" data-anchor-id="start-verifying">Start verifying!</h2>
+<p>So if you’re an expert stuck at “what’s next”, a practical first move is to find one task this week that has clear standards for success. Draft a patient letter where you already know the three points it must make. Try the ambient scribe your hospital licensed but you have never opened, and check the note against what you remember from the visit. Build a lecture outline on a topic you have taught before, where you can list the key concepts in advance. Summarize a paper for journal club that you have already read closely. Run that task through whatever AI tool you can safely use. Notice where your effort went. Did most of it go toward reading and deciding rather than producing? Did you save time? If so, you have crossed the on-ramp.</p>
+<p>You will feel the same gap you felt looking for the injured robot. Searching cost time and attention. Verifying cost a glance. That is the asymmetry AI hands you on any knowledge-work task where you already know what correct looks like. Verification is faster than generation.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>AI in Practice</category>
+  <guid>https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/</guid>
+  <pubDate>Fri, 05 Jun 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2026-06-05-verification-is-faster-than-generation/hero.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
 <item>
   <title>The Path to Useful and Trustworthy Clinical Prediction Models</title>
   <dc:creator>Mark Zobeck</dc:creator>
-  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-31-modeling_philosophy/Index.html</link>
+  <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-31-modeling_philosophy/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -84,7 +148,7 @@
 
  ]]></description>
   <category>Clinical Prediction Modeling</category>
-  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-31-modeling_philosophy/Index.html</guid>
+  <guid>https://www.thedoctorsdialectic.com/docs/posts/2025-01-31-modeling_philosophy/</guid>
   <pubDate>Fri, 31 Jan 2025 06:00:00 GMT</pubDate>
   <media:content url="https://www.thedoctorsdialectic.com/docs/posts/2025-01-31-modeling_philosophy/modeling.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
@@ -93,6 +157,7 @@
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2025-01-20-external_controls/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -116,7 +181,7 @@
 <p>External controls are generally used when trialists cannot or should not enroll a comparison group for ethical reasons or because the disease is so rare. Below is a table briefly explaining three reasons that might justifying using external controls. I wouldn’t go so far as to call these <em>good</em> reasons, but perhaps they are permissible <span class="citation" data-cites="marion_use_2023">(Marion and Althouse 2023)</span>.</p>
 <section id="permissible-reasons" class="level3">
 <h3 class="anchored" data-anchor-id="permissible-reasons">Permissible reasons</h3>
-<table class="table-striped table-hover table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -155,7 +220,7 @@
 <p>One example of how patient groups could affect treatment and outcome is if the external control group is drawn from a registry of sicker and older patients who tend to have worse outcomes than the group in the trial that received the treatment. This situation could make the treatment appear more effective than it truly is. There are many other sources of bias. The table below [adapted from <span class="citation" data-cites="burger_use_2021">(Burger et al. 2021)</span>], lists some of the main sources of bias and how to mitigate their effect.</p>
 <section id="bias-types" class="level3">
 <h3 class="anchored" data-anchor-id="bias-types">Bias types</h3>
-<table class="table-striped table-hover table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 37%">
 <col style="width: 62%">
@@ -227,9 +292,9 @@
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-burger_use_2021" class="csl-entry">
-Burger, Hans Ulrich, Christoph Gerlinger, Chris Harbron, Armin Koch, Martin Posch, Justine Rochon, and Anja Schiel. 2021. <span>“The Use of External Controls: To What Extent Can It Currently Be Recommended?”</span> <em>Pharmaceutical Statistics</em> 20 (6): 1002–16. <a href="https://doi.org/10.1002/pst.2120">https://doi.org/10.1002/pst.2120</a>.
+Burger, Hans Ulrich, Christoph Gerlinger, Chris Harbron, et al. 2021. <span>“The Use of External Controls: To What Extent Can It Currently Be Recommended?”</span> <em>Pharmaceutical Statistics</em> 20 (6): 1002–16. <a href="https://doi.org/10.1002/pst.2120">https://doi.org/10.1002/pst.2120</a>.
 </div>
 <div id="ref-collignon_implementing_2021" class="csl-entry">
 Collignon, Olivier, Anna Schritz, Riccardo Spezia, and Stephen J. Senn. 2021. <span>“Implementing Historical Controls in Oncology Trials.”</span> <em>The Oncologist</em> 26 (5): e859–62. <a href="https://doi.org/10.1002/onco.13696">https://doi.org/10.1002/onco.13696</a>.
@@ -238,7 +303,7 @@ Collignon, Olivier, Anna Schritz, Riccardo Spezia, and Stephen J. Senn. 2021. <s
 Marion, Joe D., and Andrew D. Althouse. 2023. <span>“The Use of Historical Controls in Clinical Trials.”</span> <em><span>JAMA</span></em> 330 (15): 1484–85. <a href="https://doi.org/10.1001/jama.2023.16182">https://doi.org/10.1001/jama.2023.16182</a>.
 </div>
 <div id="ref-mishra-kalyani_external_2022" class="csl-entry">
-Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, R. A. DeClaro, Y. Shen, et al. 2022. <span>“External Control Arms in Oncology: Current Use and Future Directions.”</span> <em>Annals of Oncology</em> 33 (4): 376–83. <a href="https://doi.org/10.1016/j.annonc.2021.12.015">https://doi.org/10.1016/j.annonc.2021.12.015</a>.
+Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, et al. 2022. <span>“External Control Arms in Oncology: Current Use and Future Directions.”</span> <em>Annals of Oncology</em> 33 (4): 376–83. <a href="https://doi.org/10.1016/j.annonc.2021.12.015">https://doi.org/10.1016/j.annonc.2021.12.015</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Causation &amp; Clinical Trials</category>
@@ -251,6 +316,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2024-01-01-gratitude/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -298,6 +364,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-06-04-epistemic-arc-intro/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -436,6 +503,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p><strong>A tragic reality</strong> that pediatric oncology providers in resource-constrained commonly encounter: after a child with cancer starts treatment, many families leave and never return for care.</p>
 <p>The global oncology community has given this event a specific label: <em>treatment abandonment</em>.</p>
 <p>To explain why treatment abandonment happens and how to prevent it, let me tell you a story. The narrative is fictional, but it is based on the common experiences that families report while their child is undergoing cancer treatment.</p>
@@ -499,6 +567,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p><a href="https://www.thedoctorsdialectic.com/2022/04/06/htma-4-calibrate-your-judgement/">In my previous essay</a>, I discussed how calibrating your judgments is a crucial step when measuring anything in global health.</p>
 <p>For instance, if you want to estimate the likelihood a new cancer treatment causes severe side effects, then a calibrated estimator can offer a 90% uncertainty interval about a plausible range of side effect rates as a starting place for measurement.</p>
 <p>Although it is essential in the measurement process, calibration can be a tricky state to achieve.</p>
@@ -540,6 +609,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-04-06-htma-4-calibrate-your-judgement/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -592,6 +662,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p>What are the chances that survival from a cancer decrease after introducing a new treatment in your clinic?</p>
 <section id="when-trying-to-measure-anything-in-global-health-we-need-to-understand-the-definition-of-risk." class="level3">
 <h3 class="anchored" data-anchor-id="when-trying-to-measure-anything-in-global-health-we-need-to-understand-the-definition-of-risk."><strong>When trying to measure anything in global health, we need to understand the definition of risk.</strong></h3>
@@ -629,6 +700,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-04-04-htma-2-universal_approach/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -671,6 +743,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-04-03-htma-1-foundations/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -743,6 +816,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p>Who would you rather have care for you: the world’s smartest doctor in a poorly-function health system or a mediocre doctor in a high-functioning health system?</p>
 <p><strong>Take the high-functioning health system every time.</strong></p>
 <p>Genius doctors are still humans who can move and think only at the speed of a single person.</p>
@@ -792,6 +866,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p>What do the Balrogs, huge earthquakes, and nuclear war have in common?</p>
 <p>They are all unpredictable demons that emerge from the abyss to destroy your future. While Balrogs may be mythical beasts from Middle Earth, earthquakes and nuclear war are very real threats.</p>
 <p><a href="https://www.thedoctorsdialectic.com/2022/03/24/two_types_of_uncertainty/">In my last post,</a> I discussed the two types of uncertainty, aleatory and epistemic. I described them with nice and tidy examples, consistent with how they are usually presented in classroom settings. These tame illustrations were a good start to illustrate the concepts so that you can recognize them when you come across them.</p>
@@ -825,6 +900,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-03-24-two-types-of-uncertainty/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -867,6 +943,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p>Healthcare is complicated. Healthcare is also complex. To use data science to improve treatment delivery in low-resource settings, it is important to understand in what way healthcare is complicated and in what was it is complex.</p>
 <p>We will turn to the <a href="https://hbr.org/2007/11/a-leaders-framework-for-decision-making">Cynefin</a> (pronounced ku-nev-in) framework to understand the difference between complicated and complex contexts.</p>
 <ul>
@@ -901,6 +978,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-03-21-let-the-data-flow/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -946,6 +1024,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p>Quality control (QC) of data is a grind, particularly for healthcare facilities with paper charts requiring manual collection. QC takes dedicated effort sustained over the life of the project, which may extend indefinitely for data that inform the operations of a health facility.</p>
 <p>QC practices assure the accuracy of the data and are absolutely essential to produce useful analyses from your data science efforts. After all, <a href="https://www.thedoctorsdialectic.com/2022/03/17/garbage-in-data-science/">data science has a garbage problem</a>, and besides <a href="https://www.thedoctorsdialectic.com/2022/03/18/unsexy-data-management/">designing a data management system to collect beautiful data</a>, QC is the best way to keep your data useful and trustworthy.</p>
 <p>Here are three essential practices that every organizations that uses data to improve care should adopt.</p>
@@ -975,6 +1054,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-03-19-aristotle-and-data-science/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1010,6 +1090,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <dc:creator>Mark Zobeck</dc:creator>
   <link>https://www.thedoctorsdialectic.com/docs/posts/2022-03-18-unsexy-data-management/index.en.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1061,6 +1142,7 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
 
 
 
+
 <p><strong>Data science has a data problem.</strong></p>
 <p>The vast edifice of technologies, visualizations, statistics, machine learning algorithms that make up the data science empire are built on a foundation that can either be as solid as a rock or as unstable as shifting sand.</p>
 <section id="the-foundation-of-all-of-data-science-is-data-quality" class="level2">
@@ -1088,45 +1170,6 @@ Mishra-Kalyani, P. S., L. Amiri Kordestani, D. R. Rivera, H. Singh, A. Ibrahim, 
   <category>Data Science + Global Health</category>
   <guid>https://www.thedoctorsdialectic.com/docs/posts/2022-03-17-data-science-garbage/index.en.html</guid>
   <pubDate>Thu, 17 Mar 2022 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>10 ways Global Health organizations can use routine data to improve patient care</title>
-  <dc:creator>Mark Zobeck</dc:creator>
-  <link>https://www.thedoctorsdialectic.com/docs/posts/2022-03-16-use-routine-data/index.en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Global Health needs Data Science because efficient and effective healthcare delivery is the key to success.</p>
-<p>Here are 10 examples of how Data Science capabilities can improve your organization’s operations and the care you provide to patients.</p>
-<p>All of these ideas are possible to do well even if you don’t have an electronic medical record. All it takes is careful data collection of a limited number of variables. You don’t need big data to do Data Science successfully in Global Health, but you do need good data.</p>
-<section id="data-science-global-health-ideas" class="level2">
-<h2 class="anchored" data-anchor-id="data-science-global-health-ideas"><strong>Data Science + Global Health Ideas</strong></h2>
-<ol type="1">
-<li><p>Forecast patient volumes, drug requirements, and medical equipment use</p></li>
-<li><p>Identify risk factors for patients who might not return for needed care</p></li>
-<li><p>Monitor health outcomes disparities by age, sex, race, religion, etc.</p></li>
-<li><p>Create a real-time dashboard of statistical process control charts</p></li>
-<li><p>Analyze the referral pathways for patients to arrive at the facility</p></li>
-<li><p>Use geospatial information to map and monitor disease clusters</p></li>
-<li><p>Create high-level dashboards of key indicators for leadership</p></li>
-<li><p>Measure inpatient census and calculate nurse:patient ratios</p></li>
-<li><p>Monitor safety event frequency and flag increases early</p></li>
-<li><p>Use algorithms to predict clinical deterioration events</p></li>
-</ol>
-</section>
-<section id="simple-measurements-create-powerful-insights" class="level2">
-<h2 class="anchored" data-anchor-id="simple-measurements-create-powerful-insights"><strong>Simple measurements create powerful insights</strong></h2>
-<p>There are tremendous opportunities to improve healthcare delivery in resource-constrained settings through the careful collection of a handful of variables. With a little time and diligence, you too can wrangle your data into useful insights about how to improve care for your patients.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Data Science + Global Health</category>
-  <guid>https://www.thedoctorsdialectic.com/docs/posts/2022-03-16-use-routine-data/index.en.html</guid>
-  <pubDate>Wed, 16 Mar 2022 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
