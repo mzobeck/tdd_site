@@ -8,13 +8,6 @@ image-alt: ""
 description: ""
 toc: false
 draft: true
-
-# Private social copy (not rendered). Copy to platform on publish.
-social-x: |
-  X / Twitter version (280 chars max).
-
-social-li: |
-  LinkedIn version (~1500 chars).
 ---
 
 ![](hero.png){.preview-image fig-align="center"}

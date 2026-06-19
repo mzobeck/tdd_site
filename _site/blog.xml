@@ -14,7 +14,7 @@
 <title>The Doctor&#39;s Dialectic</title>
 <link>https://www.thedoctorsdialectic.com/blog.html</link>
 </image>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Wed, 17 Jun 2026 05:00:00 GMT</lastBuildDate>
 <item>
   <title>The bitter lesson is true right now for clinical AI. And that’s ok.</title>
@@ -47,23 +47,19 @@
 </section>
 <section id="the-bitter-lesson-is-true-right-now" class="level2">
 <h2 class="anchored" data-anchor-id="the-bitter-lesson-is-true-right-now">The bitter lesson is true right now</h2>
-<section id="what-seems-true" class="level3">
-<h3 class="anchored" data-anchor-id="what-seems-true">What seems true</h3>
 <p>Richard Sutton’s bitter lesson is that general methods powered by computation tend to beat expert-crafted systems as scale increases <span class="citation" data-cites="sutton2019bitter">(Sutton 2019)</span>. In clinical AI, that seems increasingly plausible. Frontier models did not become good at medical questions because they were engineered around a particular specialty workflow or knowledge base, like OpenEvidence or UTD AI. They became good because broad training, scale, tool use, and general reasoning improved.</p>
 <p>That is the part worth taking seriously right now.</p>
 </section>
-<section id="why-that-is-ok" class="level3">
-<h3 class="anchored" data-anchor-id="why-that-is-ok">Why that is ok</h3>
+<section id="that-is-ok" class="level2">
+<h2 class="anchored" data-anchor-id="that-is-ok">That is ok</h2>
 <p>The point is not despair. The point is where to build.</p>
 <p>The value of clinical AI is only realized when the model interacts with the real, messy world of healthcare. This interaction requires well-designed infrastructure to ensure it is safe, effective, and beneficial.</p>
 <p>A powerful general model is just one component of this system. Medicine needs expert-crafted machinery around the model, such as governance, audit trails, workflow integration, retrieval, citation standards, monitoring, escalation rules, input controls, output controls, and a sharply limited action surface. If the bitter lesson is true right now, that does not make clinical expertise less important. It makes the expert-built infrastructure around the model more important.</p>
 <p>That should be encouraging for people building clinical AI infrastructure. The durable asset is not the model itself. Models will come and go. It may be OpenEvidence in one setting, Gemini in another, Claude in another, and an institutionally hosted model somewhere else. Headlines will crown a new AI champion every few months. The durable asset is the harness, the infrastructure that lets a model act safely in the real world. It is the clinical workflow that defines what the model can see, what it can do, how its claims are checked, when a human must intervene, and who is responsible for the result. A surgeon without an operating room is just a person who knows where to cut, and a frontier model without proper infrastructure is just a system that knows what to say.</p>
 <p>So the practical lesson is not “frontier models win, specialized tools lose.” That is too simple. The lesson is to build as if the bitter lesson is true right now. Assume increasingly capable general models will keep arriving. Then build the clinical infrastructure that can use those models as safe references, swap them when better evidence appears, and keep the responsibility where it belongs.</p>
-<p>The bitter lesson is true right now for clinical AI. That is ok. The boring infrastructure lesson is the part we can actually build around.</p>
 
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
